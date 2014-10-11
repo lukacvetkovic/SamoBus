@@ -7,7 +7,10 @@ import android.view.MenuItem;
 
 
 public class MainActivity extends ActionBarActivity {
-
+    /**
+     * Promjena na krivom mjestu
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
