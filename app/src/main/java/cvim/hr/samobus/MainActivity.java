@@ -28,6 +28,10 @@ public class MainActivity extends ActionBarActivity {
                 awwYissText.setText("RADII :DD");
             }
         });
+
+        /*
+        Testni novi komentar
+         */
     }
 
 
