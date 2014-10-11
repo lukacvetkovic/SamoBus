@@ -1,16 +1,6 @@
 .gradle
 /local.properties
 /.idea/workspace.xml
+/.idea/libraries
 .DS_Store
 /build
-
-.gradle
-.idea
-gradle
-build.gradle
-gradle.properties
-gradlew
-gradlew.bat
-local.properties
-SamoBus.iml
-settings.gradle
