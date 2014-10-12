@@ -2,19 +2,43 @@ package cvim.hr.samobus;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+
+import java.io.IOException;
+
+import Helpers.DepartureHelper;
+import Views.Linija;
 
 
 public class MainActivity extends ActionBarActivity {
-    /**
-     * Promjena na krivom mjestu
-     * @param savedInstanceState
-     */
+
+
+    Linija linija;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        linija = (Linija) findViewById(R.id.linija1);
+        linija.setBroj(156);
+        linija.refresh();
+
+        linija.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    DepartureHelper.getNextDepartures(linija.getBroj(), MainActivity.this);
+                } catch (IOException e) {
+                    Log.e("MAIN", "Error reading file from assets");
+                    e.printStackTrace();
+                }
+            }
+        });
+
     }
 
 
