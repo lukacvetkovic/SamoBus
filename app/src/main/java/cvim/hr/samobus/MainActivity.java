@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import java.io.IOException;
 
@@ -16,34 +17,66 @@ import Views.Linija;
 
 public class MainActivity extends ActionBarActivity {
 
-
+    private Linija linija1;
+    private Linija linija2;
+    private Linija linija3;
+    private Linija linija4;
+    private Linija linija5;
+    private Linija linija6;
+    private Linija linija7;
+    private Linija linija8;
+    private Linija linija9;
+    private Linija linija10;
+    private Linija linija11;
+    private Linija linija12;
+    private Linija linija13;
+    private Linija linija14;
+    private Linija linija15;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button Button1 = (Button)findViewById(R.id.linija1);
-        Button Button2=(Button)findViewById(R.id.linija2);
+        linija1 = (Linija) findViewById(R.id.linija1);
+        linija2 = (Linija) findViewById(R.id.linija2);
+        linija3 = (Linija) findViewById(R.id.linija3);
+        linija4 = (Linija) findViewById(R.id.linija4);
+        linija5 = (Linija) findViewById(R.id.linija5);
+        linija6 = (Linija) findViewById(R.id.linija6);
+        linija7 = (Linija) findViewById(R.id.linija7);
+        linija8 = (Linija) findViewById(R.id.linija8);
+        linija9 = (Linija) findViewById(R.id.linija9);
+        linija10 = (Linija) findViewById(R.id.linija10);
+        linija11 = (Linija) findViewById(R.id.linija11);
+        linija12 = (Linija) findViewById(R.id.linija12);
+        linija13 = (Linija) findViewById(R.id.linija13);
+        linija14 = (Linija) findViewById(R.id.linija14);
+        linija15 = (Linija) findViewById(R.id.linija15);
 
+        Linija[] linije = {linija1, linija2, linija3, linija4, linija5, linija6, linija7,
+                linija8, linija9, linija10, linija11, linija12, linija13, linija14, linija15};
 
-        obradiGumb(155,Button1);
-        obradiGumb(156,Button2);
-        /*linija.setBroj(156);
-        linija.refresh();
-        Button1.setText("156");
+        Log.i("provjera", ""+linija1);
 
-        Button1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                try {
-                    DepartureHelper.getNextDepartures(linija.getBroj(), MainActivity.this);
-                } catch (IOException e) {
-                    Log.e("MAIN", "Error reading file from assets");
-                    e.printStackTrace();
+        int n = 142;
+        for(final Linija linija : linije){
+            linija.setBroj(n++);
+            linija.refresh();
+            linija.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    try {
+                        DepartureHelper.getNextDepartures(linija.getBroj(), MainActivity.this);
+                    } catch (Exception e) {
+                        Log.e("MAIN", "Error reading file from assets");
+                        Toast toast = Toast.makeText(MainActivity.this, "There is not txt file for "+  linija.getBroj() +" line, yet ;)", Toast.LENGTH_LONG);
+                        toast.show();
+                        e.printStackTrace();
+                    }
                 }
-            }
-        });*/
+            });
+        }
 
     }
 

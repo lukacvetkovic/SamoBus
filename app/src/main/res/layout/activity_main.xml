@@ -6,139 +6,130 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/relativeLayout">
 
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija1"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_alignTop="@+id/scrollView"
+                android:layout_centerHorizontal="true"/>
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija2"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/linija1"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"/>
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija3"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/linija2"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"/>
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija4"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/linija3"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"/>
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija5"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/linija4"
                 android:layout_centerHorizontal="true" />
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija6"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/linija5"
                 android:layout_centerHorizontal="true" />
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija7"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/linija6"
                 android:layout_centerHorizontal="true" />
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija8"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/linija7"
                 android:layout_centerHorizontal="true" />
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija9"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/linija8"
                 android:layout_centerHorizontal="true" />
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija10"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/linija9"
                 android:layout_centerHorizontal="true" />
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija11"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/linija10"
                 android:layout_centerHorizontal="true" />
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija12"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/linija11"
                 android:layout_centerHorizontal="true" />
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija13"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/linija12"
                 android:layout_centerHorizontal="true" />
 
-            <Button
+            <view
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                class="Views.Linija"
                 android:id="@+id/linija14"
-                class="Views.Linija"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/linija13"
                 android:layout_centerHorizontal="true" />
 
-            <Button
-                android:id="@+id/linija15"
-                class="Views.Linija"
-                android:layout_width="match_parent"
+            <view
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/linija14"
-                android:layout_centerHorizontal="true" />
+                class="Views.Linija"
+                android:id="@+id/linija15"
+                android:layout_centerHorizontal="true"
+                android:onClick="handleButton"/>
 
         </LinearLayout>
     </ScrollView>
+
+
 
 
 </RelativeLayout>
