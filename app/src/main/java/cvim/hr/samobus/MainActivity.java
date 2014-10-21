@@ -80,24 +80,6 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    private void obradiGumb(int linijaBroj, Button button) {
-        final Linija linija=new Linija(this);
-        linija.setBroj(linijaBroj);
-        linija.refresh();
-        button.setText(linijaBroj);
-
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                try {
-                    DepartureHelper.getNextDepartures(linija.getBroj(), MainActivity.this);
-                } catch (IOException e) {
-                    Log.e("MAIN", "Error reading file from assets");
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
 
 
     @Override
