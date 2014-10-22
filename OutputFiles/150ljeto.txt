@@ -1,15 +1,23 @@
-R a d n i    d a n :
-Polasci  iz  SAMOBORA:5.10  12.30  16.20  20.15
+R a d n i d a n :
+Polasci iz SAMOBORA:
+5.10 12.30 16.20 20.15
 Polasci
-Polasci  iz  NORSIC  SELA:5.40  13.00  17.00  20.45
-Polasci  iz  JARUSJA5.45  13.05 17.05  20.50 
+Polasci iz NORSIC SELA:
+5.40 13.00 17.00 20.45
+Polasci iz JARUSJA5.45 13.05 17.05 20.50 
 S u b o t a :
-Polasci  iz  SAMOBORA:5.50  12.40
+Polasci iz SAMOBORA:
+5.50 12.40
 Polasci
-Polasci  iz  NORSIC  SELA:6.30  13.10
-Polasci  iz  JARUSJA:6.35  13.15
-Nedjelja  i  blagdani: 
-Polasci  iz  SAMOBORA:9.30  15.50
+Polasci iz NORSIC SELA:
+6.30 13.10
+Polasci iz JARUSJA:
+6.35 13.15
+Nedjelja i blagdani: 
+Polasci iz SAMOBORA:
+9.30 15.50
 Polasci 
-Polasci  iz  NORSIC  SELA:10.10 16.30
-Polasci  iz  JARUSJA:10.15   16.35
+Polasci iz NORSIC SELA:
+10.10 16.30
+Polasci iz JARUSJA:
+10.15 16.35

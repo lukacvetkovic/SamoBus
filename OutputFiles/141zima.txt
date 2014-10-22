@@ -1,9 +1,13 @@
-Radni   dan: 
-Polasci  iz   SAMOBORA:*5.40  10.50  12.45  15.15  20.10
-Polasci  iz  JAGNJIC  DOLA:6.00  7.05  8.25  11.25  13.15  15.50  20.50
-NAPOMENA:  *  vozi  trasom:  SAMOBOR ; SV. NEDJELJA ; BREZJE  (uz  pilanu) ; JAGNJIC  DOL
+Radni dan: 
+Polasci iz SAMOBORA:
+*5.40 10.50 12.45 15.15 20.10
+Polasci iz JAGNJIC DOLA:
+6.00 7.05 8.25 11.25 13.15 15.50 20.50
+NAPOMENA: * vozi trasom: SAMOBOR ; SV. NEDJELJA ; BREZJE (uz pilanu) ; JAGNJIC DOL
 Subota: 
-Polasci  iz  SAMOBORA:*5.35  8.00  10.45  12.50
-Polasci  iz  JAGNJIC  DOLA:5.55  8.35  11.25  13.30
-NAPOMENA:  *  vozi  trasom:  SAMOBOR ; SV. NEDJELJA ; BREZJE  (uz  pilanu) ; JAGNJIC  DOL.
-Nedjeljom  i  blagdanom  ne  vozi ! 
+Polasci iz SAMOBORA:
+*5.35 8.00 10.45 12.50
+Polasci iz JAGNJIC DOLA:
+5.55 8.35 11.25 13.30
+NAPOMENA: * vozi trasom: SAMOBOR ; SV. NEDJELJA ; BREZJE (uz pilanu) ; JAGNJIC DOL.
+Nedjeljom i blagdanom ne vozi ! 

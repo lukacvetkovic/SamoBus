@@ -1,11 +1,17 @@
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.55  5.50  6.50  8.40  10.05  12.05  13.20  14.20  15.30  17.40  *18.35  19.30  21.10  22.20
-Polasci  iz  OTOKA:5.10  6.10  ** 7.10  9.00  10.25  **12.25  **13.35  14.40  15.50  18.00  *18.55  19.50  21.30  22.35
+R a d n i d a n :
+Polasci iz SAMOBORA:
+4.55 5.50 6.50 8.40 10.05 12.05 13.20 14.20 15.30 17.40 *18.35 19.30 21.10 22.20
+Polasci iz OTOKA:
+5.10 6.10 ** 7.10 9.00 10.25 **12.25 **13.35 14.40 15.50 18.00 *18.55 19.50 21.30 22.35
 Napomena: *za vrijeme skolskih praznika autobus ne vozi.
 ** TRASA LINIJE: OTOK-BOBOVICA-ulicom grada Wirgesa-Gajevom-Miroslava Krlece-Smidhenovom-Gajevom-A.K.SAMOBOR. Za vrijeme skolskih praznika vozi normalnom trasom.
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.55  7.00  8.40  12.30  14.15   15.30  19.20  22.15
-Polasci  iz  OTOKA:5.15  7.25  9.00  12.50  14.35  15.50  19.40  22.30
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:8.30  12.00
-Polasci  iz  OTOKA:8.50  12.20
+S u b o t a :
+Polasci iz SAMOBORA:
+4.55 7.00 8.40 12.30 14.15 15.30 19.20 22.15
+Polasci iz OTOKA:
+5.15 7.25 9.00 12.50 14.35 15.50 19.40 22.30
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+8.30 12.00
+Polasci iz OTOKA:
+8.50 12.20

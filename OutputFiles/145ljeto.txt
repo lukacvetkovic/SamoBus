@@ -1,9 +1,15 @@
- R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.50  6.05 10.00 12.00  14.20  16.20   20.35  22.20
-Polasci  iz   SLANOG  DOLA:5.10  6.25 10.25 12.25  14.35  16.40   20.55  22.35
- S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.50  6.15   13.10  14.15    22.40
-Polasci  iz   SLANOG  DOLA:5.10  6.35  13.30  14.35  23.00
- N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:8.30  12.00  16.30
-Polasci  iz   SLANOG  DOLA:8.50  12.30  17.00
+ R a d n i d a n :
+Polasci iz SAMOBORA:
+4.50 6.05 10.00 12.00 14.20 16.20 20.35 22.20
+Polasci iz SLANOG DOLA:
+5.10 6.25 10.25 12.25 14.35 16.40 20.55 22.35
+ S u b o t a :
+Polasci iz SAMOBORA:
+4.50 6.15 13.10 14.15 22.40
+Polasci iz SLANOG DOLA:
+5.10 6.35 13.30 14.35 23.00
+ N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+8.30 12.00 16.30
+Polasci iz SLANOG DOLA:
+8.50 12.30 17.00

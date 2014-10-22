@@ -1,10 +1,16 @@
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.15  4.55  5.40  6.50  10.15  12.00  13.20  14.20  15.15  16.15  17.15  *18.35  19.20  20.15  22.20
-Polasci  iz  MEDSAVA:4.35  5.15  6.00  7.20  10.35  12.25  13.35  14.55  15.35  16.35  17.35  *18.55  19.45  20.35  22.40
+R a d n i d a n :
+Polasci iz SAMOBORA:
+4.15 4.55 5.40 6.50 10.15 12.00 13.20 14.20 15.15 16.15 17.15 *18.35 19.20 20.15 22.20
+Polasci iz MEDSAVA:
+4.35 5.15 6.00 7.20 10.35 12.25 13.35 14.55 15.35 16.35 17.35 *18.55 19.45 20.35 22.40
 Napomena: *za vrijeme skolskih praznika autobus ne vozi.
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.45  7.00  10.50  12.30  14.15  16.40  22.25
-Polasci  iz  MEDSAVA:5.05  7.25  11.15  13.00  14.40  17.05  22.45
-N e d j e l j a    i    b l a g d a n i :
-Polasci  iz  SAMOBORA:8.15  12.00  20.30
-Polasci  iz  MEDSAVA:8.35  12.20  20.50
+S u b o t a :
+Polasci iz SAMOBORA:
+4.45 7.00 10.50 12.30 14.15 16.40 22.25
+Polasci iz MEDSAVA:
+5.05 7.25 11.15 13.00 14.40 17.05 22.45
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+8.15 12.00 20.30
+Polasci iz MEDSAVA:
+8.35 12.20 20.50

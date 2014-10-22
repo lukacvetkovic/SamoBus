@@ -1,30 +1,52 @@
-R  a  d  n  i     d  a  n :
+R a d n i d a n :
 Polasci
-Polasci  sa  SAVSKOG  MOSTA:4.30K  5.40 6.25  7.30  8.10  9.45K  11.20K  12.30 13.20  14.25  15.10  15.50  16.30  17.25K  18.05K  19.20  20.35  22.05K  23.30K
-Polasci  za  Drecnik:4.30K  5.40  6.25  11.20K  12.30  14.25  15.50 17.25K  19.20  20.35  23.30K
-Polasci  za  Sv.  Martin:7.30  *9.45K  *11.20 K  13.20  *15.10  16.30 17.25 K *18.05 K   23.30 KNAPOMENA: * vozi do PodgradaK ; polazi od Korencica
+Polasci sa SAVSKOG MOSTA:
+4.30K 5.40 6.25 7.30 8.10 9.45K 11.20K 12.30 13.20 14.25 15.10 15.50 16.30 17.25K 18.05K 19.20 20.35 22.05K 23.30K
+Polasci za Drecnik:
+4.30K 5.40 6.25 11.20K 12.30 14.25 15.50 17.25K 19.20 20.35 23.30K
+Polasci za Sv. Martin:
+7.30 *9.45K *11.20 K 13.20 *15.10 16.30 17.25 K *18.05 K 23.30 KNAPOMENA:
+ * vozi do PodgradaK ; polazi od Korencica
 Polasci
-Polasci  iz  GALGOVA:4.15K  5.00  5.45  6.40  7.20  8.55K 10.15 K  11.50 12.40  13.20  14.00 15.10  15.55  16.35K  17.40K 18.30   20.05   21.15 K   22.20 K
-Polasci  iz  Drecnika:4.10K  4.55  5.40  6.30  7.10  11.35  13.10  15.05  16.30K  20.00  21.05K
-Polasci  iz  Sv.  Martina:4.00K  *5.30  *10.10K  *11.45  *12.35  13.55  *15.50  17.35K  18.25NAPOMENA: K ; vozi do Korencica
-S  u  b  o  t  a :
+Polasci iz GALGOVA:
+4.15K 5.00 5.45 6.40 7.20 8.55K 10.15 K 11.50 12.40 13.20 14.00 15.10 15.55 16.35K 17.40K 18.30 20.05 21.15 K 22.20 K
+Polasci iz Drecnika:
+4.10K 4.55 5.40 6.30 7.10 11.35 13.10 15.05 16.30K 20.00 21.05K
+Polasci iz Sv. Martina:
+4.00K *5.30 *10.10K *11.45 *12.35 13.55 *15.50 17.35K 18.25NAPOMENA:
+ K ; vozi do Korencica
+S u b o t a :
 Polasci
-Polasci  sa  SAVSKOG  MOSTA:**5.10  **5.40  6.40  7.15  7.55  9.15  10.35  11.50  13.10  13.45  14.20  15.10  15.30  16.30  17.45K  18.30K  19.30K  20.30K  22.45K
-Polasci  za  Drecnik:5.10  **5.40  7.55  10.35  11.50 14.20  15.30  K17.45K18.30 K19.30  K20.30  K22.45
-Polasci  za  Sv.  Martin:*5.10 **5.40   7.15  9.15  *13.45  *15.10   16.30    K17.45  K18.30  K 19.30  K 20.30 K 22.45NAPOMENA:  *  vozi  do  Podgrada
+Polasci sa SAVSKOG MOSTA:
+**5.10 **5.40 6.40 7.15 7.55 9.15 10.35 11.50 13.10 13.45 14.20 15.10 15.30 16.30 17.45K 18.30K 19.30K 20.30K 22.45K
+Polasci za Drecnik:
+5.10 **5.40 7.55 10.35 11.50 14.20 15.30 K17.45K18.30 K19.30 K20.30 K22.45
+Polasci za Sv. Martin:
+*5.10 **5.40 7.15 9.15 *13.45 *15.10 16.30 K17.45 K18.30 K 19.30 K 20.30 K 22.45NAPOMENA:
+ * vozi do Podgrada
 K ; polazi od Korencica
 Polasci
-Polasci  iz  GALGOVA:4.35  5.00  5.55  6.30  7.15  8.45  10.05  11.20  12.40  13.10  13.45  14.25  15.00  15.55  16.20K  18.15K  19.05K  20.20K  21.50K
-Polasci  iz  Drecnika:4.30  5.50  6.25  8.35  11.15  12.30  14.55  16.10 K 18.05K  19.00 K  20.05 K   21.45 K
-Polasci  iz  Sv.  Martina:**4.20  *5.40 *6.15  10.00  *13.05  *14.20  *15.50  *18.10K  *18.50 K  *20.15 K   *21.35 KNAPOMENA:  *  polazi  iz  Podgrada
+Polasci iz GALGOVA:
+4.35 5.00 5.55 6.30 7.15 8.45 10.05 11.20 12.40 13.10 13.45 14.25 15.00 15.55 16.20K 18.15K 19.05K 20.20K 21.50K
+Polasci iz Drecnika:
+4.30 5.50 6.25 8.35 11.15 12.30 14.55 16.10 K 18.05K 19.00 K 20.05 K 21.45 K
+Polasci iz Sv. Martina:
+**4.20 *5.40 *6.15 10.00 *13.05 *14.20 *15.50 *18.10K *18.50 K *20.15 K *21.35 KNAPOMENA:
+ * polazi iz Podgrada
 K ; vozi do Korencica
-Trasa linije**: Galgovo ; Drecnik – Purgarija – Podgrade – Sv.Martin – Galgovo,  zavisi dali prije ide preko Drecnika ili Svetog Martina.
-N e d j e l j a     i     b l a g d a n i :
+Trasa linije**: Galgovo ; Drecnik - Purgarija - Podgrade - Sv.Martin - Galgovo. zavisi dali prije ide preko Drecnika ili Svetog Martina.
+N e d j e l j a i b l a g d a n i :
 Polasci
-Polasci  sa  SAVSKOG  MOSTA:7.30  9.40  11.20  14.50  16.20  17.55  20.55  22.10
-Polasci  za  Drecnik:11.20  17.55
-Polasci  za  Sv.  Martin:7.30  9.40  14.50  20.55  22.10
+Polasci sa SAVSKOG MOSTA:
+7.30 9.40 11.20 14.50 16.20 17.55 20.55 22.10
+Polasci za Drecnik:
+11.20 17.55
+Polasci za Sv. Martin:
+7.30 9.40 14.50 20.55 22.10
 Polasci
-Polasci  iz  GALGOVA:6.15  8.15  10.25  12.15  15.40  17.00  18.40  21.30
-Polasci  iz  Drecnika:6.10  12.10  18.35
-Polasci  iz  Sv.  Martina:6.00  8.10  10.20  15.35  21.30
+Polasci iz GALGOVA:
+6.15 8.15 10.25 12.15 15.40 17.00 18.40 21.30
+Polasci iz Drecnika:
+6.10 12.10 18.35
+Polasci iz Sv. Martina:
+6.00 8.10 10.20 15.35 21.30

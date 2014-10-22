@@ -1,675 +1,1028 @@
 ZIMSKI VOZNI RED
 Vrijedi od: 08.09.2014. ; 16.06.2015.
 141 - SAMOBOR - Rakov Potok - JAGNJIC DOL
-Radni   dan: 
-Polasci  iz   SAMOBORA:*5.40  10.50  12.45  15.15  20.10
-Polasci  iz  JAGNJIC  DOLA:6.00  7.05  8.25  11.25  13.15  15.50  20.50
-NAPOMENA:  *  vozi  trasom:  SAMOBOR ; SV. NEDJELJA ; BREZJE  (uz  pilanu) ; JAGNJIC  DOL
+Radni dan: 
+Polasci iz SAMOBORA:
+*5.40 10.50 12.45 15.15 20.10
+Polasci iz JAGNJIC DOLA:
+6.00 7.05 8.25 11.25 13.15 15.50 20.50
+NAPOMENA: * vozi trasom: SAMOBOR ; SV. NEDJELJA ; BREZJE (uz pilanu) ; JAGNJIC DOL
 Subota: 
-Polasci  iz  SAMOBORA:*5.35  8.00  10.45  12.50
-Polasci  iz  JAGNJIC  DOLA:5.55  8.35  11.25  13.30
-NAPOMENA:  *  vozi  trasom:  SAMOBOR ; SV. NEDJELJA ; BREZJE  (uz  pilanu) ; JAGNJIC  DOL.
-Nedjeljom  i  blagdanom  ne  vozi ! 
+Polasci iz SAMOBORA:
+*5.35 8.00 10.45 12.50
+Polasci iz JAGNJIC DOLA:
+5.55 8.35 11.25 13.30
+NAPOMENA: * vozi trasom: SAMOBOR ; SV. NEDJELJA ; BREZJE (uz pilanu) ; JAGNJIC DOL.
+Nedjeljom i blagdanom ne vozi ! 
 142 - SAMOBOR - Klake - TERIHAJI
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:*4.00  **4.20  **5.45  6.25  8.40  10.50  12.30  14.20  15.30  17.40  19.25  20.25  22.20
-Polasci  iz  TERIHAJA:*4.20  5.05  6.20  **6.55  9.15  11.25  13.10  **14.50  **16.00  18.10  19.55  **20.55   22.45
-Polasci  iz   SAMOBORA:***12.05 ***13.20 ***18.30
-Polasci  iz  KONJSCICE  (Sv. Josip):***12.25  ***18.50
-Polasci  iz   SAMOBORA:***7.15  14.40 
-Polasci  iz  KLADJA:***7.25  14.55
-NAPOMENA:  *  vozi  do  Klaka (Naglici);
-**  vozi   preko  Galgova  i  Sv.  Martina.
-***  za vrijeme skolskih praznika autobus ne vozi.
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.25  6.05  9.05  11.00  12.30  14.15  15.30  19.00  22.15
-Polasci  iz  TERIHAJA:*5.15  6.30  9.40  11.30  13.10  *14.50  *16.00  19.30  22.40
-NAPOMENA:  * vozi  preko  Galgova  i  Sv.  Martina.
-N e d j e l j a     i     b l a g d a n i :
+R a d n i d a n :
+Polasci iz SAMOBORA:
+*4.00 **4.20 **5.45 6.25 8.40 10.50 12.30 14.20 15.30 17.40 19.25 20.25 22.20
+Polasci iz TERIHAJA:
+*4.20 5.05 6.20 **6.55 9.15 11.25 13.10 **14.50 **16.00 18.10 19.55 **20.55 22.45
+Polasci iz SAMOBORA:
+***12.05 ***13.20 ***18.30
+Polasci iz KONJSCICE (Sv. Josip):
+***12.25 ***18.50
+Polasci iz SAMOBORA:
+***7.15 14.40 
+Polasci iz KLADJA:
+***7.25 14.55
+NAPOMENA: * vozi do Klaka (Naglici);
+** vozi preko Galgova i Sv. Martina.
+*** za vrijeme skolskih praznika autobus ne vozi.
+S u b o t a :
+Polasci iz SAMOBORA:
+4.25 6.05 9.05 11.00 12.30 14.15 15.30 19.00 22.15
+Polasci iz TERIHAJA:
+*5.15 6.30 9.40 11.30 13.10 *14.50 *16.00 19.30 22.40
+NAPOMENA: * vozi preko Galgova i Sv. Martina.
+N e d j e l j a i b l a g d a n i :
 Polasci
-Polasci  iz  SAMOBORA:8.30  11.00  16.30  19.30
-Polasci  iz  SAMOBORA:  7.20
+Polasci iz SAMOBORA:
+8.30 11.00 16.30 19.30
+Polasci iz SAMOBORA:
+ 7.20
 Polasci
-Polasci  iz  TERIHAJA:9.00  11.30  17.00  20.00
-Polasci  iz  KLADJA:  7.30
+Polasci iz TERIHAJA:
+9.00 11.30 17.00 20.00
+Polasci iz KLADJA:
+ 7.30
 143 - SAMOBOR - Rude - BRASLOVJE
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.00  *4.40  *5.30  6.10  *6.50    7.30  8.20  9.15  *10.00  *11.00  *12.00  *12.40  13.45  *14.20  14.55  *15.15  16.15  *17.00  *18.00    *18.30  *19.15  20.10  *20.50  *22.20  23.25
-Polasci  iz  RUDA:4.20  *5.05  *5.50  6.30  *7.20  8.00 8.45  9.40  *10.30  *11.30  * 12.30  *13.10  14.10  *14.45  15.15  *15.45  16.35  *17.35  *18.25  *18.50  *19.45  20.30  *21.20  *22.40  23.40
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.20  *5.00  *5.40  6.25  *7.05  7.50  *8.10  *9.15  10.15  11.00  *11.45  *12.45 *14.20  *15.15 *16.15 *17.20  18.20  19.20  *20.30  *22.15  23.15
-Polasci  iz   RUDA:4.40  *5.20  *6.00  6.45  *7.30  8.15  *8.40  *9.45  10.40  11.20  *12.10  *13.10  *14.45  *15.45  *16.45 *17.45 18.50  19.45   *21.00  *22.35  23.30
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:5.10  6.00  *7.30  8.30  *9.00  *9.30  10.00  11.00  12.30  13.30  14.30  *15.30  16.30  17.35  *18.25  *20.05  21.25  22.15
-Polasci  iz   RUDA:5.30  6.30  *8.00  9.00  *9.30  *10.00  10.30  11.25  13.00  14.00  15.00  *16.00  17.00  18.05  *18.50  *20.25  21.50  22.35
-NAPOMENA:  *  vozi  do  Braslovja.
+R a d n i d a n :
+Polasci iz SAMOBORA:
+4.00 *4.40 *5.30 6.10 *6.50 7.30 8.20 9.15 *10.00 *11.00 *12.00 *12.40 13.45 *14.20 14.55 *15.15 16.15 *17.00 *18.00 *18.30 *19.15 20.10 *20.50 *22.20 23.25
+Polasci iz RUDA:
+4.20 *5.05 *5.50 6.30 *7.20 8.00 8.45 9.40 *10.30 *11.30 * 12.30 *13.10 14.10 *14.45 15.15 *15.45 16.35 *17.35 *18.25 *18.50 *19.45 20.30 *21.20 *22.40 23.40
+S u b o t a :
+Polasci iz SAMOBORA:
+4.20 *5.00 *5.40 6.25 *7.05 7.50 *8.10 *9.15 10.15 11.00 *11.45 *12.45 *14.20 *15.15 *16.15 *17.20 18.20 19.20 *20.30 *22.15 23.15
+Polasci iz RUDA:
+4.40 *5.20 *6.00 6.45 *7.30 8.15 *8.40 *9.45 10.40 11.20 *12.10 *13.10 *14.45 *15.45 *16.45 *17.45 18.50 19.45 *21.00 *22.35 23.30
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+5.10 6.00 *7.30 8.30 *9.00 *9.30 10.00 11.00 12.30 13.30 14.30 *15.30 16.30 17.35 *18.25 *20.05 21.25 22.15
+Polasci iz RUDA:
+5.30 6.30 *8.00 9.00 *9.30 *10.00 10.30 11.25 13.00 14.00 15.00 *16.00 17.00 18.05 *18.50 *20.25 21.50 22.35
+NAPOMENA: * vozi do Braslovja.
 144 - SAMOBOR - Smerovisce - LIPOVEC
- R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.45  5.40  6.50  9.15  11.55  13.15  14.20  15.20  16.45  *18.35  19.20  20.15  22.20
-Polasci  iz  LIPOVCA:5.15  6.05  7.20  9.45  12.20  13.35  14.45  15.45  17.10  *19.00  19.45  20.40  22.45
+ R a d n i d a n :
+Polasci iz SAMOBORA:
+4.45 5.40 6.50 9.15 11.55 13.15 14.20 15.20 16.45 *18.35 19.20 20.15 22.20
+Polasci iz LIPOVCA:
+5.15 6.05 7.20 9.45 12.20 13.35 14.45 15.45 17.10 *19.00 19.45 20.40 22.45
 Napomena: * za vrijeme skolskih praznika autobus ne vozi.
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.30  6.20  6.55  8.10  9.25  12.50  14.15  16.45  19.15  22.15
-Polasci  iz   LIPOVCA:4.55  6.40  7.20  8.35  9.50  13.15  14.40  17.10  19.45  22.35
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:7.00  9.20  10.30  12.50  15.30  17.30  19.15  20.45
-Polasci  iz   LIPOVCA:7.30  9.50  11.00  13.15  16.00  18.00  19.40   21.05
+S u b o t a :
+Polasci iz SAMOBORA:
+4.30 6.20 6.55 8.10 9.25 12.50 14.15 16.45 19.15 22.15
+Polasci iz LIPOVCA:
+4.55 6.40 7.20 8.35 9.50 13.15 14.40 17.10 19.45 22.35
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+7.00 9.20 10.30 12.50 15.30 17.30 19.15 20.45
+Polasci iz LIPOVCA:
+7.30 9.50 11.00 13.15 16.00 18.00 19.40 21.05
 145 - SAMOBOR - SLANI DOL
- R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.50  6.00  6.50  9,40  12.00  13.15  14.20  15.20  17.40  *19.15  20.30  22.20
-Polasci  iz  SLANOG  DOLA:5.05  6.20  7.10 10,05 12.20  13.35  14.40  15.40  18.00  *19.35  20.50  22.35
+ R a d n i d a n :
+Polasci iz SAMOBORA:
+4.50 6.00 6.50 9.40 12.00 13.15 14.20 15.20 17.40 *19.15 20.30 22.20
+Polasci iz SLANOG DOLA:
+5.05 6.20 7.10 10.05 12.20 13.35 14.40 15.40 18.00 *19.35 20.50 22.35
 Napomena: *za vrijeme skolskih praznika autobus ne vozi.
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.50  6.15  13.10  14.15  22.40
-Polasci  iz   SLANOG  DOLA:5.10  6.35  13.30  14.35  23.00
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:8.30  12.00  16.30
-Polasci  iz   SLANOG  DOLA:8.50  12.30  17.00
+S u b o t a :
+Polasci iz SAMOBORA:
+4.50 6.15 13.10 14.15 22.40
+Polasci iz SLANOG DOLA:
+5.10 6.35 13.30 14.35 23.00
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+8.30 12.00 16.30
+Polasci iz SLANOG DOLA:
+8.50 12.30 17.00
 146 - SAMOBOR - Otrusevac - VRHOVCAK
- R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:5.10   6.05  7.05  11.00  12.00  13.15  14.20  15.20  17.40  18.30  20.30  22.20
-Polasci  iz  VRHOVCAKA:5.25  6.25  *7.20  11.20  12.20  *13.35  14.35  15.35  18.00  18.50  20.50  22.35
-NAPOMENA:  *  vozi  trasom:  Vrhovcak  -  Otrusevac  -  Mala Jazbina  -  Bregana  -  (betonskom  cestom)
-Klokocevec  ; Smidhen ; Samobor.
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:5.00  6.10  8.00  11.40  12.50  14.15  15.20 18.30  22.15
-Polasci  iz  VRHOVCAKA:5.20  6.30  8.20  12.00  13.10  14.35  15.40 18.50  22.30
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:7.30  11.50  18.30
-Polasci  iz  VRHOVCAKA:7.50  12.10  19.00
+ R a d n i d a n :
+Polasci iz SAMOBORA:
+5.10 6.05 7.05 11.00 12.00 13.15 14.20 15.20 17.40 18.30 20.30 22.20
+Polasci iz VRHOVCAKA:
+5.25 6.25 *7.20 11.20 12.20 *13.35 14.35 15.35 18.00 18.50 20.50 22.35
+NAPOMENA: * vozi trasom: Vrhovcak - Otrusevac - Mala Jazbina - Bregana - (betonskom cestom)
+Klokocevec ; Smidhen ; Samobor.
+S u b o t a :
+Polasci iz SAMOBORA:
+5.00 6.10 8.00 11.40 12.50 14.15 15.20 18.30 22.15
+Polasci iz VRHOVCAKA:
+5.20 6.30 8.20 12.00 13.10 14.35 15.40 18.50 22.30
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+7.30 11.50 18.30
+Polasci iz VRHOVCAKA:
+7.50 12.10 19.00
 147 - SAMOBOR - BREGANA
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA: 3.40 *3.50  4.20  4.40  5.00  5.15  5.20  5.30  5.45  6.00  6.15  6.30  6.45  7.00  7.30  7.45  8.00  8.20  8.40  9.00  9.20  9.50  10.10  10.30  11.00  11.20  11.40  12.00  12.20  12.40 12.45 13.00  13.15  13.30  13.45  14.00  14.20  14.40  14.45  15.00  15.20  15.35 15.40  16.00  16.20  16.35  17.00  17.20  17.40  18.00  18.20  18.40  19.00  19.20  19.40  20.00  20.15  20.30  21.05  21.30  22.20 23.00  23.40
-Polasci  iz  BREGANE: 4.00  4.30  4.50  5.10  5.25  5.45  6.00  6.15  6.30  6.45  7.00  7.15  7.30  7.45  8.00  8.20  8.50  9.05  9.20  9.40  10.10  10.45  11.00  11.20  11.40  12.00  12.20  12.35  13.00  13.15  13.30  13.45  14.00  14.20  14.35   15.00  15.15  15.35  16.00  16.20    16.50  17.20  17.40  18.00  18.20  18.40  19.00  19.20  19.45  20.00  20.15  20.30  21.20  21.30  22.00  22.45  23.15   23.50
- S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:3.40 *3.55  4.20  4.45  5.00  5.30  5.45 5.50 6.00  6.15  6.30  6.45  7.00  7.15  7.30  7.45  8.15  8.45  9.15  9.45 10.00  10.15  10.45  11.15  11.45  12.00  12.20  12.40  12.50  13.15  13.30  14.00  14.15  14.30  14.50  15.00  15.30 15.35 16.00  16.30  17.00  17.40  18.20  19.00  19.40  20.20  21.15  22.15  23.15
-Polasci  iz BREGANE: 4.05  4.30  5.00  5.15  5.30  5.45  6.00  6.15  6.30  6.45  7.00  7.15  7.30  7.45  8.00  8.30  9.00  9.30  10.00  10.30  11.00  11.30  12.00  12.20  12.35  13.05  13.30  13.45  14.15  14.30  14.45  15.15  15.45  16.15  16.45  17.20  18.00  18.40  19.20  20.00  20.40  21.30  22.45  23.30  
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:*4.20  5.15  6.00  6.40  7.00  7.20  8.00  8.30  9.20 9.30 10.00  11.00  11.40  12.20  13.00  14.00  14.40  15.20  15.50  16.00  16.40  17.20  17.35  18.00  18.40  19.20  20.00  20.40  21.20  22.15  23.15
-Polasci  iz BREGANE: 4.30  5.30  6.20  7.00  7.40  8.15  8.45  9.15  9.40  10.20  10.40  11.20  12.00  12.40  13.40  14.20  15.00  15.40  16.20  17.00  17.40  18.20  19.00  19.40  20.20  21.00  21.40  22.40  23.30
-NAPOMENA:    *  vozi ulicom Grada Wirgesa
+R a d n i d a n :
+Polasci iz SAMOBORA: 3.40 *3.50 4.20 4.40 5.00 5.15 5.20 5.30 5.45 6.00 6.15 6.30 6.45 7.00 7.30 7.45 8.00 8.20 8.40 9.00 9.20 9.50 10.10 10.30 11.00 11.20 11.40 12.00 12.20 12.40 12.45 13.00 13.15 13.30 13.45 14.00 14.20 14.40 14.45 15.00 15.20 15.35 15.40 16.00 16.20 16.35 17.00 17.20 17.40 18.00 18.20 18.40 19.00 19.20 19.40 20.00 20.15 20.30 21.05 21.30 22.20 23.00 23.40
+Polasci iz BREGANE: 4.00 4.30 4.50 5.10 5.25 5.45 6.00 6.15 6.30 6.45 7.00 7.15 7.30 7.45 8.00 8.20 8.50 9.05 9.20 9.40 10.10 10.45 11.00 11.20 11.40 12.00 12.20 12.35 13.00 13.15 13.30 13.45 14.00 14.20 14.35 15.00 15.15 15.35 16.00 16.20 16.50 17.20 17.40 18.00 18.20 18.40 19.00 19.20 19.45 20.00 20.15 20.30 21.20 21.30 22.00 22.45 23.15 23.50
+ S u b o t a :
+Polasci iz SAMOBORA:
+3.40 *3.55 4.20 4.45 5.00 5.30 5.45 5.50 6.00 6.15 6.30 6.45 7.00 7.15 7.30 7.45 8.15 8.45 9.15 9.45 10.00 10.15 10.45 11.15 11.45 12.00 12.20 12.40 12.50 13.15 13.30 14.00 14.15 14.30 14.50 15.00 15.30 15.35 16.00 16.30 17.00 17.40 18.20 19.00 19.40 20.20 21.15 22.15 23.15
+Polasci iz BREGANE: 4.05 4.30 5.00 5.15 5.30 5.45 6.00 6.15 6.30 6.45 7.00 7.15 7.30 7.45 8.00 8.30 9.00 9.30 10.00 10.30 11.00 11.30 12.00 12.20 12.35 13.05 13.30 13.45 14.15 14.30 14.45 15.15 15.45 16.15 16.45 17.20 18.00 18.40 19.20 20.00 20.40 21.30 22.45 23.30 
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+*4.20 5.15 6.00 6.40 7.00 7.20 8.00 8.30 9.20 9.30 10.00 11.00 11.40 12.20 13.00 14.00 14.40 15.20 15.50 16.00 16.40 17.20 17.35 18.00 18.40 19.20 20.00 20.40 21.20 22.15 23.15
+Polasci iz BREGANE: 4.30 5.30 6.20 7.00 7.40 8.15 8.45 9.15 9.40 10.20 10.40 11.20 12.00 12.40 13.40 14.20 15.00 15.40 16.20 17.00 17.40 18.20 19.00 19.40 20.20 21.00 21.40 22.40 23.30
+NAPOMENA: * vozi ulicom Grada Wirgesa
 148 - SAMOBOR - OTOK
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.55  5.50  6.50  8.40  10.05  12.05  13.20  14.20  15.30  17.40  *18.35  19.30  21.10  22.20
-Polasci  iz  OTOKA:5.10  6.10  ** 7.10  9.00  10.25  **12.25  **13.35  14.40  15.50  18.00  *18.55  19.50  21.30  22.35
+R a d n i d a n :
+Polasci iz SAMOBORA:
+4.55 5.50 6.50 8.40 10.05 12.05 13.20 14.20 15.30 17.40 *18.35 19.30 21.10 22.20
+Polasci iz OTOKA:
+5.10 6.10 ** 7.10 9.00 10.25 **12.25 **13.35 14.40 15.50 18.00 *18.55 19.50 21.30 22.35
 Napomena: *za vrijeme skolskih praznika autobus ne vozi.
 ** TRASA LINIJE: OTOK-BOBOVICA-ulicom grada Wirgesa-Gajevom-Miroslava Krlece-Smidhenovom-Gajevom-A.K.SAMOBOR. Za vrijeme skolskih praznika vozi normalnom trasom.
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.55  7.00  8.40  12.30  14.15   15.30  19.20  22.15
-Polasci  iz  OTOKA:5.15  7.25  9.00  12.50  14.35  15.50  19.40  22.30
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:8.30  12.00
-Polasci  iz  OTOKA:8.50  12.20
-149 - SAMOBOR - MEDSAVE
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.15  4.55  5.40  6.50  10.15  12.00  13.20  14.20  15.15  16.15  17.15  *18.35  19.20  20.15  22.20
-Polasci  iz  MEDSAVA:4.35  5.15  6.00  7.20  10.35  12.25  13.35  14.55  15.35  16.35  17.35  *18.55  19.45  20.35  22.40
-Napomena: *za vrijeme skolskih praznika autobus ne vozi.
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.45  7.00  10.50  12.30  14.15  16.40  22.25
-Polasci  iz  MEDSAVA:5.05  7.25  11.15  13.00  14.40  17.05  22.45
-N e d j e l j a    i    b l a g d a n i :
-Polasci  iz  SAMOBORA:8.15  12.00  20.30
-Polasci  iz  MEDSAVA:8.35  12.20  20.50
-150 - SAMOBOR - Grdanjci - Krslin - GORNJA VAS
-R  a  d  n  i     d  a  n :
-Polasci
-Polasci  iz   SAMOBORA:3.40  15.40
-Polasci  iz   SAMOBORA:6.50  12.45  14.40 
-Polasci  iz   SAMOBORA:4.45  10.10 19.20 22.20
-Polasci
-Polasci  iz  GORNJE  VASI:5.00  17.00
-Polasci  iz  KRSLINA:5.45  7.15  13.10  15.10
-Polasci  iz  GRDANJACA:
-*5.10  5.55  10.50 19.40 22.40
-NAPOMENA:  *  od  Luga  vozi  betonskom  cestom;
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:3.40  15.35
-Polasci  iz  GORNJE  VASI:5.00  17.00 
-Polasci  iz   SAMOBORA:14.50
-Polasci  iz  KRSLINA:5.50  15.15 
-Polasci  iz   SAMOBORA:4.45  7.15  10.00 * 12.40  22.15
-Polasci  iz   GRDANJACA:5.10  6.00 7.40  10.25  13.20  22.35
-* POLAZI SA PERONA 150A NORSIC SELO
-Nedjelja   i   blagdani:
-Polasci  iz  SAMOBORA:7.00  17.35
-Polasci  iz  GORNJE  VASI:8.15  19.00
-Polasci  iz   SAMOBORA:13.00  22.15
-Polasci  iz   GRDANJACA:9.05  13.30  19.50  22.40
-150A - SAMOBOR - Grdanjci - NORSIC SELO
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:5.20  11.45  16.20  20.30
-Polasci
-Polasci  iz  NORSIC  SELA:5.55  12.25  17.00  21.00
-Polasci  iz  JARUSJA:5.50  12.30  17.05  21.05
 S u b o t a :
-Polasci  iz  SAMOBORA:5.50  12.40
+Polasci iz SAMOBORA:
+4.55 7.00 8.40 12.30 14.15 15.30 19.20 22.15
+Polasci iz OTOKA:
+5.15 7.25 9.00 12.50 14.35 15.50 19.40 22.30
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+8.30 12.00
+Polasci iz OTOKA:
+8.50 12.20
+149 - SAMOBOR - MEDSAVE
+R a d n i d a n :
+Polasci iz SAMOBORA:
+4.15 4.55 5.40 6.50 10.15 12.00 13.20 14.20 15.15 16.15 17.15 *18.35 19.20 20.15 22.20
+Polasci iz MEDSAVA:
+4.35 5.15 6.00 7.20 10.35 12.25 13.35 14.55 15.35 16.35 17.35 *18.55 19.45 20.35 22.40
+Napomena: *za vrijeme skolskih praznika autobus ne vozi.
+S u b o t a :
+Polasci iz SAMOBORA:
+4.45 7.00 10.50 12.30 14.15 16.40 22.25
+Polasci iz MEDSAVA:
+5.05 7.25 11.15 13.00 14.40 17.05 22.45
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+8.15 12.00 20.30
+Polasci iz MEDSAVA:
+8.35 12.20 20.50
+150 - SAMOBOR - Grdanjci - Krslin - GORNJA VAS
+R a d n i d a n :
 Polasci
-Polasci  iz  NORSIC  SELA:6.30  13.10
-Polasci  iz  JARUSJA:6.35  13.15
-Nedjelja  i  blagdani: 
-Polasci  iz  SAMOBORA:9.30  15.50
+Polasci iz SAMOBORA:
+3.40 15.40
+Polasci iz SAMOBORA:
+6.50 12.45 14.40 
+Polasci iz SAMOBORA:
+4.45 10.10 19.20 22.20
 Polasci
-Polasci  iz  NORSIC  SELA:10.10 16.30
-Polasci  iz  JARUSJA:10.15   16.35
+Polasci iz GORNJE VASI:
+5.00 17.00
+Polasci iz KRSLINA:
+5.45 7.15 13.10 15.10
+Polasci iz GRDANJACA:
+
+*5.10 5.55 10.50 19.40 22.40
+NAPOMENA: * od Luga vozi betonskom cestom;
+S u b o t a :
+Polasci iz SAMOBORA:
+3.40 15.35
+Polasci iz GORNJE VASI:
+5.00 17.00 
+Polasci iz SAMOBORA:
+14.50
+Polasci iz KRSLINA:
+5.50 15.15 
+Polasci iz SAMOBORA:
+4.45 7.15 10.00 * 12.40 22.15
+Polasci iz GRDANJACA:
+5.10 6.00 7.40 10.25 13.20 22.35
+* POLAZI SA PERONA 150A NORSIC SELO
+Nedjelja i blagdani:
+Polasci iz SAMOBORA:
+7.00 17.35
+Polasci iz GORNJE VASI:
+8.15 19.00
+Polasci iz SAMOBORA:
+13.00 22.15
+Polasci iz GRDANJACA:
+9.05 13.30 19.50 22.40
+150A - SAMOBOR - Grdanjci - NORSIC SELO
+R a d n i d a n :
+Polasci iz SAMOBORA:
+5.20 11.45 16.20 20.30
+Polasci
+Polasci iz NORSIC SELA:
+5.55 12.25 17.00 21.00
+Polasci iz JARUSJA:
+5.50 12.30 17.05 21.05
+S u b o t a :
+Polasci iz SAMOBORA:
+5.50 12.40
+Polasci
+Polasci iz NORSIC SELA:
+6.30 13.10
+Polasci iz JARUSJA:
+6.35 13.15
+Nedjelja i blagdani: 
+Polasci iz SAMOBORA:
+9.30 15.50
+Polasci
+Polasci iz NORSIC SELA:
+10.10 16.30
+Polasci iz JARUSJA:
+10.15 16.35
 151 - SAMOBOR - Sv. Nedjelja - ZAGREB (CRNOMEREC)
- R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.15  4.50  5.10  5.30  5.45  6.00  6.15  6.30  6.45  7.00  7.15  7.35  8.05  8.30  9.00  9.30    10.00  10.30  11.00  11.30  12.00  12.25  12.50  13.10  13.25  13.40  14.00  14.15  14.30  14.50  15.00  15.40  16.00  16.30  17.00  17.30  18.00  18.30  18.55  19.15  19.40  20.10  20.50  21.15  21.35  22.20
-Polasci  iz  CRNOMERCA:5.00  5.30  5.50  6.15  6.30  6.45  7.05  7.20  7.40  7.50  8.00  8.15  8.55  9.15  9.45  10.15  10.45  11.15  11.45  12.15  12.45  13.15  13.35  14.00  14.15  14.30  14.50  15.05  15.25  15.40  16.10  16.30  16.50  17.15  17.45  18.15  18.45  19.10  19.35  20.05  20.30  20.55  21.35  22.00  22.20  23.00
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.15  4.55 5.25  5.50  6.15  6.35  6.55  7.20  7.45  8.30  9.30  10.30  11.30  12.30  13.20  14.30  15.30  16.30  17.30  18.30  19.30  20.30  21.20  22.15
-Polasci  iz  CRNOMERCA:4.55  5.35  6.05  6.35  7.00 7.30 8.00  8.30  8.50  9.30  10.30  11.30  12.30  13.20  14.25  15.30  16.30  17.30  18.30  19.30  20.30  21.20  22.10  23.00
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:*4.45  5.45  6.45  7.55  9.05  *10.15  11.25  *12.40  13.45  14.55  16.05  17.15  18.25  19.35  *20.45  *22.10
-Polasci  iz  CRNOMERCA:5.30  *6.40  7.50  9.05  10.15  11.20  *12.35  13.45  14.55  16.05  17.15  18.25  19.35  *20.45  22.00  *22.45
-NAPOMENA:  *  SAMOBOR – SV.NEDJELJA NOVAKI (VOJVODICEVOM)  – NOVAKI  (IGRALISTE) – RAKITJE – PODSUSED –– CRNOMEREC
+ R a d n i d a n :
+Polasci iz SAMOBORA:
+4.15 4.50 5.10 5.30 5.45 6.00 6.15 6.30 6.45 7.00 7.15 7.35 8.05 8.30 9.00 9.30 10.00 10.30 11.00 11.30 12.00 12.25 12.50 13.10 13.25 13.40 14.00 14.15 14.30 14.50 15.00 15.40 16.00 16.30 17.00 17.30 18.00 18.30 18.55 19.15 19.40 20.10 20.50 21.15 21.35 22.20
+Polasci iz CRNOMERCA:
+5.00 5.30 5.50 6.15 6.30 6.45 7.05 7.20 7.40 7.50 8.00 8.15 8.55 9.15 9.45 10.15 10.45 11.15 11.45 12.15 12.45 13.15 13.35 14.00 14.15 14.30 14.50 15.05 15.25 15.40 16.10 16.30 16.50 17.15 17.45 18.15 18.45 19.10 19.35 20.05 20.30 20.55 21.35 22.00 22.20 23.00
+S u b o t a :
+Polasci iz SAMOBORA:
+4.15 4.55 5.25 5.50 6.15 6.35 6.55 7.20 7.45 8.30 9.30 10.30 11.30 12.30 13.20 14.30 15.30 16.30 17.30 18.30 19.30 20.30 21.20 22.15
+Polasci iz CRNOMERCA:
+4.55 5.35 6.05 6.35 7.00 7.30 8.00 8.30 8.50 9.30 10.30 11.30 12.30 13.20 14.25 15.30 16.30 17.30 18.30 19.30 20.30 21.20 22.10 23.00
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+*4.45 5.45 6.45 7.55 9.05 *10.15 11.25 *12.40 13.45 14.55 16.05 17.15 18.25 19.35 *20.45 *22.10
+Polasci iz CRNOMERCA:
+5.30 *6.40 7.50 9.05 10.15 11.20 *12.35 13.45 14.55 16.05 17.15 18.25 19.35 *20.45 22.00 *22.45
+NAPOMENA: * SAMOBOR - SV.NEDJELJA NOVAKI (VOJVODICEVOM) - NOVAKI (IGRALISTE) - RAKITJE - PODSUSED -- CRNOMEREC
 153 - SAMOBOR - Sv. Nedjelja - ZAGREB (LJUBLJANICA)
-R a d n i    d a n:
+R a d n i d a n:
 Polasci
-Polasci  iz   SAMOBORA:*4.10 *4.40 *5.05 *5.25 5.50 6.15 6,35 7.00  7,15  7,35  7,55  8,15  *8,35  *8,55  *9,20  *9,45  *10,10  *10,35  *10,55  *11,20  *11,40  *12,05  12,20  12,55  13,30  13,55  14,20  14,50  15,15  15,40  *15,50  16,30  16,55  *17,20  17,50  18,25  *19,00  19.30  *20,10  *20,35  *21,00  *21,45  *22,15  *23,00
-Polasci  preko  Novaka  i  Rakitja:*4.40  6.15  *6.35  7.15  *8.55  *9.45  *10.55  *12.05  13.30  14.20 15.15 *15.50  17.20  *20.35  *21.45  *22.15
-Polasci  preko  Kerestinca:6.35  7.35  *9.20  *11.40  13.55  16.30  18.25  *21.00
+Polasci iz SAMOBORA:
+*4.10 *4.40 *5.05 *5.25 5.50 6.15 6.35 7.00 7.15 7.35 7.55 8.15 *8.35 *8.55 *9.20 *9.45 *10.10 *10.35 *10.55 *11.20 *11.40 *12.05 12.20 12.55 13.30 13.55 14.20 14.50 15.15 15.40 *15.50 16.30 16.55 *17.20 17.50 18.25 *19.00 19.30 *20.10 *20.35 *21.00 *21.45 *22.15 *23.00
+Polasci preko Novaka i Rakitja:
+*4.40 6.15 *6.35 7.15 *8.55 *9.45 *10.55 *12.05 13.30 14.20 15.15 *15.50 17.20 *20.35 *21.45 *22.15
+Polasci preko Kerestinca:
+6.35 7.35 *9.20 *11.40 13.55 16.30 18.25 *21.00
 Polasci
-Polasci  iz LUBLJANICE:5,05  5,55  6,25  7,05  7.25  7,40  8,00  8,25  8,35  8.45  8,55  9,25  9,50  10,10  10,35  11,00  11,25  11,50  12,10  12,35  13,10  13,35  13,55  14,20  14,50  15,20  15,45  16,05  16,30  16,45  17,20  17,40  18,15  18,40  19,05  19.25  19,50  20,20  21,05  21,25  21,40  22,15  22,45  23,15  23,55
-Polasci  preko  Novaka  i  Rakitja:5.05  5.55  7.05  7.40  8.45  9.50  10.35  11.50  12.35  13.55  14.20  15.20  16.05  16.45  18.15  19.05  19.50  21.05    22.45  23.15  23.55
-Polasci  preko  Kerestinca:12.10  14.50  15.45   21.40
-NAPOMENA:  *   autobusi  polaze  s  perona  za  ZAGREB  (autobusni  kolodvor);
+Polasci iz LUBLJANICE:
+5.05 5.55 6.25 7.05 7.25 7.40 8.00 8.25 8.35 8.45 8.55 9.25 9.50 10.10 10.35 11.00 11.25 11.50 12.10 12.35 13.10 13.35 13.55 14.20 14.50 15.20 15.45 16.05 16.30 16.45 17.20 17.40 18.15 18.40 19.05 19.25 19.50 20.20 21.05 21.25 21.40 22.15 22.45 23.15 23.55
+Polasci preko Novaka i Rakitja:
+5.05 5.55 7.05 7.40 8.45 9.50 10.35 11.50 12.35 13.55 14.20 15.20 16.05 16.45 18.15 19.05 19.50 21.05 22.45 23.15 23.55
+Polasci preko Kerestinca:
+12.10 14.50 15.45 21.40
+NAPOMENA: * autobusi polaze s perona za ZAGREB (autobusni kolodvor);
 S u b o t a:
 Polasci
-Polasci  iz   SAMOBORA:  **0.15  **3.15  4.10  4.50  5.10  5.40    6.00  6.40  7.00  7.20  7.45  8.15  8.40  9.10  9.45  10.15  10.40  11.10  11.45  12.15  12.35  12.50  13.05  13.40  14.15  14.35  15.05  15.30  16.00  16.30  17.00  17.30  18.00  18.30  19.00  19.30  20.00  20.50  21.30  22.15  23.00
-Polasci  preko  Novaka  i  Rakitja:  4.10 5.10  6.00  6.40 7.45  8.40 9.45 10.15 11.45 12.50  14.15 15.05 16.00  18.00  19.00 20.50  22.15
-Polasci  preko  Kerestinca:7.00  9.10  11.10  14.35  15.30  17.00  20.00  21.30  23.00
+Polasci iz SAMOBORA:
+ **0.15 **3.15 4.10 4.50 5.10 5.40 6.00 6.40 7.00 7.20 7.45 8.15 8.40 9.10 9.45 10.15 10.40 11.10 11.45 12.15 12.35 12.50 13.05 13.40 14.15 14.35 15.05 15.30 16.00 16.30 17.00 17.30 18.00 18.30 19.00 19.30 20.00 20.50 21.30 22.15 23.00
+Polasci preko Novaka i Rakitja:
+ 4.10 5.10 6.00 6.40 7.45 8.40 9.45 10.15 11.45 12.50 14.15 15.05 16.00 18.00 19.00 20.50 22.15
+Polasci preko Kerestinca:
+7.00 9.10 11.10 14.35 15.30 17.00 20.00 21.30 23.00
 Polasci
-Polasci  iz  LJUBLJANICE: **0.35  **3.35 5.10  5.50  6.10  6.40  7.10  7.50  8.10  8.30  8.55  9.25  9.50  10.20  10.55  11.25  11.50  12.20  12.55  13.25  13.45 14.00  14.15  14.40  15.15  15.45 16.15 16.40  17.10  17.40  18.10  18.40  19.10  19.40  20.10  20.40  21.10  21.55  22.30  23.15  23.50
-Polasci  preko  Novaka  i  Rakitja: 6.10  7.50  9.25  10.55 11.25 11.50  12.55 13.45 14.40 15.15 17.10 18.40  20.10 21.10 23.50
-Polasci  preko  Kerestinca:6.40  8.10  10.20  12.20  15.45 16.40  18.10  19.40  20.40  22.30
-N e d j e l j a     i     b l a g d a n i :
+Polasci iz LJUBLJANICE:
+ **0.35 **3.35 5.10 5.50 6.10 6.40 7.10 7.50 8.10 8.30 8.55 9.25 9.50 10.20 10.55 11.25 11.50 12.20 12.55 13.25 13.45 14.00 14.15 14.40 15.15 15.45 16.15 16.40 17.10 17.40 18.10 18.40 19.10 19.40 20.10 20.40 21.10 21.55 22.30 23.15 23.50
+Polasci preko Novaka i Rakitja:
+ 6.10 7.50 9.25 10.55 11.25 11.50 12.55 13.45 14.40 15.15 17.10 18.40 20.10 21.10 23.50
+Polasci preko Kerestinca:
+6.40 8.10 10.20 12.20 15.45 16.40 18.10 19.40 20.40 22.30
+N e d j e l j a i b l a g d a n i :
 Polasci
-Polasci  iz  SAMOBORA:**0.15  **3.15  4.40  5.10  6.00  6.30  7.00  7.30  8.00  8.30  9.00  9.30  10.00  10.30  11.00  11.30  12.00  12.30  13.00  13.30  14.00  14.30  15.00  15.30  16.00  16.30  17.00  17.30  18.00  18.30  19.00  19.30  20.00  20.30  21.00  21.30  22.10  23.00
-Polasci  preko  Novaka  i  Rakitja:4.40  6.00 7.00  8.00  9.30  11.00  12.30  13.30  14.30  16.00 17.00  18.00  19.00  21.00  23.00
-Polasci preko Kerestinca: 5.10  6.30  12.00  20.30  22.10
+Polasci iz SAMOBORA:
+**0.15 **3.15 4.40 5.10 6.00 6.30 7.00 7.30 8.00 8.30 9.00 9.30 10.00 10.30 11.00 11.30 12.00 12.30 13.00 13.30 14.00 14.30 15.00 15.30 16.00 16.30 17.00 17.30 18.00 18.30 19.00 19.30 20.00 20.30 21.00 21.30 22.10 23.00
+Polasci preko Novaka i Rakitja:
+4.40 6.00 7.00 8.00 9.30 11.00 12.30 13.30 14.30 16.00 17.00 18.00 19.00 21.00 23.00
+Polasci preko Kerestinca:
+ 5.10 6.30 12.00 20.30 22.10
 Polasci
-Polasci  iz  LJUBLJANICE:**0.35  **3.35 5.35  6.10  7.10  7.40  8.10  8.40  9.10  9.40  10.10  10.40  11.10  11.40  12.10  12.40  13.10  13.40  14.10  14.40  15.10  15.40  16.10  16.40  17.10  17.40  18.10  18.40  19.10  19.40  20.10  20.40  21.10  21.40  22.10  22.40  23.10  23.50
-Polasci  preko  Novaka  i  Rakitja:6.10  7.40  9.10  10.40 12.10  13.10  14.40  16.10  17.40  18.40  19.40  20.40  22.10  23.50
-Polasci  preko Kerestinca:7.10  8.10  10.10  16.40  21.40  23.10
+Polasci iz LJUBLJANICE:
+**0.35 **3.35 5.35 6.10 7.10 7.40 8.10 8.40 9.10 9.40 10.10 10.40 11.10 11.40 12.10 12.40 13.10 13.40 14.10 14.40 15.10 15.40 16.10 16.40 17.10 17.40 18.10 18.40 19.10 19.40 20.10 20.40 21.10 21.40 22.10 22.40 23.10 23.50
+Polasci preko Novaka i Rakitja:
+6.10 7.40 9.10 10.40 12.10 13.10 14.40 16.10 17.40 18.40 19.40 20.40 22.10 23.50
+Polasci preko Kerestinca:
+7.10 8.10 10.10 16.40 21.40 23.10
 NAPOMENA: subotom i nedjeljom svi autobusi polaze s perona za ZAGREB (autobusni kolodvor);
-**vozi trasom nocne linije: AK SAMOBOR – SV. NEDJELJA – PODSUSED (veza na nocne linije ZETa)
+**vozi trasom nocne linije: AK SAMOBOR - SV. NEDJELJA - PODSUSED (veza na nocne linije ZETa)
 155 - SAMOBOR - Sv. Nedjelja - ZAGREB (AUTOBUSNI KOLODVOR)
-SAMOBOR  -  Sv. Nedelja  -  ZAGREB  (Autobusni  kolodvor)
-R a d n i   d a n:
+SAMOBOR - Sv. Nedelja - ZAGREB (Autobusni kolodvor)
+R a d n i d a n:
 Polasci
-Polasci  iz  SAMOBORA:*4.10  *4,40  *5,05  *5,25  5,40  6,00  6,20  6,30  *6,35  6,50  7,05  7,30  7,45  8,10  *8,35  *8,55  *9,20  *9,45  *10,10  *10,35  *10,55  *11,20  *11,40  *12,05  12,40  13,10  13,30  13,55  14,15  14,45  15,15  15,35  *15,50  16,20  16,40  17,05  *17,20  18,00  18,20  18,40  *19,00  19,25  19,50  *20,10  *20,35  *21,00  *21,45  *22,15  *23,00
-Polasci  preko  Novaka  i  Rakitja:*4,40  5,40  *6,35  7,30  *8,55  *9,45  *10,55  *12.05  12.40  13.55  *15.50  16,40 *17.20 18,00  18,40  19,50  *20,35  *21,45  *22,15
-Polasci  preko  Kerestinca:*9,20  *11,40  14,15  *21,00
+Polasci iz SAMOBORA:
+*4.10 *4.40 *5.05 *5.25 5.40 6.00 6.20 6.30 *6.35 6.50 7.05 7.30 7.45 8.10 *8.35 *8.55 *9.20 *9.45 *10.10 *10.35 *10.55 *11.20 *11.40 *12.05 12.40 13.10 13.30 13.55 14.15 14.45 15.15 15.35 *15.50 16.20 16.40 17.05 *17.20 18.00 18.20 18.40 *19.00 19.25 19.50 *20.10 *20.35 *21.00 *21.45 *22.15 *23.00
+Polasci preko Novaka i Rakitja:
+*4.40 5.40 *6.35 7.30 *8.55 *9.45 *10.55 *12.05 12.40 13.55 *15.50 16.40 *17.20 18.00 18.40 19.50 *20.35 *21.45 *22.15
+Polasci preko Kerestinca:
+*9.20 *11.40 14.15 *21.00
 Polasci
-Polasci  iz  A.K. ZAGREBA:*4,55  *5,40  6,00  6,15  6,30  6,50  7,10  7,25  7,40    7,50  8,00  *8,30  8,40  *9,10  *9,35  *9,55  *10,20  *10,45  *11,10  *11,35  *11,55  *12,20  12,40  13,10  *13,40  14,15  14,30  14,55  15,20  15,45  16,10  *16,30  17,00  17,20  17,40  *18,00  18,25  *18,50  19,15  *19,35  20,00  20,20  *20,50  *21,10  *21,30  *22,00  *22,35  *23,05  *23,45
-Polasci  preko  Novaka  i  Rakitja:*4,55  *5,40  6,30  *8,30  *9,35  *10,20  *11,35  *12,20  13.10  13.40  14,15   14.55  16,30  17.20 *18,00  *18,50  *19,35  *20,50  *22,35  *23,05  *23.45
-Polasci  preko  Kerestinca:7,40  *11,55  19,15 *21,30
+Polasci iz A.K. ZAGREBA:
+*4.55 *5.40 6.00 6.15 6.30 6.50 7.10 7.25 7.40 7.50 8.00 *8.30 8.40 *9.10 *9.35 *9.55 *10.20 *10.45 *11.10 *11.35 *11.55 *12.20 12.40 13.10 *13.40 14.15 14.30 14.55 15.20 15.45 16.10 *16.30 17.00 17.20 17.40 *18.00 18.25 *18.50 19.15 *19.35 20.00 20.20 *20.50 *21.10 *21.30 *22.00 *22.35 *23.05 *23.45
+Polasci preko Novaka i Rakitja:
+*4.55 *5.40 6.30 *8.30 *9.35 *10.20 *11.35 *12.20 13.10 13.40 14.15 14.55 16.30 17.20 *18.00 *18.50 *19.35 *20.50 *22.35 *23.05 *23.45
+Polasci preko Kerestinca:
+7.40 *11.55 19.15 *21.30
 NAPOMENA:
-* vozi  preko  Ljubljanice
+* vozi preko Ljubljanice
 S u b o t a:
 Polasci
-Polasci  iz   SAMOBORA:** 0.15  **3.15  4.10  4.50  5.10  5.40  6.00  6.40  7.00  7.20  7.45  8.15  8.40  9.10  9.45  10.15  10.40  11.10  11.45  12.15  12.35  12.50  13.05  13.40  14.15  14.35  15.05  15.30  16.00  16.30  17.00  17.30  18.00  18.30  19.00  19.30  20.00  20.50  21.30  22.15  23.00
-Polasci  preko  Novaka  i  Rakitja:4.10  5.10  6.00  6.40  7.45  8.40  9.45  10.15  11.45  12.50  14.15 15.05 16.00  18.00  19.00  20.50  22.15
-Polasci  preko  Kerestinca:7.00  9.10  11.10  14.35  15.30  17.00  20.00  21.30  23.00
+Polasci iz SAMOBORA:
+** 0.15 **3.15 4.10 4.50 5.10 5.40 6.00 6.40 7.00 7.20 7.45 8.15 8.40 9.10 9.45 10.15 10.40 11.10 11.45 12.15 12.35 12.50 13.05 13.40 14.15 14.35 15.05 15.30 16.00 16.30 17.00 17.30 18.00 18.30 19.00 19.30 20.00 20.50 21.30 22.15 23.00
+Polasci preko Novaka i Rakitja:
+4.10 5.10 6.00 6.40 7.45 8.40 9.45 10.15 11.45 12.50 14.15 15.05 16.00 18.00 19.00 20.50 22.15
+Polasci preko Kerestinca:
+7.00 9.10 11.10 14.35 15.30 17.00 20.00 21.30 23.00
 Polasci
-Polasci  iz  ZAGREBA  (AK):**0.35  **3.35  5.00  5.40  6.00  6.30  7.00  7.40  8.00  8.20  8.45  9.15  9.40  10.10  10.45  11.15  11.40  12.05  12.40  13.15  13.35  13.50  14.05  14.30  15.05  15.35  16.05  16.30  17.00  17.30  18.00  18.30  19.00  19.30  20.00  20.30  21.00  21.45  22.20  23.05  23.45
-Polasci  preko  Novaka  i  Rakitja:6.00  7.40  9.15  10.45  11.15  11.40  12.40  13.35    14.30  15.05  17.00  18.30  20.00  21.00  23.45
-Polasci  preko  Kerestinca:6.30  8.00  10.10  12.05  15.35  16.30  18.00  19.30       20.30  22.20
-N e d j e l j a     i     b l a g d a n i :
+Polasci iz ZAGREBA (AK):
+**0.35 **3.35 5.00 5.40 6.00 6.30 7.00 7.40 8.00 8.20 8.45 9.15 9.40 10.10 10.45 11.15 11.40 12.05 12.40 13.15 13.35 13.50 14.05 14.30 15.05 15.35 16.05 16.30 17.00 17.30 18.00 18.30 19.00 19.30 20.00 20.30 21.00 21.45 22.20 23.05 23.45
+Polasci preko Novaka i Rakitja:
+6.00 7.40 9.15 10.45 11.15 11.40 12.40 13.35 14.30 15.05 17.00 18.30 20.00 21.00 23.45
+Polasci preko Kerestinca:
+6.30 8.00 10.10 12.05 15.35 16.30 18.00 19.30 20.30 22.20
+N e d j e l j a i b l a g d a n i :
 Polasci
-Polasci  iz  SAMOBORA:** 0.15  **3.15  4.40  5.10  6.00  6.30  7.00  7.30  8.00  8.30  9.00  9.30  10.00  10.30  11.00  11.30  12.00  12.30  13.00  13.30  14.00  14.30  15.00  15.30  16.00  16.30  17.00  17.30  18.00  18.30  19.00  19.30  20.00  20.30  21.00  21.30  22.10  23.00
-Polasci  preko  Novaka  i  Rakitja:4.40  6.00  7.00  8.00  9.30  11.00  12.30  13.30  14.30  16.00  17.00  18.00  19.00  21.00  23.00
-Polasci  preko  Kerestinca:5.10  6.30  12.00  20.30  22.10
+Polasci iz SAMOBORA:
+** 0.15 **3.15 4.40 5.10 6.00 6.30 7.00 7.30 8.00 8.30 9.00 9.30 10.00 10.30 11.00 11.30 12.00 12.30 13.00 13.30 14.00 14.30 15.00 15.30 16.00 16.30 17.00 17.30 18.00 18.30 19.00 19.30 20.00 20.30 21.00 21.30 22.10 23.00
+Polasci preko Novaka i Rakitja:
+4.40 6.00 7.00 8.00 9.30 11.00 12.30 13.30 14.30 16.00 17.00 18.00 19.00 21.00 23.00
+Polasci preko Kerestinca:
+5.10 6.30 12.00 20.30 22.10
 Polasci
-Polasci  iz  ZAGREBA  (AK):**0.35  **3.35  5.25  6.00  7.00  7.30  8.00  8.30  9.00  9.30  10.00  10.30  11.00  11.30  12.00  12.30  13.00  13.30  14.00  14.30  15.00  15.30  16.00  16.30  17.00  17.30  18.00  18.30  19.00  19.30  20.00  20.30  21.00  21.30  22.00  22.30  23.00  23.45
-Polasci  preko  Novaka  i  Rakitja:6.00  7.30  9.00  10.30  12.00  13.00  14.30  16.00  17.30  18.30  19.30  20.30  22.00  23.45
-Polasci  preko  Kerestinca:7.00  8.00  10.00  16.30  21.30  23.00
-NAPOMENA:   -  subotom  i  nedjeljom  svi  autobusi   voze  preko  Ljubljanice; 
-**vozi trasom nocne linije: AK SAMOBOR – SV. NEDJELJA – PODSUSED (veza na nocne linije ZETa)
+Polasci iz ZAGREBA (AK):
+**0.35 **3.35 5.25 6.00 7.00 7.30 8.00 8.30 9.00 9.30 10.00 10.30 11.00 11.30 12.00 12.30 13.00 13.30 14.00 14.30 15.00 15.30 16.00 16.30 17.00 17.30 18.00 18.30 19.00 19.30 20.00 20.30 21.00 21.30 22.00 22.30 23.00 23.45
+Polasci preko Novaka i Rakitja:
+6.00 7.30 9.00 10.30 12.00 13.00 14.30 16.00 17.30 18.30 19.30 20.30 22.00 23.45
+Polasci preko Kerestinca:
+7.00 8.00 10.00 16.30 21.30 23.00
+NAPOMENA: - subotom i nedjeljom svi autobusi voze preko Ljubljanice; 
+**vozi trasom nocne linije: AK SAMOBOR - SV. NEDJELJA - PODSUSED (veza na nocne linije ZETa)
 156 - SAMOBOR - Strmec - ZAGREB (CRNOMEREC)
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.20  4.40  5.00  5.15  5.30  5.45  6.00  6.10  6.30  6.45  7.05  7.30  7.50  8.15  8.45  9.15  9.45  10.15  10.45  11.15  11.45  12.00  12.25  12.50  13.10  13.30  13.55  14.20  14.45  15.05  15.25  15.40  16.15  16.45  17.05  17.45  18.15  18.40  19.00  19.20  19.50  20.30   21.00   21.40   22.20  22.50
-Polasci  iz  CRNOMERCA:5.00  5.20  5.45  6.05  6.25  6.45  7.00  7.20  7.40  8.00  8.20  8.40  9.00  9.30  10.00  10.30  11.00  11.30  12.00  12.25  12.45  13.10  13.35  14.00  14.20  14.40  15.05  15.30  15.55  16.15  16.35  17.00  17.30  17.55  18.30  19.00  19.30  19.45  20.15  20.50  21.30   22.10   22.30  23.00   23.30
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.20  4.45  5.15  5.40  6.05  6.25  6.45  7.10  7.35  8.00  8.25  8.50  9.10  9.35  10.00  10.30  10 55   11.25  12.00  12.25  13.00  13.30  13.50   14.20  15.00  15.30  16.00   17.00  18.00  19.00   20.00  21.00  22.20
-Polasci  iz  CRNOMERCA:5.05  5.25  5.55  6.25  6.50  7.10  7.30  8.00  8.25  8.50  9.15  9.40  10.05  10 30  10.50  11.15  11.40  12.10   12.45   13.10   13.40   14.15   14.35  15.00 15.40   16.15  17.00   18.00  19.00  20.00  21.00  22.25  23.15
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:4.45  5.15  6.10  7.20  8.30  9.40  10.50  12.00   13.10  14.20  15.30  16.40  17.50   19.00  20.10  21.20  22.15
-Polasci  iz  CRNOMERCA:5.30  6.15  7.20  8.30  9.40  10.50  12.00    13.10  14.20  15.30  16.40  17.50  19.00   20.10  21.15  22.20  23.00
+R a d n i d a n :
+Polasci iz SAMOBORA:
+4.20 4.40 5.00 5.15 5.30 5.45 6.00 6.10 6.30 6.45 7.05 7.30 7.50 8.15 8.45 9.15 9.45 10.15 10.45 11.15 11.45 12.00 12.25 12.50 13.10 13.30 13.55 14.20 14.45 15.05 15.25 15.40 16.15 16.45 17.05 17.45 18.15 18.40 19.00 19.20 19.50 20.30 21.00 21.40 22.20 22.50
+Polasci iz CRNOMERCA:
+5.00 5.20 5.45 6.05 6.25 6.45 7.00 7.20 7.40 8.00 8.20 8.40 9.00 9.30 10.00 10.30 11.00 11.30 12.00 12.25 12.45 13.10 13.35 14.00 14.20 14.40 15.05 15.30 15.55 16.15 16.35 17.00 17.30 17.55 18.30 19.00 19.30 19.45 20.15 20.50 21.30 22.10 22.30 23.00 23.30
+S u b o t a :
+Polasci iz SAMOBORA:
+4.20 4.45 5.15 5.40 6.05 6.25 6.45 7.10 7.35 8.00 8.25 8.50 9.10 9.35 10.00 10.30 10 55 11.25 12.00 12.25 13.00 13.30 13.50 14.20 15.00 15.30 16.00 17.00 18.00 19.00 20.00 21.00 22.20
+Polasci iz CRNOMERCA:
+5.05 5.25 5.55 6.25 6.50 7.10 7.30 8.00 8.25 8.50 9.15 9.40 10.05 10 30 10.50 11.15 11.40 12.10 12.45 13.10 13.40 14.15 14.35 15.00 15.40 16.15 17.00 18.00 19.00 20.00 21.00 22.25 23.15
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+4.45 5.15 6.10 7.20 8.30 9.40 10.50 12.00 13.10 14.20 15.30 16.40 17.50 19.00 20.10 21.20 22.15
+Polasci iz CRNOMERCA:
+5.30 6.15 7.20 8.30 9.40 10.50 12.00 13.10 14.20 15.30 16.40 17.50 19.00 20.10 21.15 22.20 23.00
 157 - SAMOBOR - Sv. Martin - GALGOVO
-R  a  d  n  i     d  a  n :
+R a d n i d a n :
 Polasci
-Polasci  iz   SAMOBORA:4.20   5.45 *6.25 11.40 *14.20 *15.30  *20.25
-Polasci  iz  SAMOBORA za  Podgrade:11.40
+Polasci iz SAMOBORA:
+4.20 5.45 *6.25 11.40 *14.20 *15.30 *20.25
+Polasci iz SAMOBORA za Podgrade:
+11.40
 Polasci
-Polasci  iz  GALGOVA:*4.50 *6.05 **7.20 **7.50 **15.05  **16.20 **21.15
-Polasci  iz  SV.  MARTINA:*4.45  *6.00  7.25   7.55  15.10  16.25  21.20
-Polasci  iz  PODGRADA:  *4.45
-NAPOMENA:    *  vozi  preko  Terihaja;  **  vozi  preko  Sv. Martina.
-S  u  b  o  t  a :
+Polasci iz GALGOVA:
+*4.50 *6.05 **7.20 **7.50 **15.05 **16.20 **21.15
+Polasci iz SV. MARTINA:
+*4.45 *6.00 7.25 7.55 15.10 16.25 21.20
+Polasci iz PODGRADA:
+ *4.45
+NAPOMENA: * vozi preko Terihaja; ** vozi preko Sv. Martina.
+S u b o t a :
 Polasci
-Polasci  iz   SAMOBORA:4.25  7.05  11.55  12.35   *14.15  *15.30
-Polasci  za  Sv. Martin:4.25  7.05  11.55  12.35
-Polasci iz SAMOBORA za Podgrade:4.25  7.05  11.55  12.35
+Polasci iz SAMOBORA:
+4.25 7.05 11.55 12.35 *14.15 *15.30
+Polasci za Sv. Martin:
+4.25 7.05 11.55 12.35
+Polasci iz SAMOBORA za Podgrade:
+4.25 7.05 11.55 12.35
 Polasci
-Polasci  iz  GALGOVA:*4.55  7.30  7.50  12.30  15.05  16.15  **17.00
-Polasci  iz  SV.  MARTINA:4.45  7.25  12.25  17.05
-Polasci  iz  PODGRA?A:4.45  7.25  12.25
-NAPOMENA:    *  vozi  preko  Terihaja; **  vozi  preko  Sv. Martina.
-N e d j e l j o m      i     b l a g d a n o m     n e   v o z i   !
+Polasci iz GALGOVA:
+*4.55 7.30 7.50 12.30 15.05 16.15 **17.00
+Polasci iz SV. MARTINA:
+4.45 7.25 12.25 17.05
+Polasci iz PODGRA?A:
+4.45 7.25 12.25
+NAPOMENA: * vozi preko Terihaja; ** vozi preko Sv. Martina.
+N e d j e l j o m i b l a g d a n o m n e v o z i !
 158 - SAMOBOR - Cerje - BUKOVJE
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.40  5.50  7.45  11.00  12.45  14.30  16.00  17.15  19.30  22.20
-Polasci  iz  BUKOVJA:5.05  6.20  8.15  11.30 13.15  15.00  16.30  17.40  20.00  22.45
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.50  6.00  11.10  12.40  14.15  15.25  22.15
-Polasci  iz  BUKOVJA:5.15  6.25  11.40  13.10  14.50  15.55  22.40
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:7.30  21.10
-Polasci  iz  BUKOVJA:8.00  21.40
+R a d n i d a n :
+Polasci iz SAMOBORA:
+4.40 5.50 7.45 11.00 12.45 14.30 16.00 17.15 19.30 22.20
+Polasci iz BUKOVJA:
+5.05 6.20 8.15 11.30 13.15 15.00 16.30 17.40 20.00 22.45
+S u b o t a :
+Polasci iz SAMOBORA:
+4.50 6.00 11.10 12.40 14.15 15.25 22.15
+Polasci iz BUKOVJA:
+5.15 6.25 11.40 13.10 14.50 15.55 22.40
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+7.30 21.10
+Polasci iz BUKOVJA:
+8.00 21.40
 159 - ZAGREB (SAVSKI MOST) - Galgovo - DRECNIK / SV. MARTIN
-R  a  d  n  i     d  a  n :
+R a d n i d a n :
 Polasci
-Polasci  sa  SAVSKOG  MOSTA:4.30 K  5.35  6.30  7.20  8.00  9.40 K 10.55  12.30  13.05  13.55  14.30  15.10  15.50  16.30  17.15  17.50 K 18.50 19.20 20.00 20.45      21.40 K  22.40 K 23.20 K
-Polasci  za  Drecnik:4.30 K  5.35  6.30  8.00  10.55  12.30  13.50  15.10  15.50 16.30  17.15  19.20  20.00 20.45  22.40 K  23.20 K 
-Polasci  za  Sv.  Martin:6.30 7.20 *9.40K*10.55  *13.05  *14.30  *17.15  *17.50 K *20.00  20.45 22.40 K     23.20 KNAPOMENA:*  vozi  do      Podgrada; K ; polazi od Korencica;
+Polasci sa SAVSKOG MOSTA:
+4.30 K 5.35 6.30 7.20 8.00 9.40 K 10.55 12.30 13.05 13.55 14.30 15.10 15.50 16.30 17.15 17.50 K 18.50 19.20 20.00 20.45 21.40 K 22.40 K 23.20 K
+Polasci za Drecnik:
+4.30 K 5.35 6.30 8.00 10.55 12.30 13.50 15.10 15.50 16.30 17.15 19.20 20.00 20.45 22.40 K 23.20 K 
+Polasci za Sv. Martin:
+6.30 7.20 *9.40K*10.55 *13.05 *14.30 *17.15 *17.50 K *20.00 20.45 22.40 K 23.20 KNAPOMENA:
+* vozi do Podgrada; K ; polazi od Korencica;
 Polasci
-Polasci  iz  GALGOVA:4.15 K  5.00  5.50  6.30  7.20  9.00 K 10.15  11.50  12.25  13.15  13.50  14.35  15.15  15.55  16.40  17.15K 18.10  18.35  19.25  20.05    20.55K   22.15 K 23.15 K
-Polasci  iz  Drecnika:4.55  5.45  6.20  7 15  8.55 K **11.35  12.20  13.10  14.30  15.50  16.35  17.10 K 18.05  20.00  20.50 K  **23.00 K
-Polasci  iz  Sv.  Martina:*4.10 K**5.35 **7.05**12.00 13,45 15,10 **17.55**20.40 K 23,10K 
-Polasci iz Podgrada: 4.10 K 5.38 7.08 10.10 11.45 12.05 13.45 15.10 17.55 18.30 20.40 K 23.10 KNAPOMENA:  K ; vozi do Korencica
-Trasa linije**: Galgovo ; Drecnik – Purgarija – Podgrade – Sv.Martin – Galgovo,  zavisi dali prije ide preko Drecnika ili Svetog Martina.
-S  u  b  o  t  a :
+Polasci iz GALGOVA:
+4.15 K 5.00 5.50 6.30 7.20 9.00 K 10.15 11.50 12.25 13.15 13.50 14.35 15.15 15.55 16.40 17.15K 18.10 18.35 19.25 20.05 20.55K 22.15 K 23.15 K
+Polasci iz Drecnika:
+4.55 5.45 6.20 7 15 8.55 K **11.35 12.20 13.10 14.30 15.50 16.35 17.10 K 18.05 20.00 20.50 K **23.00 K
+Polasci iz Sv. Martina:
+*4.10 K**5.35 **7.05**12.00 13.45 15.10 **17.55**20.40 K 23.10K 
+Polasci iz Podgrada:
+ 4.10 K 5.38 7.08 10.10 11.45 12.05 13.45 15.10 17.55 18.30 20.40 K 23.10 KNAPOMENA:
+ K ; vozi do Korencica
+Trasa linije**: Galgovo ; Drecnik - Purgarija - Podgrade - Sv.Martin - Galgovo. zavisi dali prije ide preko Drecnika ili Svetog Martina.
+S u b o t a :
 Polasci
-Polasci  sa  SAVSKOG  MOSTA: **5.10  **5.40  6.40  7.15  7.55  9.15  10.35  11.50  13.10  13.45  14.20  15.10  15.30  16.30  17.45 K     18.30 K  19.30 K  20.30 K  22.45 K
-Polasci  za  Drecnik: 5.10  **5.40  7.55  10.35  11.50  14.20  15.30            K 17.45  **K18.30   K 19.30  **K 20.30  **K 22.45
-Polasci  za  Sv.  Martin: *5.10 **5.40   7.15  9.15  *13.45  *15.10  16.30          K 17.45   **K18.30    K 19.30  **K 20.30 **K 22.45NAPOMENA:  *  vozi  do Podgrada; K ; polazi od Korencica
+Polasci sa SAVSKOG MOSTA: **5.10 **5.40 6.40 7.15 7.55 9.15 10.35 11.50 13.10 13.45 14.20 15.10 15.30 16.30 17.45 K 18.30 K 19.30 K 20.30 K 22.45 K
+Polasci za Drecnik: 5.10 **5.40 7.55 10.35 11.50 14.20 15.30 K 17.45 **K18.30 K 19.30 **K 20.30 **K 22.45
+Polasci za Sv. Martin: *5.10 **5.40 7.15 9.15 *13.45 *15.10 16.30 K 17.45 **K18.30 K 19.30 **K 20.30 **K 22.45NAPOMENA: * vozi do Podgrada; K ; polazi od Korencica
 Polasci
-Polasci  iz  GALGOVA: 4.35  5.00  5.55  6.30  7.15  8.45  10.05  11.20  12.40  13.10  13.45  14.25  15.00  15.55  16.20 K  18.15 K  19.05 K  20.20 K  21.50 K
-Polasci  iz  Drecnika: 4.30  5.50  6.25  8.35  11.15  12.30  14.55  16.10 K **18.05 K  19.00 K   **20.05 K   21.45 K
-Polasci  iz  Sv.  Martina: **4.20  *5.40 *6.15  10.00  *13.05  *14.20  *15.50  *18.10 K  *18.50 K   *20.15 K   *21.35 KNAPOMENA:  *  polazi  iz Podgrada; K ; vozi do Korencica
-Trasa linije**: Galgovo ; Drecnik – Purgarija – Podgrade – Sv.Martin – Galgovo,  zavisi dali prije ide preko Drecnika ili Svetog Martina.
-N e d j e l j a     i     b l a g d a n i :
+Polasci iz GALGOVA: 4.35 5.00 5.55 6.30 7.15 8.45 10.05 11.20 12.40 13.10 13.45 14.25 15.00 15.55 16.20 K 18.15 K 19.05 K 20.20 K 21.50 K
+Polasci iz Drecnika: 4.30 5.50 6.25 8.35 11.15 12.30 14.55 16.10 K **18.05 K 19.00 K **20.05 K 21.45 K
+Polasci iz Sv. Martina: **4.20 *5.40 *6.15 10.00 *13.05 *14.20 *15.50 *18.10 K *18.50 K *20.15 K *21.35 KNAPOMENA: * polazi iz Podgrada; K ; vozi do Korencica
+Trasa linije**: Galgovo ; Drecnik - Purgarija - Podgrade - Sv.Martin - Galgovo. zavisi dali prije ide preko Drecnika ili Svetog Martina.
+N e d j e l j a i b l a g d a n i :
 Polasci
-Polasci  sa  SAVSKOG  MOSTA: 7.30  9.40  11.20  14.50  16.20  17.55  20.55  22.10
-Polasci  za  Drecnik: 11.20  17.55
-Polasci  za  Sv.  Martin: 7.30  9.40  14.50  20.55  22.10
+Polasci sa SAVSKOG MOSTA: 7.30 9.40 11.20 14.50 16.20 17.55 20.55 22.10
+Polasci za Drecnik: 11.20 17.55
+Polasci za Sv. Martin: 7.30 9.40 14.50 20.55 22.10
 Polasci
-Polasci  iz  GALGOVA: 6.15  8.15  10.25  12.15  15.40  17.00  18.40  21.30
-Polasci  iz  Drecnika: 6.10  12.10  18.35
-Polasci  iz  Sv.  Martina: **6.00  8.10  10.20  15.35  21.30
-Trasa linije**: Galgovo ; Drecnik – Purgarija – Podgrade – Sv.Martin – Galgovo,  zavisi dali prije ide preko Drecnika ili Svetog Martina.
+Polasci iz GALGOVA: 6.15 8.15 10.25 12.15 15.40 17.00 18.40 21.30
+Polasci iz Drecnika: 6.10 12.10 18.35
+Polasci iz Sv. Martina: **6.00 8.10 10.20 15.35 21.30
+Trasa linije**: Galgovo ; Drecnik - Purgarija - Podgrade - Sv.Martin - Galgovo. zavisi dali prije ide preko Drecnika ili Svetog Martina.
 160 - MALA GORICA - Kerestinec - ZAGREB (A. K.)
-R  a  d  n  i     d  a  n :
+R a d n i d a n :
 Polasci
-Polasci  iz   MALE  GORICE:*4.45 5.05 6.25  6.50 8.10  *9.45  **10.55  ***12.30  13.05  14.10  15.10  15.55  *17.30  19.15  *21.30
-Polasci  iz   MOLVICA:*4.40  5.00  6.20  13.00NAPOMENA: *vozi preko Brezja I Kerestinca do Podsuseda** vozi preko Brezja I Kerestinca do Crnomerca***polazi iz Brezja
-Polasci  iz  A.K.  ZAGREB:6.00  7.20  9.00  *10.30  ***11.45  13.25  14.20  15.00  *16.10  16.45  *18.40  20.30  *22.45NAPOMENA:  * polazi iz Podsuseda I vozi preko Kerestinca  I Brezja do M.Gorice.**vozi do Molvica.***polazi iz Crnomerca I vozi preko Kerestinca do Brezja.
-SAMOBOR  -  A.K. ZAGREB  (preko  Kerestinca)
-SAMOBOR  -  A.K. ZAGREB  (preko  Novaka I Rakitja)
-Polasci  iz  SAMOBORA (preko  Kerestinca):*9.20  *11.40  14.15  *21.00
-Polasci iz A.K. ZAGREB (preko  Kerestinca):7.40  *11.55  19.15  *21.30
+Polasci iz MALE GORICE:
+*4.45 5.05 6.25 6.50 8.10 *9.45 **10.55 ***12.30 13.05 14.10 15.10 15.55 *17.30 19.15 *21.30
+Polasci iz MOLVICA:
+*4.40 5.00 6.20 13.00NAPOMENA:
+ *vozi preko Brezja I Kerestinca do Podsuseda** vozi preko Brezja I Kerestinca do Crnomerca***polazi iz Brezja
+Polasci iz A.K. ZAGREB:
+6.00 7.20 9.00 *10.30 ***11.45 13.25 14.20 15.00 *16.10 16.45 *18.40 20.30 *22.45NAPOMENA:
+ * polazi iz Podsuseda I vozi preko Kerestinca I Brezja do M.Gorice.**vozi do Molvica.***polazi iz Crnomerca I vozi preko Kerestinca do Brezja.
+SAMOBOR - A.K. ZAGREB (preko Kerestinca)
+SAMOBOR - A.K. ZAGREB (preko Novaka I Rakitja)
+Polasci iz SAMOBORA (preko Kerestinca):
+*9.20 *11.40 14.15 *21.00
+Polasci iz A.K. ZAGREB (preko Kerestinca):
+7.40 *11.55 19.15 *21.30
 Polasci
-Polasci  iz  SAMOBORA (preko  Kerestinca):6.35 7.35 *9.20 *11.40  13.55  16.30  18.25  *21.00
-Polasci iz SAMOBORA (preko Novaka I Rakitja):*4.40  5.40  *6.35  7.30  *8.55  *9.45  *10.55  *12.05  12.40 13.55  *15,50  16.40  17.20 18.00  18.40  19.50  *20.35  *21.45  *22.15
-Polasci iz SAMOBORA (preko Novaka I Rakitja):*4.40  6.15  *6.35  7.15  *8.55  *9.45  *10.55  *12.05  13.30  14.20 15,15 *15,50  17.20  *20.35  *21.45  *22.15
+Polasci iz SAMOBORA (preko Kerestinca):
+6.35 7.35 *9.20 *11.40 13.55 16.30 18.25 *21.00
+Polasci iz SAMOBORA (preko Novaka I Rakitja):
+*4.40 5.40 *6.35 7.30 *8.55 *9.45 *10.55 *12.05 12.40 13.55 *15.50 16.40 17.20 18.00 18.40 19.50 *20.35 *21.45 *22.15
+Polasci iz SAMOBORA (preko Novaka I Rakitja):
+*4.40 6.15 *6.35 7.15 *8.55 *9.45 *10.55 *12.05 13.30 14.20 15.15 *15.50 17.20 *20.35 *21.45 *22.15
 Polasci
-Polasci iz LJUBLJANICE (prekoKerestinca):12.10 14.50 15.45  21.40
-Polasci iz A.K. ZAGREB (preko Novaka I Rakitja):*4.55  *5.40  6.30  *8.30  *9.35  *10.20  *11.35  *12.20  13.10  13.40  14.15  14.55  16.30  17.20  *18.00  *18.50  *19.35  *20.50  *22.35  *23.05  *23.45
-Polasci iz LJUBLJANICE(preko Novaka I Rakitja):5.05  5.55  7.05  7.40  8.40  9.50  10.35  11.50  12.35  13.55  14.20  15.20  16.05  16.45  18.15  19.05  19.50  21.05  22.45  23.15  23.55
-S  u  b  o  t  a :
+Polasci iz LJUBLJANICE (prekoKerestinca):
+12.10 14.50 15.45 21.40
+Polasci iz A.K. ZAGREB (preko Novaka I Rakitja):
+*4.55 *5.40 6.30 *8.30 *9.35 *10.20 *11.35 *12.20 13.10 13.40 14.15 14.55 16.30 17.20 *18.00 *18.50 *19.35 *20.50 *22.35 *23.05 *23.45
+Polasci iz LJUBLJANICE(preko Novaka I Rakitja):
+5.05 5.55 7.05 7.40 8.40 9.50 10.35 11.50 12.35 13.55 14.20 15.20 16.05 16.45 18.15 19.05 19.50 21.05 22.45 23.15 23.55
+S u b o t a :
 Polasci
-Polasci  iz   MALE  GORICE:4.45   *6.00  7.10  12.30  14.10  15.35
-Polasci  iz   MALE  GORICE:17.00 N  19.00  22.30
-Polasci  iz   MOLVICA:4.40  12.25
+Polasci iz MALE GORICE:
+4.45 *6.00 7.10 12.30 14.10 15.35
+Polasci iz MALE GORICE:
+17.00 N 19.00 22.30
+Polasci iz MOLVICA:
+4.40 12.25
 Polasci
-Polasci  iz  LJUBLJANICE:5.25  6.30  8.10  13.15  14.50  16.15
-Polasci  iz  Podsuseda;17.50  21.05 N  22.50 N
-NAPOMENA : N vozi preko Novaka I Rakitja         *polazi iz Brezja
-SAMOBOR  -  A.K. ZAGREB  (preko  Kerestinca) 
-Polasci  iz SAMOBORA  (preko  Kerestinca):
- 7.00  9.10  11.10  14.35  15.30  17.00  20.00  21.30  23.00
-Polasci iz A.K. ZAGREB (preko  Kerestinca):
-6.30  8.00  10.10  12.05  15.35  16.30  18.00  19.30  20.30  22.20
+Polasci iz LJUBLJANICE:
+5.25 6.30 8.10 13.15 14.50 16.15
+Polasci iz Podsuseda;17.50 21.05 N 22.50 N
+NAPOMENA : N vozi preko Novaka I Rakitja *polazi iz Brezja
+SAMOBOR - A.K. ZAGREB (preko Kerestinca) 
+Polasci iz SAMOBORA (preko Kerestinca):
+ 7.00 9.10 11.10 14.35 15.30 17.00 20.00 21.30 23.00
+Polasci iz A.K. ZAGREB (preko Kerestinca):
+6.30 8.00 10.10 12.05 15.35 16.30 18.00 19.30 20.30 22.20
 -svi autobusi voze preko Ljubljanice-
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz   MALE  GORICE:13.55  20.10
-Polasci  iz  A.K.  ZAGREB:13.10  19.30
-SAMOBOR  -  A.K. ZAGREB  (preko  Kerestinca)
-Polasci  iz  SAMOBORA (preko  Kerestinca):5.10  6.30  12.00  20.30  22.10
-Polasci iz A.K. ZAGREB (preko  Kerestinca):7.00  8.00  10.00  16.30  21.30  23.00
+N e d j e l j a i b l a g d a n i :
+Polasci iz MALE GORICE:
+13.55 20.10
+Polasci iz A.K. ZAGREB:
+13.10 19.30
+SAMOBOR - A.K. ZAGREB (preko Kerestinca)
+Polasci iz SAMOBORA (preko Kerestinca):
+5.10 6.30 12.00 20.30 22.10
+Polasci iz A.K. ZAGREB (preko Kerestinca):
+7.00 8.00 10.00 16.30 21.30 23.00
 -svi autobusi voze preko Ljubljanice-
 LJETNI VOZNI RED
 141 - SAMOBOR - Rakov Potok - JAGNJIC DOL
-R  a  d  n  i     d  a  n :
-Polasci  iz  SAMOBORA:*5.40  10.50  *12.00  12.45  15.15  20.10
-Polasci  iz  JAGNJIC  DOLA:6.00  7.15  8.30  11.25  13.15   20.50
+R a d n i d a n :
+Polasci iz SAMOBORA:
+*5.40 10.50 *12.00 12.45 15.15 20.10
+Polasci iz JAGNJIC DOLA:
+6.00 7.15 8.30 11.25 13.15 20.50
 NAPOMENA:
-  *  vozi  trasom:  SAMOBOR  -  SV. NEDELJA  -  BREZJE  -  uz  pilanu  -  JAGNJIC  DOL;**  polazi  iz  Male  Gorice.
-S  u  b  o  t  a :
-Polasci  iz  SAMOBORA:*5.35  8.00  10.45  12.50
-Polasci  iz  JAGNJIC  DOLA:5.55   8.35  11.25  13.30
-NAPOMENA:   *  vozi  trasom:  SAMOBOR  -  SV. NEDELJA  -  BREZJE  -  uz  pilanu  -  JAGNJIC DOL.
-Nedjeljom  i  blagdanom  ne  vozi !
+ * vozi trasom: SAMOBOR - SV. NEDELJA - BREZJE - uz pilanu - JAGNJIC DOL;** polazi iz Male Gorice.
+S u b o t a :
+Polasci iz SAMOBORA:
+*5.35 8.00 10.45 12.50
+Polasci iz JAGNJIC DOLA:
+5.55 8.35 11.25 13.30
+NAPOMENA: * vozi trasom: SAMOBOR - SV. NEDELJA - BREZJE - uz pilanu - JAGNJIC DOL.
+Nedjeljom i blagdanom ne vozi !
 142 - SAMOBOR - Klake - TERIHAJI
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:*4.00 **4.20 **5.40 8.40 11.00  12.30 ***12.50  14.20  15.45  17.30  20.25  22.15
-Polasci  iz  TERIHAJA:*4.20  5.05  6.20  9.15  11.30  13.10  **14.50  **16.15  18.00  20.55   22.35
-NAPOMENA:   
+R a d n i d a n :
+Polasci iz SAMOBORA:
+*4.00 **4.20 **5.40 8.40 11.00 12.30 ***12.50 14.20 15.45 17.30 20.25 22.15
+Polasci iz TERIHAJA:
+*4.20 5.05 6.20 9.15 11.30 13.10 **14.50 **16.15 18.00 20.55 22.35
+NAPOMENA: 
 *
 **
 ***
-vozi  do  Klaka (Naglici);vozi   preko  Galgova  i  Sv.  Martina.vozi do Molvica; 
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.25  6.05  9.05  11.00  12.30  14.15  15.30  19.00  22.15
-Polasci  iz  TERIHAJA:*5.15 6.30 9.40  11.30  13.10  *14.50  *16.00  19.30  22.40
-NAPOMENA:  * vozi  preko  Galgova  i  Sv.  Martina.
-N e d j e l j a     i     b l a g d a n i :
-Polasci
-Polasci  iz  SAMOBORA:8.30  11.00  16.30  19.30
-Polasci  iz  SAMOBORA:  7.20
-Polasci
-Polasci  iz  TERIHAJA:9.00  11.30  17.00  20.00
-Polasci  iz  KLADJA:  7.30
-143 - SAMOBOR - Rude - BRASLOVJE
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.05  *4.40  *5.20  *6.15  *7.00  *7.30  *8.20  9.15 *10.00 *11.10 12.00 *12.45 *14.20 15.00  *15.15  *16.15  *17.00  *18.20  *19.25  *20.50  *22.15  23.25
-Polasci  iz   RUDA:4.20  *5.00  *5.40  *6.40  *7.20  *8.00  *8.50   9.40  *10.30 *11.30  12.25  *13.15  *14.45  15.20  15.45  *16.35  *17.30  *18.45  *19.45   *21.20  *22.40   23.40
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.20  *5.00  *5.40  6.25  *7.05  7.50  *8.10  *9.15  10.15  11.00  *11.45  *12.45  *14.20  *15.15 *16.15  *17.20  *18.20  19.20  *20.30  *22.15  23.15
-Polasci  iz   RUDA:4.40  *5.20  *6.00  6.45  *7.30  8.15  *8.40  *9.45  10.40  11.20 *12.10  *13.10  *14.45 *15.45 *16.45 *17.45  18.50  19.45   *21.00  *22.35   23.30
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:5.10  6.00  *7.30  8.30  *9.00  *9.30  10.00  11.00  12.30  13.30  14.30  *15.30  16.30  17.35  *18.25  *20.05  21.25   22.15
-Polasci  iz   RUDA:5.30  6.30  *8.00  9.00  *9.30  *10.00  10.30  11.25  13.00  14.00  15.00  *16.00  18.05  *18.50  *20.25  21.50  22.35
-NAPOMENA:  *  vozi  do  Braslovja.
-144 - SAMOBOR - Smerovisce - LIPOVEC
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.45  5.45  6.50  9.15  12.00  14.15  15.20  17.00  20.20  22.20
-Polasci  iz   LIPOVCA:5.15  6.15  7.20  9.45  12.25  14.35  15.40  17.20  20.45  22.40
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.30  6.20  6.55  8.10  9.25  12.50  14.15  16.45  19.15  22.15
-Polasci  iz   LIPOVCA:4.55  6.40  7.20  8.35  9.50  13.15  14.40  17.10  19.45  22.35
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:7.00  9.20  10.30  12.50  15.30  17.30  19.15  20.45
-Polasci  iz   LIPOVCA:7.30  9.50  11.00  13.15  16.00  18.00  19.40  21.05
-145 - SAMOBOR - SLANI DOL
- R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.50  6.05 10.00 12.00  14.20  16.20   20.35  22.20
-Polasci  iz   SLANOG  DOLA:5.10  6.25 10.25 12.25  14.35  16.40   20.55  22.35
- S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.50  6.15   13.10  14.15    22.40
-Polasci  iz   SLANOG  DOLA:5.10  6.35  13.30  14.35  23.00
- N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:8.30  12.00  16.30
-Polasci  iz   SLANOG  DOLA:8.50  12.30  17.00
-146 - SAMOBOR - Otrusevec - VRHOVCAK
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:5.00 6.00 7.00 12.30 14.20  15.20  16.20  18.30  22.15
-Polasci  iz   VRHOVCAKA:5.20  6.20  7.15  13.00  14.40  15.40  16.40  18.50  22.30
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:5.00  6.10  8.00 11.40  12.50  14.15  15.20  18.30  22.15
-Polasci  iz  VRHOVCAKA:5.20  6.30  8.20  12.00  13.10  14.35  15.40  18.50  22.30
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:7.30  11.50  18.30
-Polasci  iz  VRHOVCAKA:7.50  12.10  19.00
-147 - SAMOBOR - BREGANA
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:**3.40  *3.50  4.20  **4.45  4.50  5.00  **5.10  5.15  5.30  5.45  6.15  6.30  6.45  **7.00  7.20  7.45  8.20   9.00  9.40  **10.00  10.40  11.15  11.45  12.15  **12.30  12.45 13.00  13.15  13.45  14.00  14.20  **14.40  15.00 15.20  15.35  **15.40  16.00  **16.20  16.35  17.00  17.30  18.00  18.40  19.20  20.00  **20.15  21.00  21.45  **22.15   23.15   23.45
-Polasci  iz   BREGANE:4.00  4.30  5.00  5.15  5.30  5.45  6.00  6.15  6.30  6.45  7.00  7.30  7.45  8.00  8.40   9.20  10.00  10.35  11.00  11.30  12.00  12.30  13.00  13.15  13.30  14.00  14.15  14.40   15.20  15.40   16.00  16.30  16.45  17.20  17.50  18.20  19.00  19.40  20.20  21.10  21.30  22.00  22.40  23.30  23.55
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:**3.40  *3.55  4.20  4.45  5.00  5.30  5.45  **5.50  6.00  6.15  6.30  6.45  7.00  7.15  7.30  7.45  8.15  8.45  9.15  9.45  **10.00  10.15  10.45  11.15  11.45  12.00  12.20  **12.40  12.50  13.15  13.30  14.00  14.15  14.30  **14.50  15.00  15.30  **15.35  16.00  16.30  17.00  17.40  18.20  19.00  19.40  20.20  21.15  **22.15  23.15
-Polasci  iz BREGANE:4.05  4.30  5.00  5.15  5.30  5.45  6.00  6.15  6.30  6.45  7.00  7.15  7.30  7.45  8.00  8.30  9.00  9.30  10.00  10.30  11.00  11.30  12.00  12.20  12.35  13.05  13.30  13.45  14.15  14.30  14.45  15.15  15.45  16.15  16.45  17.20  18.00  18.40  19.20  20.00  20.40  21.30  22.45  23.30
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:*4.20  5.15  6.00  6.40  **7.00  7.20  8.00  8.30  9.20  **9.30  10.00  11.00  11.40  12.20  **13.00  14.00  14.40  15.20  **15.50  16.00  16.40  17.20  **17.35  18.00  18.40  19.20  20.00  20.40  21.20  **22.15  23.15
-Polasci  iz BREGANE:4.30  5.30  6.20  7.00  7.40  8.15  8.45  9.15  9.40  10.20  10.40  11.20  12.00  12.40  13.40  14.20  15.00  15.40  16.20  17.00  17.40  18.20  19.00  19.40  20.20  21.00  21.40  22.40  23.30
-NAPOMENA:    *  vozi  ulicom Grada Wirgesa; **  vozi do Grdanjaca.
-148 - SAMOBOR - OTOK
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:5.00  6.05  7.00  10.15  12.20  14.20  15.40  19.30  22.15
-Polasci  iz   OTOKA:5.20  6.25  7.20  10.35  12.40  14.40  16.00  19.50  22.30
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.55  7.00  8.40  12.30  14.15  15.30  19.20  22.15
-Polasci  iz  OTOKA:5.15  7.25  9.00  12.50  14.35  15.50  19.40  22.30
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:8.30  12.00
-Polasci  iz  OTOKA:8.50  12.20
-149 - SAMOBOR - MEDSAVE
- R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.15  4.50  5.45  6.50  10.15  12.00  14.20  15.20  16.15  17.15  20.15  22.20
-Polasci  iz   MEDSAVA:4.35  5.05  6.05  7.20  10.35  12.25  14.55  15.45  16.35  17.35  20.35  22.40
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.45  7.00  10.50  12.30  14.15  16.40  22.25
-Polasci  iz  MEDSAVA:5.05  7.25  11.15  13.00  14.40  17.05  22.45
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:8.15  12.00  20.30
-Polasci  iz  MEDSAVA:8.35  12.20  20.50
-150 - SAMOBOR - Grdanjci - Krslin - GORNJA VAS
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:3.40  15.40
-Polasci  iz   GORNJE  VASI:5.00  17.00
-Polasci  iz   SAMOBORA:14.40
-Polasci  iz  KRSLINA:5.45  15.10
-Polasci  iz   SAMOBORA:4.45  5.10  7.00  10.00  12.30  16.20  20.15  22.15
-Polasci  iz  GRDANJACA:*5.10  5.50  6.00  7.20  10.25  13.15  17.10 18.00  21.00  22.35
-NAPOMENA:  *  od  Luga  vozi  betonskom  cestom.
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:3.40  15.35
-Polasci  iz  GORNJE  VASI:5.00  17.00
-Polasci  iz   SAMOBORA:14.50
-Polasci  iz  KRSLINA:5.50  15.15
-Polasci  iz   SAMOBORA:4.45  7.15  10.00  12.40  22.15
-Polasci  iz   GRDANJACA:5.10  6.00  7.40  10.25  13.20  22.35
-Nedjelja   i   blagdani:
-Polasci  iz  SAMOBORA:7.00  17.35
-Polasci  iz  GORNJE  VASI:8.15  19.00
-Polasci  iz   SAMOBORA:13.00  22.15
-Polasci  iz   GRDANJACA:9.05  13.30  19.50  22.40
-150A - SAMOBOR - Grdanjci - NORSIC SELO
-R a d n i    d a n :
-Polasci  iz  SAMOBORA:5.10  12.30  16.20  20.15
-Polasci
-Polasci  iz  NORSIC  SELA:5.40  13.00  17.00  20.45
-Polasci  iz  JARUSJA5.45  13.05 17.05  20.50 
+vozi do Klaka (Naglici);vozi preko Galgova i Sv. Martina.vozi do Molvica; 
 S u b o t a :
-Polasci  iz  SAMOBORA:5.50  12.40
+Polasci iz SAMOBORA:
+4.25 6.05 9.05 11.00 12.30 14.15 15.30 19.00 22.15
+Polasci iz TERIHAJA:
+*5.15 6.30 9.40 11.30 13.10 *14.50 *16.00 19.30 22.40
+NAPOMENA: * vozi preko Galgova i Sv. Martina.
+N e d j e l j a i b l a g d a n i :
 Polasci
-Polasci  iz  NORSIC  SELA:6.30  13.10
-Polasci  iz  JARUSJA:6.35  13.15
-Nedjelja  i  blagdani: 
-Polasci  iz  SAMOBORA:9.30  15.50
+Polasci iz SAMOBORA:
+8.30 11.00 16.30 19.30
+Polasci iz SAMOBORA:
+ 7.20
+Polasci
+Polasci iz TERIHAJA:
+9.00 11.30 17.00 20.00
+Polasci iz KLADJA:
+ 7.30
+143 - SAMOBOR - Rude - BRASLOVJE
+R a d n i d a n :
+Polasci iz SAMOBORA:
+4.05 *4.40 *5.20 *6.15 *7.00 *7.30 *8.20 9.15 *10.00 *11.10 12.00 *12.45 *14.20 15.00 *15.15 *16.15 *17.00 *18.20 *19.25 *20.50 *22.15 23.25
+Polasci iz RUDA:
+4.20 *5.00 *5.40 *6.40 *7.20 *8.00 *8.50 9.40 *10.30 *11.30 12.25 *13.15 *14.45 15.20 15.45 *16.35 *17.30 *18.45 *19.45 *21.20 *22.40 23.40
+S u b o t a :
+Polasci iz SAMOBORA:
+4.20 *5.00 *5.40 6.25 *7.05 7.50 *8.10 *9.15 10.15 11.00 *11.45 *12.45 *14.20 *15.15 *16.15 *17.20 *18.20 19.20 *20.30 *22.15 23.15
+Polasci iz RUDA:
+4.40 *5.20 *6.00 6.45 *7.30 8.15 *8.40 *9.45 10.40 11.20 *12.10 *13.10 *14.45 *15.45 *16.45 *17.45 18.50 19.45 *21.00 *22.35 23.30
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+5.10 6.00 *7.30 8.30 *9.00 *9.30 10.00 11.00 12.30 13.30 14.30 *15.30 16.30 17.35 *18.25 *20.05 21.25 22.15
+Polasci iz RUDA:
+5.30 6.30 *8.00 9.00 *9.30 *10.00 10.30 11.25 13.00 14.00 15.00 *16.00 18.05 *18.50 *20.25 21.50 22.35
+NAPOMENA: * vozi do Braslovja.
+144 - SAMOBOR - Smerovisce - LIPOVEC
+R a d n i d a n :
+Polasci iz SAMOBORA:
+4.45 5.45 6.50 9.15 12.00 14.15 15.20 17.00 20.20 22.20
+Polasci iz LIPOVCA:
+5.15 6.15 7.20 9.45 12.25 14.35 15.40 17.20 20.45 22.40
+S u b o t a :
+Polasci iz SAMOBORA:
+4.30 6.20 6.55 8.10 9.25 12.50 14.15 16.45 19.15 22.15
+Polasci iz LIPOVCA:
+4.55 6.40 7.20 8.35 9.50 13.15 14.40 17.10 19.45 22.35
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+7.00 9.20 10.30 12.50 15.30 17.30 19.15 20.45
+Polasci iz LIPOVCA:
+7.30 9.50 11.00 13.15 16.00 18.00 19.40 21.05
+145 - SAMOBOR - SLANI DOL
+ R a d n i d a n :
+Polasci iz SAMOBORA:
+4.50 6.05 10.00 12.00 14.20 16.20 20.35 22.20
+Polasci iz SLANOG DOLA:
+5.10 6.25 10.25 12.25 14.35 16.40 20.55 22.35
+ S u b o t a :
+Polasci iz SAMOBORA:
+4.50 6.15 13.10 14.15 22.40
+Polasci iz SLANOG DOLA:
+5.10 6.35 13.30 14.35 23.00
+ N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+8.30 12.00 16.30
+Polasci iz SLANOG DOLA:
+8.50 12.30 17.00
+146 - SAMOBOR - Otrusevec - VRHOVCAK
+R a d n i d a n :
+Polasci iz SAMOBORA:
+5.00 6.00 7.00 12.30 14.20 15.20 16.20 18.30 22.15
+Polasci iz VRHOVCAKA:
+5.20 6.20 7.15 13.00 14.40 15.40 16.40 18.50 22.30
+S u b o t a :
+Polasci iz SAMOBORA:
+5.00 6.10 8.00 11.40 12.50 14.15 15.20 18.30 22.15
+Polasci iz VRHOVCAKA:
+5.20 6.30 8.20 12.00 13.10 14.35 15.40 18.50 22.30
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+7.30 11.50 18.30
+Polasci iz VRHOVCAKA:
+7.50 12.10 19.00
+147 - SAMOBOR - BREGANA
+R a d n i d a n :
+Polasci iz SAMOBORA:
+**3.40 *3.50 4.20 **4.45 4.50 5.00 **5.10 5.15 5.30 5.45 6.15 6.30 6.45 **7.00 7.20 7.45 8.20 9.00 9.40 **10.00 10.40 11.15 11.45 12.15 **12.30 12.45 13.00 13.15 13.45 14.00 14.20 **14.40 15.00 15.20 15.35 **15.40 16.00 **16.20 16.35 17.00 17.30 18.00 18.40 19.20 20.00 **20.15 21.00 21.45 **22.15 23.15 23.45
+Polasci iz BREGANE:
+4.00 4.30 5.00 5.15 5.30 5.45 6.00 6.15 6.30 6.45 7.00 7.30 7.45 8.00 8.40 9.20 10.00 10.35 11.00 11.30 12.00 12.30 13.00 13.15 13.30 14.00 14.15 14.40 15.20 15.40 16.00 16.30 16.45 17.20 17.50 18.20 19.00 19.40 20.20 21.10 21.30 22.00 22.40 23.30 23.55
+S u b o t a :
+Polasci iz SAMOBORA:
+**3.40 *3.55 4.20 4.45 5.00 5.30 5.45 **5.50 6.00 6.15 6.30 6.45 7.00 7.15 7.30 7.45 8.15 8.45 9.15 9.45 **10.00 10.15 10.45 11.15 11.45 12.00 12.20 **12.40 12.50 13.15 13.30 14.00 14.15 14.30 **14.50 15.00 15.30 **15.35 16.00 16.30 17.00 17.40 18.20 19.00 19.40 20.20 21.15 **22.15 23.15
+Polasci iz BREGANE:
+4.05 4.30 5.00 5.15 5.30 5.45 6.00 6.15 6.30 6.45 7.00 7.15 7.30 7.45 8.00 8.30 9.00 9.30 10.00 10.30 11.00 11.30 12.00 12.20 12.35 13.05 13.30 13.45 14.15 14.30 14.45 15.15 15.45 16.15 16.45 17.20 18.00 18.40 19.20 20.00 20.40 21.30 22.45 23.30
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+*4.20 5.15 6.00 6.40 **7.00 7.20 8.00 8.30 9.20 **9.30 10.00 11.00 11.40 12.20 **13.00 14.00 14.40 15.20 **15.50 16.00 16.40 17.20 **17.35 18.00 18.40 19.20 20.00 20.40 21.20 **22.15 23.15
+Polasci iz BREGANE:
+4.30 5.30 6.20 7.00 7.40 8.15 8.45 9.15 9.40 10.20 10.40 11.20 12.00 12.40 13.40 14.20 15.00 15.40 16.20 17.00 17.40 18.20 19.00 19.40 20.20 21.00 21.40 22.40 23.30
+NAPOMENA: * vozi ulicom Grada Wirgesa; ** vozi do Grdanjaca.
+148 - SAMOBOR - OTOK
+R a d n i d a n :
+Polasci iz SAMOBORA:
+5.00 6.05 7.00 10.15 12.20 14.20 15.40 19.30 22.15
+Polasci iz OTOKA:
+5.20 6.25 7.20 10.35 12.40 14.40 16.00 19.50 22.30
+S u b o t a :
+Polasci iz SAMOBORA:
+4.55 7.00 8.40 12.30 14.15 15.30 19.20 22.15
+Polasci iz OTOKA:
+5.15 7.25 9.00 12.50 14.35 15.50 19.40 22.30
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+8.30 12.00
+Polasci iz OTOKA:
+8.50 12.20
+149 - SAMOBOR - MEDSAVE
+ R a d n i d a n :
+Polasci iz SAMOBORA:
+4.15 4.50 5.45 6.50 10.15 12.00 14.20 15.20 16.15 17.15 20.15 22.20
+Polasci iz MEDSAVA:
+4.35 5.05 6.05 7.20 10.35 12.25 14.55 15.45 16.35 17.35 20.35 22.40
+S u b o t a :
+Polasci iz SAMOBORA:
+4.45 7.00 10.50 12.30 14.15 16.40 22.25
+Polasci iz MEDSAVA:
+5.05 7.25 11.15 13.00 14.40 17.05 22.45
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+8.15 12.00 20.30
+Polasci iz MEDSAVA:
+8.35 12.20 20.50
+150 - SAMOBOR - Grdanjci - Krslin - GORNJA VAS
+R a d n i d a n :
+Polasci iz SAMOBORA:
+3.40 15.40
+Polasci iz GORNJE VASI:
+5.00 17.00
+Polasci iz SAMOBORA:
+14.40
+Polasci iz KRSLINA:
+5.45 15.10
+Polasci iz SAMOBORA:
+4.45 5.10 7.00 10.00 12.30 16.20 20.15 22.15
+Polasci iz GRDANJACA:
+*5.10 5.50 6.00 7.20 10.25 13.15 17.10 18.00 21.00 22.35
+NAPOMENA: * od Luga vozi betonskom cestom.
+S u b o t a :
+Polasci iz SAMOBORA:
+3.40 15.35
+Polasci iz GORNJE VASI:
+5.00 17.00
+Polasci iz SAMOBORA:
+14.50
+Polasci iz KRSLINA:
+5.50 15.15
+Polasci iz SAMOBORA:
+4.45 7.15 10.00 12.40 22.15
+Polasci iz GRDANJACA:
+5.10 6.00 7.40 10.25 13.20 22.35
+Nedjelja i blagdani:
+Polasci iz SAMOBORA:
+7.00 17.35
+Polasci iz GORNJE VASI:
+8.15 19.00
+Polasci iz SAMOBORA:
+13.00 22.15
+Polasci iz GRDANJACA:
+9.05 13.30 19.50 22.40
+150A - SAMOBOR - Grdanjci - NORSIC SELO
+R a d n i d a n :
+Polasci iz SAMOBORA:
+5.10 12.30 16.20 20.15
+Polasci
+Polasci iz NORSIC SELA:
+5.40 13.00 17.00 20.45
+Polasci iz JARUSJA5.45 13.05 17.05 20.50 
+S u b o t a :
+Polasci iz SAMOBORA:
+5.50 12.40
+Polasci
+Polasci iz NORSIC SELA:
+6.30 13.10
+Polasci iz JARUSJA:
+6.35 13.15
+Nedjelja i blagdani: 
+Polasci iz SAMOBORA:
+9.30 15.50
 Polasci 
-Polasci  iz  NORSIC  SELA:10.10 16.30
-Polasci  iz  JARUSJA:10.15   16.35
+Polasci iz NORSIC SELA:
+10.10 16.30
+Polasci iz JARUSJA:
+10.15 16.35
 151 - SAMOBOR - Sv. Nedjelja - ZAGREB (CRNOMEREC)
-R  a  d  n  i     d  a  n  :
-Polasci  iz  SAMOBORA:4.15  4.40  5.00  5.25  5.45  6.25  6.45  7.15  7.45    8.15  8.45  9.30  10.15  11.00  11.30  12.00  12.30  12.55  13.20  13.45  14.20  14.45  15.20 16.00    16.30  17.05  17.55  18.30  19.00  19.40  20.20  21.30    22.15
-Polasci  iz  CRNOMERCA:5.00  5.30  5.50  6.30  7.20  7.40  8.15  8.45  9.05  9.40  10.25  11.10  12.00  12.25  12.55  13.25  13.50  14.20  14.50  15.15  15.35  16.15  17.00  17.30  18.00  18.50  19.25  19.55  20.30  21.15  22.20  23.05
-  S  u  b  o  t  a:  
-Polasci  iz   SAMOBORA:4.15  4.55  5.25  5.50  6.15  6.35  6.55  7.20  7.45  8.30  9.30  10.30  11.30  12.30  13.20  14.30  15.30  16.30  17.30  18.30  19.30  20.30  21.20  22.15
-Polasci  iz  CRNOMERCA:4.55  5.35  6.05  6.35  7.00  7.30  8.00  8.30  8.50  9.30  10.30  11.30  12.30  13.20  14.25  15.30  16.30  17.30  18.30  19.30  20.30  21.20  22.10  23.00
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:*4.45  5.45  6.45  7.55  9.05  *10.15  11.25  *12.40  13.45  14.55  16.05  17.15  18.25  19.35  *20.45  *22.10
-Polasci  iz  CRNOMERCA:5.30  *6.40  7.50  9.05  10.15  11.20  *12.35  13.45  14.55  16.05  17.15  18.25  19.35  *20.45  22.00  *22.45
-NAPOMENA:  *  SAMOBOR – SV.NEDJELJA NOVAKI (VOJVODICEVOM)  – NOVAKI  (IGRALISTE) – RAKITJE – PODSUSED –– CRNOMEREC
+R a d n i d a n :
+Polasci iz SAMOBORA:
+4.15 4.40 5.00 5.25 5.45 6.25 6.45 7.15 7.45 8.15 8.45 9.30 10.15 11.00 11.30 12.00 12.30 12.55 13.20 13.45 14.20 14.45 15.20 16.00 16.30 17.05 17.55 18.30 19.00 19.40 20.20 21.30 22.15
+Polasci iz CRNOMERCA:
+5.00 5.30 5.50 6.30 7.20 7.40 8.15 8.45 9.05 9.40 10.25 11.10 12.00 12.25 12.55 13.25 13.50 14.20 14.50 15.15 15.35 16.15 17.00 17.30 18.00 18.50 19.25 19.55 20.30 21.15 22.20 23.05
+ S u b o t a: 
+Polasci iz SAMOBORA:
+4.15 4.55 5.25 5.50 6.15 6.35 6.55 7.20 7.45 8.30 9.30 10.30 11.30 12.30 13.20 14.30 15.30 16.30 17.30 18.30 19.30 20.30 21.20 22.15
+Polasci iz CRNOMERCA:
+4.55 5.35 6.05 6.35 7.00 7.30 8.00 8.30 8.50 9.30 10.30 11.30 12.30 13.20 14.25 15.30 16.30 17.30 18.30 19.30 20.30 21.20 22.10 23.00
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+*4.45 5.45 6.45 7.55 9.05 *10.15 11.25 *12.40 13.45 14.55 16.05 17.15 18.25 19.35 *20.45 *22.10
+Polasci iz CRNOMERCA:
+5.30 *6.40 7.50 9.05 10.15 11.20 *12.35 13.45 14.55 16.05 17.15 18.25 19.35 *20.45 22.00 *22.45
+NAPOMENA: * SAMOBOR - SV.NEDJELJA NOVAKI (VOJVODICEVOM) - NOVAKI (IGRALISTE) - RAKITJE - PODSUSED -- CRNOMEREC
 153 - SAMOBOR - Sv. Nedjelja - ZAGREB (LJUBLJANICA)
-R  a  d  n  i     d  a  n :
+R a d n i d a n :
 Polasci
-Polasci  iz   SAMOBORA:*4.10  *4.40  *5.00  *5.30  5.50  6.10  6.30  6.50  7.15  7.35 *8.00 *8.30 *8.55 *9.20 *9.50 *10.15 *10.40 *11.05 *11.30 *12.00  12.25 *12.50  13.25  13.55  *14.15  14.45 15.15 *15.40 16.15 *16.35 *17.05 *17.30 *17.55 *18.25 *18.55 *19.25 *20.10  *20.45  *21.10  *22.20 *23.00
-Polasci  preko  Novaka  i  Rakitja:*4.40  7.15  *8.55  *9.50  *11.05  *12.50  *14.15  *17.05  *17.55  *19.25  *20.10  *21.10  *22.20
-Polasci  preko  Kerestinca:6.30  7.35  *9.20  *11.30  *16.35  *18.25
-Polasci  iz  LJUBLJANICE:5.05  5.40  6.00  6.30  6.45  6.55  7.25  7.45  8.10  8.30 8.55  9.20  9.50  10.15  10.40  11.10  11.35  12.00  12.25 12.50 13.20 13.40 14.15 14.30  14.55  15.15  15.45 16.10 16.45 17.10 17.55 18.25 18.50 19.15 19.45 20.15 20.45 21.30 22.05  22.35  23.20  23.55
+Polasci iz SAMOBORA:
+*4.10 *4.40 *5.00 *5.30 5.50 6.10 6.30 6.50 7.15 7.35 *8.00 *8.30 *8.55 *9.20 *9.50 *10.15 *10.40 *11.05 *11.30 *12.00 12.25 *12.50 13.25 13.55 *14.15 14.45 15.15 *15.40 16.15 *16.35 *17.05 *17.30 *17.55 *18.25 *18.55 *19.25 *20.10 *20.45 *21.10 *22.20 *23.00
+Polasci preko Novaka i Rakitja:
+*4.40 7.15 *8.55 *9.50 *11.05 *12.50 *14.15 *17.05 *17.55 *19.25 *20.10 *21.10 *22.20
+Polasci preko Kerestinca:
+6.30 7.35 *9.20 *11.30 *16.35 *18.25
+Polasci iz LJUBLJANICE:
+5.05 5.40 6.00 6.30 6.45 6.55 7.25 7.45 8.10 8.30 8.55 9.20 9.50 10.15 10.40 11.10 11.35 12.00 12.25 12.50 13.20 13.40 14.15 14.30 14.55 15.15 15.45 16.10 16.45 17.10 17.55 18.25 18.50 19.15 19.45 20.15 20.45 21.30 22.05 22.35 23.20 23.55
 Polasci
-Polasci   preko  Rakitja  i  Novaka :5.05  6.00  6.55  9.20  10.15 11.35 12.25 13.20 14.15 15.15 16.45 17.55 18.50 19.45 20.45 21.30 22.35 23.20 23.55
-Polasci  preko  Kerestinca:12.00  14.55  15.45  19.15   22.05
-NAPOMENA:   *  autobusi  polaze  s  perona  za  ZAGREB  (autobusni  kolodvor);
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:
-**0.15 **3.15  4.10  4.50  5.10  5.40  6.00  6.40  7.00  7.20  7.45  8.15  8.40  9.10  9.45  10.15  10.40  11.10  11.45  12.15  12.35  12.50  13.05  13.40  14.15  14.35  15.05  15.30  16.00  16.30  17.00  17.30  18.00  18.30  19.00  19.30  20.00  20.50  21.30  22.15  23.00
-Polasci  preko  Novaka  i  Rakitja:  4.10  5.10  6.00  6.40 7.45  8.40  9.45  10.15  11.45  12.50  14.15 15.05 16.00  18.00  19.00  20.50  22.15
-Polasci  preko  Kerestinca:
-7.00  9.10  11.10  14.35  15.30  17.00   20.00   21.30   23.00 Polasci  iz  LJUBLJANICE:
-**0.35 **3.35   5.10  5.50  6.10  6.40  7.10  7.50  8.10  8.30  8.55  9.25  9.50  10.20  10.55  11.25  11.50  12.20  12.55  13.25  13.45  14.00  14.15  14.40  15.15  15.45  16.15  16.40  17.10  17.40  18.10  18.40  19.10  19.40  20.10  20.40  21.10  21.55  22.30    23.15    23.50
-Polasci  preko  Novaka  i  Rakitja:  6.10  7.50  9.25  10.55 11.25  11.50  12.55  13.45  14.40  15.15  17.10  18.40  20.10   21.10   23.50
-Polasci  preko  Kerestinca:
-6.40  8.10  10.20  12.20  15.45  16.40  18.10  19.40  20.40   22.30
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:
-**0.15  **3.15  4.40  5.10  6.00  6.30  7.00  7.30  8.00  8.30  9.00  9.30  10.00  10.30  11.00  11.30  12.00  12.30  13.00  13.30  14.00  14.30  15.00  15.30  16.00  16.30  17.00  17.30  18.00  18.30  19.00  19.30  20.00  20.30  21.00  21.30  22.10  23.00
-Polasci  preko  Novaka  i  Rakitja:
-4.40   6.00  7.00   8.00   9.30  11.00  12.30  13.30  14.30  16.00  17.00  18.00   19.00  21.00   23.00
-Polasci  preko  Kerestinca:
-5.10   6.30   12.00   20.30   22.10 Polasci  iz  LJUBLJANICE:
-**0.35  **3.35  5.35  6.10  7.10  7.40  8.10  8.40  9.10  9.40  10.10  10.40  11.10  11.40  12.10  12.40  13.10  13.40  14.10  14.40  15.10  15.40  16.10  16.40  17.10  17.40  18.10  18.40  19.10  19.40  20.10  20.40  21.10  21.40  22.10    22.40  23.10    23.50
-Polasci  preko  Novaka  i  Rakitja:
-6.10  7.40  9.10  10.40  12.10  13.10  14.40  16.10  17.40  18.40   19.40  20.40   22.10   23.50
-Polasci  preko  Kerestinca:
-7.10   8.10   10.10   16.40   21.40   23.10
+Polasci preko Rakitja i Novaka :
+5.05 6.00 6.55 9.20 10.15 11.35 12.25 13.20 14.15 15.15 16.45 17.55 18.50 19.45 20.45 21.30 22.35 23.20 23.55
+Polasci preko Kerestinca:
+12.00 14.55 15.45 19.15 22.05
+NAPOMENA: * autobusi polaze s perona za ZAGREB (autobusni kolodvor);
+S u b o t a :
+Polasci iz SAMOBORA:
+**0.15 **3.15 4.10 4.50 5.10 5.40 6.00 6.40 7.00 7.20 7.45 8.15 8.40 9.10 9.45 10.15 10.40 11.10 11.45 12.15 12.35 12.50 13.05 13.40 14.15 14.35 15.05 15.30 16.00 16.30 17.00 17.30 18.00 18.30 19.00 19.30 20.00 20.50 21.30 22.15 23.00
+Polasci preko Novaka i Rakitja: 4.10 5.10 6.00 6.40 7.45 8.40 9.45 10.15 11.45 12.50 14.15 15.05 16.00 18.00 19.00 20.50 22.15
+Polasci preko Kerestinca:
+7.00 9.10 11.10 14.35 15.30 17.00 20.00 21.30 23.00 Polasci iz LJUBLJANICE:
+**0.35 **3.35 5.10 5.50 6.10 6.40 7.10 7.50 8.10 8.30 8.55 9.25 9.50 10.20 10.55 11.25 11.50 12.20 12.55 13.25 13.45 14.00 14.15 14.40 15.15 15.45 16.15 16.40 17.10 17.40 18.10 18.40 19.10 19.40 20.10 20.40 21.10 21.55 22.30 23.15 23.50
+Polasci preko Novaka i Rakitja: 6.10 7.50 9.25 10.55 11.25 11.50 12.55 13.45 14.40 15.15 17.10 18.40 20.10 21.10 23.50
+Polasci preko Kerestinca:
+6.40 8.10 10.20 12.20 15.45 16.40 18.10 19.40 20.40 22.30
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+**0.15 **3.15 4.40 5.10 6.00 6.30 7.00 7.30 8.00 8.30 9.00 9.30 10.00 10.30 11.00 11.30 12.00 12.30 13.00 13.30 14.00 14.30 15.00 15.30 16.00 16.30 17.00 17.30 18.00 18.30 19.00 19.30 20.00 20.30 21.00 21.30 22.10 23.00
+Polasci preko Novaka i Rakitja:
+4.40 6.00 7.00 8.00 9.30 11.00 12.30 13.30 14.30 16.00 17.00 18.00 19.00 21.00 23.00
+Polasci preko Kerestinca:
+5.10 6.30 12.00 20.30 22.10 Polasci iz LJUBLJANICE:
+**0.35 **3.35 5.35 6.10 7.10 7.40 8.10 8.40 9.10 9.40 10.10 10.40 11.10 11.40 12.10 12.40 13.10 13.40 14.10 14.40 15.10 15.40 16.10 16.40 17.10 17.40 18.10 18.40 19.10 19.40 20.10 20.40 21.10 21.40 22.10 22.40 23.10 23.50
+Polasci preko Novaka i Rakitja:
+6.10 7.40 9.10 10.40 12.10 13.10 14.40 16.10 17.40 18.40 19.40 20.40 22.10 23.50
+Polasci preko Kerestinca:
+7.10 8.10 10.10 16.40 21.40 23.10
 NAPOMENA: 
-* subotom i nedjeljom svi autobusi polaze s perona za ZAGREB (autobusni  kolodvor);
-**  vozi  trasom  nocne  linije:   A.K. SAMOBOR ; SV.NEDELJA ; PODSUSED  (veza na nocne linije ZET-a).
+* subotom i nedjeljom svi autobusi polaze s perona za ZAGREB (autobusni kolodvor);
+** vozi trasom nocne linije: A.K. SAMOBOR ; SV.NEDELJA ; PODSUSED (veza na nocne linije ZET-a).
 155 - SAMOBOR - Sv. Nedjelja - ZAGREB (AUTOBUSNI KOLODVOR)
-R  a  d  n  i     d  a  n :
+R a d n i d a n :
 Polasci
-Polasci  iz   SAMOBORA:*4.10  *4.40  *5.00  *5.30  5.50 6.20  6.40  6.50  7.10  7.35  *8.00 *8.30  *8.55  *9.20  *9.50  *10.15 *10.40  *11.05  *11.30  *12.00  *12.25  *12.50  13.20  13.50 *14.15  15.05  15.30  *15.40 16.00 *16.35  *17.05  *17.30  *17.55 *18.25  *18.55  *19.25  *20.10 *20.45  *21.10  *22.20  *23.00
-Polasci  preko  Novaka  i  Rakitja:*4.40  5.50  6.40  7.35  *8.55  *9.50  *11.05  *12.50  *14.15 16.00   *17.05   *17.55   *19.25   *20.10   *21.10   *22.20
-Polasci  preko  Kerestinca:*9.20  *11.30  *16.35  *18.25
+Polasci iz SAMOBORA:
+*4.10 *4.40 *5.00 *5.30 5.50 6.20 6.40 6.50 7.10 7.35 *8.00 *8.30 *8.55 *9.20 *9.50 *10.15 *10.40 *11.05 *11.30 *12.00 *12.25 *12.50 13.20 13.50 *14.15 15.05 15.30 *15.40 16.00 *16.35 *17.05 *17.30 *17.55 *18.25 *18.55 *19.25 *20.10 *20.45 *21.10 *22.20 *23.00
+Polasci preko Novaka i Rakitja:
+*4.40 5.50 6.40 7.35 *8.55 *9.50 *11.05 *12.50 *14.15 16.00 *17.05 *17.55 *19.25 *20.10 *21.10 *22.20
+Polasci preko Kerestinca:
+*9.20 *11.30 *16.35 *18.25
 Polasci
-Polasci  iz  ZAGREBA  (a.k.):*4.55  *5.30  *5.50  6.25  *6.45  7.20  7.40  7.50  8.10  *8.40  *9.05  *9.35  *10. 00  *10.25  *10.55  *11.20  *11.45  *12.10  *12.35  *13.05  *13.25  *14.00  14.25  *15.00  15.15  15.45  16.10  *16.30  16.45  17.05  *17.40  *18.10  *18.35  *19.00  *19.30  *20.00  *20.30  *21.15  *21.50  *22.25   *23.10   *23.45
-Polasci  preko  Novaka  i  Rakitja:  *4.55  *5.50  *6.45   *9.05  *10.00  *11.20  *12.10  *13.05  *14.00  *15.00  *16.30  17.05  *17.40  *18.35  *19.30  *20.30  *21.15  *22.25   *23.10   *23.45
-Polasci  preko  Kerestinca: 8.10  *11.45  *19.00  *21.50
-NAPOMENA:   *   vozi  preko  Ljubljanice
-S  u  b  o  t  a :
+Polasci iz ZAGREBA (a.k.):
+*4.55 *5.30 *5.50 6.25 *6.45 7.20 7.40 7.50 8.10 *8.40 *9.05 *9.35 *10. 00 *10.25 *10.55 *11.20 *11.45 *12.10 *12.35 *13.05 *13.25 *14.00 14.25 *15.00 15.15 15.45 16.10 *16.30 16.45 17.05 *17.40 *18.10 *18.35 *19.00 *19.30 *20.00 *20.30 *21.15 *21.50 *22.25 *23.10 *23.45
+Polasci preko Novaka i Rakitja:
+ *4.55 *5.50 *6.45 *9.05 *10.00 *11.20 *12.10 *13.05 *14.00 *15.00 *16.30 17.05 *17.40 *18.35 *19.30 *20.30 *21.15 *22.25 *23.10 *23.45
+Polasci preko Kerestinca:
+ 8.10 *11.45 *19.00 *21.50
+NAPOMENA: * vozi preko Ljubljanice
+S u b o t a :
 Polasci
-Polasci  iz   SAMOBORA:**0.15   **3.15  4.10  4.50  5.10  5.40  6.00  6.40  7.00  7.20  7.45  8.15  8.40  9.10  9.45  10.15  10.40  11.10  11.45  12.15  12.35  12.50  13.05  13.40  14.15  14.35  15.05  15.30  16.00  16.30  17.00  17.30  18.00  18.30  19.00  19.30  20.00  20.50  21.30  22.15  23.00
-Polasci  preko  Novaka  i  Rakitja:4.10  5.10  6.00  6.40  7.45  8.40  9.45  10.15  11.45  12.50  14.15  15.05  16.00  18.00  19.00  20.50  22.15
-Polasci  preko  Kerestinca:7.00  9.10  11.10  14.35  15.30  17.00  20.00  21.30  23.00
+Polasci iz SAMOBORA:
+**0.15 **3.15 4.10 4.50 5.10 5.40 6.00 6.40 7.00 7.20 7.45 8.15 8.40 9.10 9.45 10.15 10.40 11.10 11.45 12.15 12.35 12.50 13.05 13.40 14.15 14.35 15.05 15.30 16.00 16.30 17.00 17.30 18.00 18.30 19.00 19.30 20.00 20.50 21.30 22.15 23.00
+Polasci preko Novaka i Rakitja:
+4.10 5.10 6.00 6.40 7.45 8.40 9.45 10.15 11.45 12.50 14.15 15.05 16.00 18.00 19.00 20.50 22.15
+Polasci preko Kerestinca:
+7.00 9.10 11.10 14.35 15.30 17.00 20.00 21.30 23.00
 Polasci
-Polasci  iz  ZAGREBA  (a.k.):**0.35  **3.35  5.00  5.40  6.00  6.30  7.00  7.40  8.00  8.20  8.45  9.15  9.40  10.10  10.45  11.15  11.40  12.05  12.40  13.15  13.35  13.50  14.05  14.30  15.05  15.35  16.05  16.30  17.00  17.30  18.00  18.30  19.00  19.30  20.00  20.30  21.00  21.45  22.20  23.05  23.45
-Polasci  preko  Novaka  i  Rakitja:6.00  7.40  9.15  10.45  11.15  11.40  12.40  13.35  14.30  15.05  17.00  18.30  20.00  21.00  23.45
-Polasci  preko  Kerestinca:6.30  8.00  10.10  12.05  15.35  16.30  18.00  19.30       20.30  22.20
-N e d j e l j a     i     b l a g d a n i :
+Polasci iz ZAGREBA (a.k.):
+**0.35 **3.35 5.00 5.40 6.00 6.30 7.00 7.40 8.00 8.20 8.45 9.15 9.40 10.10 10.45 11.15 11.40 12.05 12.40 13.15 13.35 13.50 14.05 14.30 15.05 15.35 16.05 16.30 17.00 17.30 18.00 18.30 19.00 19.30 20.00 20.30 21.00 21.45 22.20 23.05 23.45
+Polasci preko Novaka i Rakitja:
+6.00 7.40 9.15 10.45 11.15 11.40 12.40 13.35 14.30 15.05 17.00 18.30 20.00 21.00 23.45
+Polasci preko Kerestinca:
+6.30 8.00 10.10 12.05 15.35 16.30 18.00 19.30 20.30 22.20
+N e d j e l j a i b l a g d a n i :
 Polasci
-Polasci  iz  SAMOBORA:**0.15  **3.15  4.40  5.10  6.00  6.30  7.00  7.30  8.00  8.30  9.00  9.30  10.00  10.30  11.00  11.30  12.00  12.30  13.00  13.30  14.00  14.30  15.00  15.30  16.00  16.30  17.00  17.30  18.00  18.30  19.00  19.30  20.00  20.30  21.00  21.30  22.10  23.00
-Polasci  preko  Novaka  i  Rakitja:4.40  6.00  7.00  8.00  9.30  11.00  12.30  13.30  14.30  16.00  17.00  18.00  19.00  21.00  23.00
-Polasci  preko  Kerestinca:5.10  6.30  12.00  20.30  22.10
+Polasci iz SAMOBORA:
+**0.15 **3.15 4.40 5.10 6.00 6.30 7.00 7.30 8.00 8.30 9.00 9.30 10.00 10.30 11.00 11.30 12.00 12.30 13.00 13.30 14.00 14.30 15.00 15.30 16.00 16.30 17.00 17.30 18.00 18.30 19.00 19.30 20.00 20.30 21.00 21.30 22.10 23.00
+Polasci preko Novaka i Rakitja:
+4.40 6.00 7.00 8.00 9.30 11.00 12.30 13.30 14.30 16.00 17.00 18.00 19.00 21.00 23.00
+Polasci preko Kerestinca:
+5.10 6.30 12.00 20.30 22.10
 Polasci
-Polasci  iz  ZAGREBA  (a.k.):**0.35  **3.35  5.25  6.00  7.00  7.30  8.00  8.30  9.00  9.30  10.00  10.30  11.00  11.30  12.00  12.30  13.00  13.30  14.00  14.30  15.00  15.30  16.00  16.30  17.00  17.30  18.00  18.30  19.00  19.30  20.00  20.30  21.00  21.30  22.00   22.30  23.00   23.45
-Polasci  preko  Novaka  i  Rakitja:6.00  7.30  9.00  10.30  12.00  13.00  14.30  16.00  17.30  18.30  19.30  20.30  22.00  23.45
-Polasci  preko  Kerestinca:7.00  8.00  10.00  16.30  21.30  23.00
+Polasci iz ZAGREBA (a.k.):
+**0.35 **3.35 5.25 6.00 7.00 7.30 8.00 8.30 9.00 9.30 10.00 10.30 11.00 11.30 12.00 12.30 13.00 13.30 14.00 14.30 15.00 15.30 16.00 16.30 17.00 17.30 18.00 18.30 19.00 19.30 20.00 20.30 21.00 21.30 22.00 22.30 23.00 23.45
+Polasci preko Novaka i Rakitja:
+6.00 7.30 9.00 10.30 12.00 13.00 14.30 16.00 17.30 18.30 19.30 20.30 22.00 23.45
+Polasci preko Kerestinca:
+7.00 8.00 10.00 16.30 21.30 23.00
 NAPOMENA: 
-subotom  i  nedjeljom  svi  autobusi   voze  preko  Ljubljanice;
-**  vozi  trasom  nocne  linije:  A.K. SAMOBOR ; SV.NEDELJA ; PODSUSED (veza na nocne linije ZET-a).
+subotom i nedjeljom svi autobusi voze preko Ljubljanice;
+** vozi trasom nocne linije: A.K. SAMOBOR ; SV.NEDELJA ; PODSUSED (veza na nocne linije ZET-a).
 156 - SAMOBOR - Strmec - ZAGREB (CRNOMEREC)
-R  a  d  n  i     d  a  n  :
-Polasci  iz   SAMOBORA:4.20  4.45  5.15  5.40  6.10  6.30 7.05  7.30  8.10  9.00  9.45 10.20 11.00  11.45  12.20  12.50  13.20  13.45  14.20  14.50  15.20  15.50  16.20  17.00  17.40  18.20  18.55  19.30  20.10  20.50  21.10  22.20  22.40
-Polasci  iz  CRNOMERCA:5.10  5.35  6.10  6.35  7.10  7.30  8.05  8.30  9.15  10.00  10.45  11.20  11.55  12.40  13.20  13.50  14.25  14.45  15.20  15.50  16.30  17.10  18.00  18.30  19.20  19.50  20.20  21.05  21.40  22.15  23.15  23.35
-  S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.20  4.45  5.15  5.40  6.05  6.25  6.45  7.10  7.35  8.00  8.25  8.50  9.10  9.35  10.00  10.30  10.55  11.25  12.00  12.25  13.00  13.30  13.50  14.20  15.00  15.30  16.00  17.00  18.00  19.00  20.00  21.00  22.20
-Polasci  iz  CRNOMERCA:5.05   5.25   5.55   6.25  6.50  7.10  7.30  8.00  8.25  8.50  9.15  9.40  10.05  10.30  10.50  11.15  11.40  12.10   12.45  13.10  13.40  14.15  14.35  15.00  15.40  16.15   17.00  18.00  19.00  20.00  21.00  22.25  23.15
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:4.45  5.15  6.10  7.20  8.30  9.40  10.50  12.00  13.10  14.20  15.30  16.40  17.50  19.00  20.10  21.20  22.15
-Polasci  iz  CRNOMERCA:5.30  6.15  7.20  8.30  9.40  10.50  12.00  13.10  14.20  15.30  16.40  17.50  19.00  20.10  21.15  22.20  23.00
+R a d n i d a n :
+Polasci iz SAMOBORA:
+4.20 4.45 5.15 5.40 6.10 6.30 7.05 7.30 8.10 9.00 9.45 10.20 11.00 11.45 12.20 12.50 13.20 13.45 14.20 14.50 15.20 15.50 16.20 17.00 17.40 18.20 18.55 19.30 20.10 20.50 21.10 22.20 22.40
+Polasci iz CRNOMERCA:
+5.10 5.35 6.10 6.35 7.10 7.30 8.05 8.30 9.15 10.00 10.45 11.20 11.55 12.40 13.20 13.50 14.25 14.45 15.20 15.50 16.30 17.10 18.00 18.30 19.20 19.50 20.20 21.05 21.40 22.15 23.15 23.35
+ S u b o t a :
+Polasci iz SAMOBORA:
+4.20 4.45 5.15 5.40 6.05 6.25 6.45 7.10 7.35 8.00 8.25 8.50 9.10 9.35 10.00 10.30 10.55 11.25 12.00 12.25 13.00 13.30 13.50 14.20 15.00 15.30 16.00 17.00 18.00 19.00 20.00 21.00 22.20
+Polasci iz CRNOMERCA:
+5.05 5.25 5.55 6.25 6.50 7.10 7.30 8.00 8.25 8.50 9.15 9.40 10.05 10.30 10.50 11.15 11.40 12.10 12.45 13.10 13.40 14.15 14.35 15.00 15.40 16.15 17.00 18.00 19.00 20.00 21.00 22.25 23.15
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+4.45 5.15 6.10 7.20 8.30 9.40 10.50 12.00 13.10 14.20 15.30 16.40 17.50 19.00 20.10 21.20 22.15
+Polasci iz CRNOMERCA:
+5.30 6.15 7.20 8.30 9.40 10.50 12.00 13.10 14.20 15.30 16.40 17.50 19.00 20.10 21.15 22.20 23.00
 157 - SAMOBOR - Sv. Martin - GALGOVO
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:**4.20  **5.00  **5.40   6.50   12.10  *14.20  *15.45
+R a d n i d a n :
+Polasci iz SAMOBORA:
+**4.20 **5.00 **5.40 6.50 12.10 *14.20 *15.45
 Polasci
-Polasci  iz  GALGOVA:*4.50  *6.05   7.20   8.05  **15.05  **16.30  **17.40
-Polasci  iz  SV.  MARTINA:*4.45  *6.00  7.15  8.10  15.10  16.35  17.45
-Polasci  iz  PODGRA?A:7.10
-NAPOMENA:    *  vozi  preko  Terihaja;
-**  vozi  preko  Sv. Martina;
- S  u  b  o  t  a :
+Polasci iz GALGOVA:
+*4.50 *6.05 7.20 8.05 **15.05 **16.30 **17.40
+Polasci iz SV. MARTINA:
+*4.45 *6.00 7.15 8.10 15.10 16.35 17.45
+Polasci iz PODGRA?A:
+7.10
+NAPOMENA: * vozi preko Terihaja;
+** vozi preko Sv. Martina;
+ S u b o t a :
 Polasci
-Polasci  iz   SAMOBORA:4.25  7.05  11.55  12.35   *14.15  *15.30
-Polasci  za  Sv. Martin:4.25  7.05  11.55  12.35
-Polasci iz SAMOBORA za Podgrade:4.25  7.05  11.55  12.35
+Polasci iz SAMOBORA:
+4.25 7.05 11.55 12.35 *14.15 *15.30
+Polasci za Sv. Martin:
+4.25 7.05 11.55 12.35
+Polasci iz SAMOBORA za Podgrade:
+4.25 7.05 11.55 12.35
 Polasci
-Polasci  iz  GALGOVA:*4.55  7.30  7.50  12.30  15.05  16.15  **17.00
-Polasci  iz  SV.  MARTINA:4.45  7.25  12.25  17.05
-Polasci  iz  PODGRA?A:4.45  7.25  12.25
-NAPOMENA:    *  vozi  preko  Terihaja; **  vozi  preko  Sv. Martina.
-N e d j e l j o m      i     b l a g d a n o m     n e   v o z i   !
+Polasci iz GALGOVA:
+*4.55 7.30 7.50 12.30 15.05 16.15 **17.00
+Polasci iz SV. MARTINA:
+4.45 7.25 12.25 17.05
+Polasci iz PODGRA?A:
+4.45 7.25 12.25
+NAPOMENA: * vozi preko Terihaja; ** vozi preko Sv. Martina.
+N e d j e l j o m i b l a g d a n o m n e v o z i !
 158 - SAMOBOR - Cerje - BUKOVJE
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.50  5.45  12.45  14.15  16.10  19.25  22.15
-Polasci  iz  BUKOVJA:5.15  6.15  13.15  14.45  16.40  20.00  22.40
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.50  6.00  11.10  12.40  14.15  15.25  22.15
-Polasci  iz  BUKOVJA:5.15  6.25  11.40  13.10  14.50  15.55  22.40
- N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:7.30   21.10
-Polasci  iz  BUKOVJA:8.00   21.40
+R a d n i d a n :
+Polasci iz SAMOBORA:
+4.50 5.45 12.45 14.15 16.10 19.25 22.15
+Polasci iz BUKOVJA:
+5.15 6.15 13.15 14.45 16.40 20.00 22.40
+S u b o t a :
+Polasci iz SAMOBORA:
+4.50 6.00 11.10 12.40 14.15 15.25 22.15
+Polasci iz BUKOVJA:
+5.15 6.25 11.40 13.10 14.50 15.55 22.40
+ N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+7.30 21.10
+Polasci iz BUKOVJA:
+8.00 21.40
 159 - ZAGREB (SAVSKI MOST) - Galgovo - DRECNIK / SV. MARTIN
-R  a  d  n  i     d  a  n :
+R a d n i d a n :
 Polasci
-Polasci  sa  SAVSKOG  MOSTA:4.30K  5.40 6.25  7.30  8.10  9.45K  11.20K  12.30 13.20  14.25  15.10  15.50  16.30  17.25K  18.05K  19.20  20.35  22.05K  23.30K
-Polasci  za  Drecnik:4.30K  5.40  6.25  11.20K  12.30  14.25  15.50 17.25K  19.20  20.35  23.30K
-Polasci  za  Sv.  Martin:7.30  *9.45K  *11.20 K  13.20  *15.10  16.30 17.25 K *18.05 K   23.30 KNAPOMENA: * vozi do PodgradaK ; polazi od Korencica
+Polasci sa SAVSKOG MOSTA:
+4.30K 5.40 6.25 7.30 8.10 9.45K 11.20K 12.30 13.20 14.25 15.10 15.50 16.30 17.25K 18.05K 19.20 20.35 22.05K 23.30K
+Polasci za Drecnik:
+4.30K 5.40 6.25 11.20K 12.30 14.25 15.50 17.25K 19.20 20.35 23.30K
+Polasci za Sv. Martin:
+7.30 *9.45K *11.20 K 13.20 *15.10 16.30 17.25 K *18.05 K 23.30 KNAPOMENA:
+ * vozi do PodgradaK ; polazi od Korencica
 Polasci
-Polasci  iz  GALGOVA:4.15K  5.00  5.45  6.40  7.20  8.55K 10.15 K  11.50 12.40  13.20  14.00 15.10  15.55  16.35K  17.40K 18.30   20.05   21.15 K   22.20 K
-Polasci  iz  Drecnika:4.10K  4.55  5.40  6.30  7.10  11.35  13.10  15.05  16.30K  20.00  21.05K
-Polasci  iz  Sv.  Martina:4.00K  *5.30  *10.10K  *11.45  *12.35  13.55  *15.50  17.35K  18.25NAPOMENA: K ; vozi do Korencica
-S  u  b  o  t  a :
+Polasci iz GALGOVA:
+4.15K 5.00 5.45 6.40 7.20 8.55K 10.15 K 11.50 12.40 13.20 14.00 15.10 15.55 16.35K 17.40K 18.30 20.05 21.15 K 22.20 K
+Polasci iz Drecnika:
+4.10K 4.55 5.40 6.30 7.10 11.35 13.10 15.05 16.30K 20.00 21.05K
+Polasci iz Sv. Martina:
+4.00K *5.30 *10.10K *11.45 *12.35 13.55 *15.50 17.35K 18.25NAPOMENA:
+ K ; vozi do Korencica
+S u b o t a :
 Polasci
-Polasci  sa  SAVSKOG  MOSTA:**5.10  **5.40  6.40  7.15  7.55  9.15  10.35  11.50  13.10  13.45  14.20  15.10  15.30  16.30  17.45K  18.30K  19.30K  20.30K  22.45K
-Polasci  za  Drecnik:5.10  **5.40  7.55  10.35  11.50 14.20  15.30  K17.45K18.30 K19.30  K20.30  K22.45
-Polasci  za  Sv.  Martin:*5.10 **5.40   7.15  9.15  *13.45  *15.10   16.30    K17.45  K18.30  K 19.30  K 20.30 K 22.45NAPOMENA:  *  vozi  do  Podgrada
+Polasci sa SAVSKOG MOSTA:
+**5.10 **5.40 6.40 7.15 7.55 9.15 10.35 11.50 13.10 13.45 14.20 15.10 15.30 16.30 17.45K 18.30K 19.30K 20.30K 22.45K
+Polasci za Drecnik:
+5.10 **5.40 7.55 10.35 11.50 14.20 15.30 K17.45K18.30 K19.30 K20.30 K22.45
+Polasci za Sv. Martin:
+*5.10 **5.40 7.15 9.15 *13.45 *15.10 16.30 K17.45 K18.30 K 19.30 K 20.30 K 22.45NAPOMENA:
+ * vozi do Podgrada
 K ; polazi od Korencica
 Polasci
-Polasci  iz  GALGOVA:4.35  5.00  5.55  6.30  7.15  8.45  10.05  11.20  12.40  13.10  13.45  14.25  15.00  15.55  16.20K  18.15K  19.05K  20.20K  21.50K
-Polasci  iz  Drecnika:4.30  5.50  6.25  8.35  11.15  12.30  14.55  16.10 K 18.05K  19.00 K  20.05 K   21.45 K
-Polasci  iz  Sv.  Martina:**4.20  *5.40 *6.15  10.00  *13.05  *14.20  *15.50  *18.10K  *18.50 K  *20.15 K   *21.35 KNAPOMENA:  *  polazi  iz  Podgrada
+Polasci iz GALGOVA:
+4.35 5.00 5.55 6.30 7.15 8.45 10.05 11.20 12.40 13.10 13.45 14.25 15.00 15.55 16.20K 18.15K 19.05K 20.20K 21.50K
+Polasci iz Drecnika:
+4.30 5.50 6.25 8.35 11.15 12.30 14.55 16.10 K 18.05K 19.00 K 20.05 K 21.45 K
+Polasci iz Sv. Martina:
+**4.20 *5.40 *6.15 10.00 *13.05 *14.20 *15.50 *18.10K *18.50 K *20.15 K *21.35 KNAPOMENA:
+ * polazi iz Podgrada
 K ; vozi do Korencica
-Trasa linije**: Galgovo ; Drecnik – Purgarija – Podgrade – Sv.Martin – Galgovo,  zavisi dali prije ide preko Drecnika ili Svetog Martina.
-N e d j e l j a     i     b l a g d a n i :
+Trasa linije**: Galgovo ; Drecnik - Purgarija - Podgrade - Sv.Martin - Galgovo. zavisi dali prije ide preko Drecnika ili Svetog Martina.
+N e d j e l j a i b l a g d a n i :
 Polasci
-Polasci  sa  SAVSKOG  MOSTA:7.30  9.40  11.20  14.50  16.20  17.55  20.55  22.10
-Polasci  za  Drecnik:11.20  17.55
-Polasci  za  Sv.  Martin:7.30  9.40  14.50  20.55  22.10
+Polasci sa SAVSKOG MOSTA:
+7.30 9.40 11.20 14.50 16.20 17.55 20.55 22.10
+Polasci za Drecnik:
+11.20 17.55
+Polasci za Sv. Martin:
+7.30 9.40 14.50 20.55 22.10
 Polasci
-Polasci  iz  GALGOVA:6.15  8.15  10.25  12.15  15.40  17.00  18.40  21.30
-Polasci  iz  Drecnika:6.10  12.10  18.35
-Polasci  iz  Sv.  Martina:6.00  8.10  10.20  15.35  21.30
+Polasci iz GALGOVA:
+6.15 8.15 10.25 12.15 15.40 17.00 18.40 21.30
+Polasci iz Drecnika:
+6.10 12.10 18.35
+Polasci iz Sv. Martina:
+6.00 8.10 10.20 15.35 21.30
 160 - MALA GORICA - Kerestinec - ZAGREB (A. K.)
-R  a  d  n  i     d  a  n :
+R a d n i d a n :
 Polasci
-Polasci  iz   MALE  GORICE:4.45  5.45  6.35  12.25  13.15  14.25  15.05  15.50
-Polasci iz MALE GORICE:18.30N 19.35 21.15
-Polasci  iz   MOLVICA:4.40  5.40  6.30  13.10NAPOMENA: N – vozi preko Novaka
+Polasci iz MALE GORICE:
+4.45 5.45 6.35 12.25 13.15 14.25 15.05 15.50
+Polasci iz MALE GORICE:
+18.30N 19.35 21.15
+Polasci iz MOLVICA:
+4.40 5.40 6.30 13.10NAPOMENA:
+ N - vozi preko Novaka
 Polasci
-Polasci  iz  A.K.  ZAGREB:*5.30  6.30  7.30  13.15  14.20  *16.10  16.50
-Polasci iz PODSUSEDA (preko Kerestinca):19.15N  20.50  *22.40NAPOMENA:  *  vozi  do  MOLVICAN - vozi preko Novaka
-SAMOBOR  -  A.K. ZAGREB  (preko  Kerestinca)
-Polasci  iz  SAMOBORA (preko  Kerestinca):*9.20  *11.30   *16.35  *18.25
-Polasci iz A.K. ZAGREB (preko  Kerestinca):8.10  *11.45  *19.00  *21.50
+Polasci iz A.K. ZAGREB:
+*5.30 6.30 7.30 13.15 14.20 *16.10 16.50
+Polasci iz PODSUSEDA (preko Kerestinca):
+19.15N 20.50 *22.40NAPOMENA:
+ * vozi do MOLVICAN - vozi preko Novaka
+SAMOBOR - A.K. ZAGREB (preko Kerestinca)
+Polasci iz SAMOBORA (preko Kerestinca):
+*9.20 *11.30 *16.35 *18.25
+Polasci iz A.K. ZAGREB (preko Kerestinca):
+8.10 *11.45 *19.00 *21.50
 Polasci
-Polasci  iz  SAMOBORA (preko  Kerestinca):6.30  7.35  *9.20  *11.30  *16.35  *18.25
-Polasci iz Samobora  preko  Novaka  i  Rakitja:*4.40 5.50  6.40 7.35 *8.55  *9.50 *11.05 *12.50  *14.15 16.00  *17.05  *17.55  *19.25 *20.10  *21.10  *22.20
-Polasci iz Samobora  preko  Novaka  i  Rakitja:*4.40  7.15  *8.55  *9.50  *11.05  *12.50  *14.15  *17.05 *17.55  *19.25   *20.10   *21.10   *22.20
+Polasci iz SAMOBORA (preko Kerestinca):
+6.30 7.35 *9.20 *11.30 *16.35 *18.25
+Polasci iz Samobora preko Novaka i Rakitja:
+*4.40 5.50 6.40 7.35 *8.55 *9.50 *11.05 *12.50 *14.15 16.00 *17.05 *17.55 *19.25 *20.10 *21.10 *22.20
+Polasci iz Samobora preko Novaka i Rakitja:
+*4.40 7.15 *8.55 *9.50 *11.05 *12.50 *14.15 *17.05 *17.55 *19.25 *20.10 *21.10 *22.20
 Polasci
-Polasci iz LJUBLJANICE (prekoKerestinca):12.00 14.55 15.45 19.15  *22.05
-Polasci iz A.K.Zagreb preko  Novaka  i  Rakitja:*4.55 *5.50  6.45  9.05  10.00 *11.20 *12.10 *13.05 *14.00 *15.00  *16.30 17.05 *17.40 *18.35  *19.30  *20.30 *21.15  *22.25  *23.10  *23.45
-Polasci iz Ljubljanice  preko  Rakitja  i  Novaka :5.05  6.00  9.20  10.15  11.35  12.25  13.20  14.15  15.15 16.45  17.55  18.50  19.45  20.45  21.30  22.35  23.20 23.55
-S  u  b  o  t  a :
+Polasci iz LJUBLJANICE (prekoKerestinca):
+12.00 14.55 15.45 19.15 *22.05
+Polasci iz A.K.Zagreb preko Novaka i Rakitja:
+*4.55 *5.50 6.45 9.05 10.00 *11.20 *12.10 *13.05 *14.00 *15.00 *16.30 17.05 *17.40 *18.35 *19.30 *20.30 *21.15 *22.25 *23.10 *23.45
+Polasci iz Ljubljanice preko Rakitja i Novaka :
+5.05 6.00 9.20 10.15 11.35 12.25 13.20 14.15 15.15 16.45 17.55 18.50 19.45 20.45 21.30 22.35 23.20 23.55
+S u b o t a :
 Polasci
-Polasci  iz   MALE  GORICE:4.45    *6.00  7.10  12.30  14.10  15.35
-Polasci  iz   MALE  GORICE:17.00N  19.00  22.30
-Polasci  iz   MOLVICA:4.40  12.25
+Polasci iz MALE GORICE:
+4.45 *6.00 7.10 12.30 14.10 15.35
+Polasci iz MALE GORICE:
+17.00N 19.00 22.30
+Polasci iz MOLVICA:
+4.40 12.25
 Polasci
-Polasci  iz  LJUBLJANICE:5.25  6.30  8.10  13.15  14.50  16.15
-Polasci  iz  PODSUSEDA:17.50  21.05N  22.50N
-NAPOMENA : * polazi  iz  Brezja; N  ; vozi preko Novaka i Rakitja
-SAMOBOR  -  A.K. ZAGREB  (preko  Kerestinca) 
-Polasci  iz  SAMOBORA (preko  Kerestinca):7.00  9.10  11.10  14.35  15.30  17.00  20.00  21.30  23.00
+Polasci iz LJUBLJANICE:
+5.25 6.30 8.10 13.15 14.50 16.15
+Polasci iz PODSUSEDA:
+17.50 21.05N 22.50N
+NAPOMENA : * polazi iz Brezja; N ; vozi preko Novaka i Rakitja
+SAMOBOR - A.K. ZAGREB (preko Kerestinca) 
+Polasci iz SAMOBORA (preko Kerestinca):
+7.00 9.10 11.10 14.35 15.30 17.00 20.00 21.30 23.00
 Polasci
-Polasci iz A.K. ZAGREB (preko  Kerestinca):6.30  8.00  10.10  12.05  15.35  16.30  18.00  19.30  20.30  22.20
-Polasci iz LJUBLJANICE (prekoKerestinca):6.40  8.10  10.20  12.20  15.45  16.40  18.10  19.40  20.40  22.30
+Polasci iz A.K. ZAGREB (preko Kerestinca):
+6.30 8.00 10.10 12.05 15.35 16.30 18.00 19.30 20.30 22.20
+Polasci iz LJUBLJANICE (prekoKerestinca):
+6.40 8.10 10.20 12.20 15.45 16.40 18.10 19.40 20.40 22.30
 -svi autobusi voze preko Ljubljanice-
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz   MALE  GORICE:13.55  20.10
-Polasci  iz  A.K.  ZAGREB:13.10  19.30
-SAMOBOR  -  A.K. ZAGREB  (preko  Kerestinca) 
-Polasci  iz  SAMOBORA (preko  Kerestinca):5.10  6.30  12.00  20.30  22.10
-Polasci iz A.K. ZAGREB (preko  Kerestinca):7.00  8.00  10.00  16.30  21.30  23.00
+N e d j e l j a i b l a g d a n i :
+Polasci iz MALE GORICE:
+13.55 20.10
+Polasci iz A.K. ZAGREB:
+13.10 19.30
+SAMOBOR - A.K. ZAGREB (preko Kerestinca) 
+Polasci iz SAMOBORA (preko Kerestinca):
+5.10 6.30 12.00 20.30 22.10
+Polasci iz A.K. ZAGREB (preko Kerestinca):
+7.00 8.00 10.00 16.30 21.30 23.00
 -svi autobusi voze preko Ljubljanice-

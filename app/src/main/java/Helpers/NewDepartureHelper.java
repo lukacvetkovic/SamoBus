@@ -40,6 +40,9 @@ public class NewDepartureHelper {
             default:
                 return DayType.WORKING_DAY;
         }
+    }
+
+    private void buildDialog(){
 
     }
 }

@@ -1,10 +1,16 @@
- R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:4.45  5.40  6.50  9.15  11.55  13.15  14.20  15.20  16.45  *18.35  19.20  20.15  22.20
-Polasci  iz  LIPOVCA:5.15  6.05  7.20  9.45  12.20  13.35  14.45  15.45  17.10  *19.00  19.45  20.40  22.45
+ R a d n i d a n :
+Polasci iz SAMOBORA:
+4.45 5.40 6.50 9.15 11.55 13.15 14.20 15.20 16.45 *18.35 19.20 20.15 22.20
+Polasci iz LIPOVCA:
+5.15 6.05 7.20 9.45 12.20 13.35 14.45 15.45 17.10 *19.00 19.45 20.40 22.45
 Napomena: * za vrijeme skolskih praznika autobus ne vozi.
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.30  6.20  6.55  8.10  9.25  12.50  14.15  16.45  19.15  22.15
-Polasci  iz   LIPOVCA:4.55  6.40  7.20  8.35  9.50  13.15  14.40  17.10  19.45  22.35
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:7.00  9.20  10.30  12.50  15.30  17.30  19.15  20.45
-Polasci  iz   LIPOVCA:7.30  9.50  11.00  13.15  16.00  18.00  19.40   21.05
+S u b o t a :
+Polasci iz SAMOBORA:
+4.30 6.20 6.55 8.10 9.25 12.50 14.15 16.45 19.15 22.15
+Polasci iz LIPOVCA:
+4.55 6.40 7.20 8.35 9.50 13.15 14.40 17.10 19.45 22.35
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+7.00 9.20 10.30 12.50 15.30 17.30 19.15 20.45
+Polasci iz LIPOVCA:
+7.30 9.50 11.00 13.15 16.00 18.00 19.40 21.05

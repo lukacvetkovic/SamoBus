@@ -1,9 +1,15 @@
-R  a  d  n  i     d  a  n :
-Polasci  iz   SAMOBORA:5.00  6.05  7.00  10.15  12.20  14.20  15.40  19.30  22.15
-Polasci  iz   OTOKA:5.20  6.25  7.20  10.35  12.40  14.40  16.00  19.50  22.30
-S  u  b  o  t  a :
-Polasci  iz   SAMOBORA:4.55  7.00  8.40  12.30  14.15  15.30  19.20  22.15
-Polasci  iz  OTOKA:5.15  7.25  9.00  12.50  14.35  15.50  19.40  22.30
-N e d j e l j a     i     b l a g d a n i :
-Polasci  iz  SAMOBORA:8.30  12.00
-Polasci  iz  OTOKA:8.50  12.20
+R a d n i d a n :
+Polasci iz SAMOBORA:
+5.00 6.05 7.00 10.15 12.20 14.20 15.40 19.30 22.15
+Polasci iz OTOKA:
+5.20 6.25 7.20 10.35 12.40 14.40 16.00 19.50 22.30
+S u b o t a :
+Polasci iz SAMOBORA:
+4.55 7.00 8.40 12.30 14.15 15.30 19.20 22.15
+Polasci iz OTOKA:
+5.15 7.25 9.00 12.50 14.35 15.50 19.40 22.30
+N e d j e l j a i b l a g d a n i :
+Polasci iz SAMOBORA:
+8.30 12.00
+Polasci iz OTOKA:
+8.50 12.20

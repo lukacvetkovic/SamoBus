@@ -7,6 +7,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 public class SamoBusHTMLParser {
@@ -19,6 +21,9 @@ public class SamoBusHTMLParser {
 		String line;
 		String cleanLine;
 		String[] charsInLine;
+		int k;
+		Pattern p = Pattern.compile(":(a-z|A-Z|\\*|[0-9])");
+		Matcher matcher;
 		
 		try {
 			reader = new BufferedReader(new FileReader("vozniRedHTML.txt"));
@@ -69,11 +74,20 @@ public class SamoBusHTMLParser {
 						}
 					}
 				}
-				// Zapisivanje u novu datoteku ako linija ima nesto u sebi i razlicita je od "&nbsp;"
-				if(! cleanLine.equals("") && !cleanLine.equals("&nbsp;") && !cleanLine.equals(" ")){
-					cleanLine = cleanLine.replaceAll("&#8211", "");
+				// Zapisivanje u novu datoteku ako linija ima nesto u sebi i razlicita je od "&nbsp;" i razlicita od "Polasci"
+				if(! cleanLine.equals("") && !cleanLine.equals("&nbsp;") &&
+						!cleanLine.equals(" ") && !cleanLine.equals("Polasci")){
+					// – je neki cudni minus, u AS daje ?
+					cleanLine = cleanLine.replaceAll("&#8211", "").replaceAll("–", "-").replaceAll(",", "."); 
+					cleanLine = cleanLine.replaceAll("( )+", " "); // Mice sve visestruke razmake
+					// Znaci ovaj regex stavlja \n poslje dvotocke iza koje se nalazi neko slovo ili broj ili *
+					//cleanLine = cleanLine.replaceAll(":(a-z|A-Z|\\*|[0-9])", ":"+'\n');		// Brise neke brojeve niej dobro
+					matcher = p.matcher(cleanLine);			// Trazi regex ":(a-z|A-Z|\\*|[0-9])"
+					if(matcher.find()){
+						cleanLine = cleanLine.replaceAll(":", ":" + '\n');
+					}					
 					//Zbog loseg formatiranja na stranici, negdje je u html-u u 1 liniji
-					//vise polazaka... npt kod linije KLAKE
+					//vise polazaka... npr kod linije KLAKE
 					//Pa treba to odvojiti.. vidi javaDoc fce za primjer
 					if(findNumOfOccurences("Polasci", cleanLine) > 1){
 						String[] subPolasci = cleanLine.split("Polasci");
@@ -152,9 +166,7 @@ public class SamoBusHTMLParser {
 		int count = 0;
 
 		while(lastIndex != -1){
-
 		       lastIndex = source.indexOf(target,lastIndex);
-
 		       if( lastIndex != -1){
 		             count++;
 		             lastIndex+=target.length();
