@@ -32,27 +32,25 @@ public class SamoBusHTMLParser {
 		
 		System.out.println("pre While");
 		try {
-			while((line = reader.readLine()) != null){
-				line = line.replaceAll("š", "s");		// Mice nasa slova, lakse je bez njih
-				line = line.replaceAll("è", "c");
-				line = line.replaceAll("æ", "c");
-				line = line.replaceAll("ž", "c");
-				line = line.replaceAll("ð", "d");
-				line = line.replaceAll("Š", "S");
-				line = line.replaceAll("È", "C");
-				line = line.replaceAll("Æ", "C");
-				line = line.replaceAll("Ž", "C");
-				line = line.replaceAll("Ð", "D");
+			while((line = reader.readLine()) != null){	// Mice nasa slova, lakse je bez njih
+				line = line.replaceAll("š", "s").replaceAll("è", "c").replaceAll("æ", "c")
+						.replaceAll("ž", "c").replaceAll("ð", "d").replaceAll("Š", "S").replaceAll("È", "C")
+						.replaceAll("Æ", "C").replaceAll("Ž", "C").replaceAll("Ð", "D");
 				if(line.contains("prometu")){			// MIce linije tipa "U prometu od *datum*
 					continue;
 				}
 				if(! write){
-					if(line.contains("ZIMSKI VOZNI RED")){		// Krece pisat tekar kad dodje do zimskog voznog reda
+					if(line.contains("ZIMSKI VOZNI RED") || line.contains("LJETNI VOZNI RED")){		// Krece pisat tekar kad dodje do zimskog voznog reda
 						write = true;
 					}
 					else{
 						continue;
 					}
+				}
+				
+				if(line.contains("162")){		// da ne zapisuje medugradske linije
+					write = false;
+					continue;
 				}
 				charsInLine = line.split("");
 				cleanLine = "";
@@ -87,14 +85,14 @@ public class SamoBusHTMLParser {
 					else{
 						writer.write(cleanLine + '\n');
 					}					
-				}					
+				}
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		System.out.println("post while");
 		reader.close();
-		writer.close();		
+		writer.close();
 		
 	}
 	
