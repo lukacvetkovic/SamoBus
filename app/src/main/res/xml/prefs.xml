@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="EditText"
+        android:key="name"
+        android:summary="Enter your name"></EditTextPreference>
+
+    <CheckBoxPreference
+        android:title="FavoriteLines"
+        android:defaultValue="true"
+        android:key="checkbox"
+        android:summary="Choose line you want to see"></CheckBoxPreference>
+
+</PreferenceScreen>

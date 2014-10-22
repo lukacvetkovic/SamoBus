@@ -1,5 +1,8 @@
 package cvim.hr.samobus;
 
+import android.app.Activity;
+import android.app.ListActivity;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,7 +22,7 @@ import Helpers.NewDepartureHelper;
 import Views.Linija;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
     private Linija linija1;
     private Linija linija2;
@@ -37,6 +40,7 @@ public class MainActivity extends ActionBarActivity {
     private Linija linija14;
     private Linija linija15;
 
+
     private NewDepartureHelper departureHelper;
 
     @Override
@@ -46,14 +50,46 @@ public class MainActivity extends ActionBarActivity {
          /*
         Da bude sve full screen -- ova 2 reda ispod
          */
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
+        /*requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);*/
+        //nije dobro ak je full screen, ako ce trebat cemo vratit
 
         setContentView(R.layout.activity_main);
 
         departureHelper = new NewDepartureHelper(this);
 
+        initLinije();
+
+        setValeuesToLinije();
+    }
+
+    private void setValeuesToLinije() {
+        Linija[] linije = {linija1, linija2, linija3, linija4, linija5, linija6, linija7,
+                linija8, linija9, linija10, linija11, linija12, linija13, linija14, linija15};
+
+        int n = 146;
+        for (final Linija linija : linije) {
+            linija.setBroj(n++);
+            linija.refresh();
+            linija.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    try {
+                        //DepartureHelper.getNextDepartures(linija.getBroj(), MainActivity.this);       // Stari departure helper
+                        departureHelper.getNextDepartures(linija.getBroj());
+                    } catch (Exception e) {
+                        Log.e("MAIN", "Error reading file from assets");
+                        Toast toast = Toast.makeText(MainActivity.this, "There is not txt file for " + linija.getBroj() + " line, yet ;)", Toast.LENGTH_LONG);
+                        toast.show();
+                        e.printStackTrace();
+                    }
+                }
+            });
+        }
+    }
+
+
+    private void initLinije() {
         linija1 = (Linija) findViewById(R.id.linija1);
         linija2 = (Linija) findViewById(R.id.linija2);
         linija3 = (Linija) findViewById(R.id.linija3);
@@ -69,36 +105,12 @@ public class MainActivity extends ActionBarActivity {
         linija13 = (Linija) findViewById(R.id.linija13);
         linija14 = (Linija) findViewById(R.id.linija14);
         linija15 = (Linija) findViewById(R.id.linija15);
-
-        Linija[] linije = {linija1, linija2, linija3, linija4, linija5, linija6, linija7,
-                linija8, linija9, linija10, linija11, linija12, linija13, linija14, linija15};
-
-        int n = 142;
-        for(final Linija linija : linije){
-            linija.setBroj(n++);
-            linija.refresh();
-            linija.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    try {
-                        //DepartureHelper.getNextDepartures(linija.getBroj(), MainActivity.this);       // Stari departure helper
-                        departureHelper.getNextDepartures(linija.getBroj());
-                    } catch (Exception e) {
-                        Log.e("MAIN", "Error reading file from assets");
-                        Toast toast = Toast.makeText(MainActivity.this, "There is not txt file for "+  linija.getBroj() +" line, yet ;)", Toast.LENGTH_LONG);
-                        toast.show();
-                        e.printStackTrace();
-                    }
-                }
-            });
-        }
-
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.cool_menu, menu);
         return true;
     }
 
@@ -107,9 +119,23 @@ public class MainActivity extends ActionBarActivity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
+        switch (item.getItemId()) {
+
+            case R.id.aboutUs:
+                Intent i = new Intent("cvim.hr.ABOUT");
+                startActivity(i);
+                break;
+
+            case R.id.preferences:
+                Intent p = new Intent("cvim.hr.PREFS");
+                startActivity(p);
+
+                break;
+
+            case R.id.exit:
+                finish();
+
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
