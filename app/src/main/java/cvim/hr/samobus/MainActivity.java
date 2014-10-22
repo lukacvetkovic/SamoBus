@@ -1,23 +1,22 @@
 package cvim.hr.samobus;
 
 import android.app.Activity;
-import android.app.ListActivity;
+import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
+
 import android.widget.Toast;
 
-import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Map;
 
-import Helpers.DepartureHelper;
 import Helpers.NewDepartureHelper;
 import Views.Linija;
 
@@ -40,6 +39,8 @@ public class MainActivity extends Activity {
     private Linija linija14;
     private Linija linija15;
 
+    static Map<Integer,String> imeLinije=new HashMap<Integer, String>();
+
 
     private NewDepartureHelper departureHelper;
 
@@ -61,7 +62,17 @@ public class MainActivity extends Activity {
         initLinije();
 
         setValeuesToLinije();
+
+        napuniImenima();
     }
+
+    private void napuniImenima() {
+
+        /*
+        Ne radi, ne znam kak citat iz datoteke :(
+         */
+    }
+
 
     private void setValeuesToLinije() {
         Linija[] linije = {linija1, linija2, linija3, linija4, linija5, linija6, linija7,
