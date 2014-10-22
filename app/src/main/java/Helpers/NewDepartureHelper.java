@@ -6,7 +6,6 @@ import android.content.DialogInterface;
 import android.util.Log;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -52,6 +51,7 @@ public class NewDepartureHelper {
     }
 
     public void getNextDepartures(int linijaNumber) throws IOException {
+        Calendar calendar1 = Calendar.getInstance();
         dayType = getDayOfTheWeek();
         firstSporaLinijaList.clear();
         secondSporaLinijaList.clear();
@@ -95,12 +95,16 @@ public class NewDepartureHelper {
 
         line = reader.readLine();
         while(line != null) {
-            if(line.equals(DayType.SUBOTA.toString()) || line.equals(DayType.NEDJELJA_BLAGDAN.toString())){
+            if(line.contains(DayType.SUBOTA.toString()) || line.contains(DayType.NEDJELJA_BLAGDAN.toString())){
                 break;
+            }
+            else{
+                napomeneList.add(line);
+                line = reader.readLine();
             }
         }
 
-        now = calendar.getTime().getHours()*60 + calendar.getTime().getMinutes();
+        now = calendar1.getTime().getHours()*60 + calendar1.getTime().getMinutes();
 
         firstDepartureTimeIndex = -1;                            // Tu nadjemo index vremena koje je slijedeci polazak
         int i = 0;                                              // Koristim i tak da provjerim poslje dal ima bus ili ne if(first.. == -1)->nema busa
@@ -157,9 +161,29 @@ public class NewDepartureHelper {
         return "zima";
     }
 
-    private String getBrzaIliSpora(){
-
-        return "brza linija";
+    private String getBrzaIliSpora(String time, int firstOrSecond){
+        String spora = "Spora linija ";
+        List<SporaLinija> lista;
+        if(firstOrSecond == 1){
+            lista = firstSporaLinijaList;
+        }
+        else{
+            lista = secondSporaLinijaList;
+        }
+        for(SporaLinija sporaLinija : lista){
+            if(sporaLinija.getVremenaList().contains(time)){
+                String[] words = sporaLinija.getPrekoCega().split("\\s+");
+                if(words.length >=3) {
+                    String s = "";
+                    for (int i = 2; i < words.length; i++) {
+                        s = s + " " + words[i];
+                    }
+                    return spora + "preko" + s;
+                }
+                else return spora;
+            }
+        }
+        return "Brza linija";
     }
 
     private void buildDialog(String firstDepartureStart, String[] firstDepartureTimes, int firstDepartureTimeIndex,
@@ -169,7 +193,8 @@ public class NewDepartureHelper {
         String message = "Polazak iz " + firstDepartureStart + " \n";       // TODO ubaciti da se vise buseva pokaze koji idu
         if(firstDepartureTimeIndex != -1){
             message = message + "\t\t Polazi u " + firstDepartureTimes[firstDepartureTimeIndex] + "," +
-                    " za " + (parseTimeToMinutes(firstDepartureTimes[firstDepartureTimeIndex]) - now) + " minuta.";
+                    " za " + (parseTimeToMinutes(firstDepartureTimes[firstDepartureTimeIndex]) - now) + " minuta." + "\n";
+            message = message + "\t\t " + getBrzaIliSpora(firstDepartureTimes[firstDepartureTimeIndex], 1);
         }
         else{
             message = message + "\t\t Nema slijedeceg busa do sutra :(";        // TODO tu ubacit za taxi pitanje sa Intentom
@@ -178,7 +203,8 @@ public class NewDepartureHelper {
         message = message + "\n\n" + "Polazak iz " + secondDepartureStart + "\n";
         if(secondDepartureTimeIndex != -1){
             message = message + "\t\t Polazi u " + secondDepartureTimes[secondDepartureTimeIndex] + "," +
-                    " za " + (parseTimeToMinutes(secondDepartureTimes[secondDepartureTimeIndex]) - now) + " minuta.";
+                    " za " + (parseTimeToMinutes(secondDepartureTimes[secondDepartureTimeIndex]) - now) + " minuta." + "\n";
+            message = message + "\t\t " + getBrzaIliSpora(secondDepartureTimes[secondDepartureTimeIndex], 2);
         }
         else{
             message = message + "\t\t Nema slijedeceg busa do sutra :(";
