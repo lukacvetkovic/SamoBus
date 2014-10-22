@@ -12,6 +12,7 @@ import android.widget.Toast;
 import java.io.IOException;
 
 import Helpers.DepartureHelper;
+import Helpers.NewDepartureHelper;
 import Views.Linija;
 
 
@@ -33,10 +34,14 @@ public class MainActivity extends ActionBarActivity {
     private Linija linija14;
     private Linija linija15;
 
+    private NewDepartureHelper departureHelper;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        departureHelper = new NewDepartureHelper(this);
 
         linija1 = (Linija) findViewById(R.id.linija1);
         linija2 = (Linija) findViewById(R.id.linija2);
@@ -57,8 +62,6 @@ public class MainActivity extends ActionBarActivity {
         Linija[] linije = {linija1, linija2, linija3, linija4, linija5, linija6, linija7,
                 linija8, linija9, linija10, linija11, linija12, linija13, linija14, linija15};
 
-        Log.i("provjera", ""+linija1);
-
         int n = 142;
         for(final Linija linija : linije){
             linija.setBroj(n++);
@@ -67,7 +70,8 @@ public class MainActivity extends ActionBarActivity {
                 @Override
                 public void onClick(View view) {
                     try {
-                        DepartureHelper.getNextDepartures(linija.getBroj(), MainActivity.this);
+                        //DepartureHelper.getNextDepartures(linija.getBroj(), MainActivity.this);       // Stari departure helper
+                        departureHelper.getNextDepartures(linija.getBroj());
                     } catch (Exception e) {
                         Log.e("MAIN", "Error reading file from assets");
                         Toast toast = Toast.makeText(MainActivity.this, "There is not txt file for "+  linija.getBroj() +" line, yet ;)", Toast.LENGTH_LONG);
@@ -79,8 +83,6 @@ public class MainActivity extends ActionBarActivity {
         }
 
     }
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

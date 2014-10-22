@@ -96,7 +96,6 @@ public class DepartureHelper {
 
     private static int parseTimeToMinutes(String time) {
         String parts[] = time.split("\\.");
-
         return (Integer.parseInt(parts[0]) * 60) + Integer.parseInt(parts[1]);
     }
 
