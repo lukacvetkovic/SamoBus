@@ -193,8 +193,10 @@ public class NewDepartureHelper {
         String message = "Polazak iz " + firstDepartureStart + " \n";       // TODO ubaciti da se vise buseva pokaze koji idu
         if(firstDepartureTimeIndex != -1){
             message = message + "\t\t Polazi u " + firstDepartureTimes[firstDepartureTimeIndex] + "," +
-                    " za " + (parseTimeToMinutes(firstDepartureTimes[firstDepartureTimeIndex]) - now) + " minuta." + "\n";
-            message = message + "\t\t " + getBrzaIliSpora(firstDepartureTimes[firstDepartureTimeIndex], 1);
+                    " za " + (parseTimeToMinutes(firstDepartureTimes[firstDepartureTimeIndex]) - now) + " minuta.";
+            if(firstSporaLinijaList.size() != 0) {
+                message = message + "\n\t\t " + getBrzaIliSpora(firstDepartureTimes[firstDepartureTimeIndex], 1);
+            }
         }
         else{
             message = message + "\t\t Nema slijedeceg busa do sutra :(";        // TODO tu ubacit za taxi pitanje sa Intentom
@@ -203,8 +205,10 @@ public class NewDepartureHelper {
         message = message + "\n\n" + "Polazak iz " + secondDepartureStart + "\n";
         if(secondDepartureTimeIndex != -1){
             message = message + "\t\t Polazi u " + secondDepartureTimes[secondDepartureTimeIndex] + "," +
-                    " za " + (parseTimeToMinutes(secondDepartureTimes[secondDepartureTimeIndex]) - now) + " minuta." + "\n";
-            message = message + "\t\t " + getBrzaIliSpora(secondDepartureTimes[secondDepartureTimeIndex], 2);
+                    " za " + (parseTimeToMinutes(secondDepartureTimes[secondDepartureTimeIndex]) - now) + " minuta.";
+            if(secondSporaLinijaList.size() != 0) {
+                message = message + "\n\t\t " + getBrzaIliSpora(secondDepartureTimes[secondDepartureTimeIndex], 2);
+            }
         }
         else{
             message = message + "\t\t Nema slijedeceg busa do sutra :(";
