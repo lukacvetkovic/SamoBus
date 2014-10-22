@@ -1,0 +1,31 @@
+R  a  d  n  i     d  a  n :
+Polasci
+Polasci  sa  SAVSKOG  MOSTA:4.30 K  5.35  6.30  7.20  8.00  9.40 K 10.55  12.30  13.05  13.55  14.30  15.10  15.50  16.30  17.15  17.50 K 18.50 19.20 20.00 20.45      21.40 K  22.40 K 23.20 K
+Polasci  za  Drecnik:4.30 K  5.35  6.30  8.00  10.55  12.30  13.50  15.10  15.50 16.30  17.15  19.20  20.00 20.45  22.40 K  23.20 K 
+Polasci  za  Sv.  Martin:6.30 7.20 *9.40K*10.55  *13.05  *14.30  *17.15  *17.50 K *20.00  20.45 22.40 K     23.20 KNAPOMENA:*  vozi  do      Podgrada; K ; polazi od Korencica;
+Polasci
+Polasci  iz  GALGOVA:4.15 K  5.00  5.50  6.30  7.20  9.00 K 10.15  11.50  12.25  13.15  13.50  14.35  15.15  15.55  16.40  17.15K 18.10  18.35  19.25  20.05    20.55K   22.15 K 23.15 K
+Polasci  iz  Drecnika:4.55  5.45  6.20  7 15  8.55 K **11.35  12.20  13.10  14.30  15.50  16.35  17.10 K 18.05  20.00  20.50 K  **23.00 K
+Polasci  iz  Sv.  Martina:*4.10 K**5.35 **7.05**12.00 13,45 15,10 **17.55**20.40 K 23,10K 
+Polasci iz Podgrada: 4.10 K 5.38 7.08 10.10 11.45 12.05 13.45 15.10 17.55 18.30 20.40 K 23.10 KNAPOMENA:  K ; vozi do Korencica
+Trasa linije**: Galgovo ; Drecnik – Purgarija – Podgrade – Sv.Martin – Galgovo,  zavisi dali prije ide preko Drecnika ili Svetog Martina.
+S  u  b  o  t  a :
+Polasci
+Polasci  sa  SAVSKOG  MOSTA: **5.10  **5.40  6.40  7.15  7.55  9.15  10.35  11.50  13.10  13.45  14.20  15.10  15.30  16.30  17.45 K     18.30 K  19.30 K  20.30 K  22.45 K
+Polasci  za  Drecnik: 5.10  **5.40  7.55  10.35  11.50  14.20  15.30            K 17.45  **K18.30   K 19.30  **K 20.30  **K 22.45
+Polasci  za  Sv.  Martin: *5.10 **5.40   7.15  9.15  *13.45  *15.10  16.30          K 17.45   **K18.30    K 19.30  **K 20.30 **K 22.45NAPOMENA:  *  vozi  do Podgrada; K ; polazi od Korencica
+Polasci
+Polasci  iz  GALGOVA: 4.35  5.00  5.55  6.30  7.15  8.45  10.05  11.20  12.40  13.10  13.45  14.25  15.00  15.55  16.20 K  18.15 K  19.05 K  20.20 K  21.50 K
+Polasci  iz  Drecnika: 4.30  5.50  6.25  8.35  11.15  12.30  14.55  16.10 K **18.05 K  19.00 K   **20.05 K   21.45 K
+Polasci  iz  Sv.  Martina: **4.20  *5.40 *6.15  10.00  *13.05  *14.20  *15.50  *18.10 K  *18.50 K   *20.15 K   *21.35 KNAPOMENA:  *  polazi  iz Podgrada; K ; vozi do Korencica
+Trasa linije**: Galgovo ; Drecnik – Purgarija – Podgrade – Sv.Martin – Galgovo,  zavisi dali prije ide preko Drecnika ili Svetog Martina.
+N e d j e l j a     i     b l a g d a n i :
+Polasci
+Polasci  sa  SAVSKOG  MOSTA: 7.30  9.40  11.20  14.50  16.20  17.55  20.55  22.10
+Polasci  za  Drecnik: 11.20  17.55
+Polasci  za  Sv.  Martin: 7.30  9.40  14.50  20.55  22.10
+Polasci
+Polasci  iz  GALGOVA: 6.15  8.15  10.25  12.15  15.40  17.00  18.40  21.30
+Polasci  iz  Drecnika: 6.10  12.10  18.35
+Polasci  iz  Sv.  Martina: **6.00  8.10  10.20  15.35  21.30
+Trasa linije**: Galgovo ; Drecnik – Purgarija – Podgrade – Sv.Martin – Galgovo,  zavisi dali prije ide preko Drecnika ili Svetog Martina.

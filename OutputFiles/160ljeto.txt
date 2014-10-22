@@ -1,0 +1,41 @@
+R  a  d  n  i     d  a  n :
+Polasci
+Polasci  iz   MALE  GORICE:4.45  5.45  6.35  12.25  13.15  14.25  15.05  15.50
+Polasci iz MALE GORICE:18.30N 19.35 21.15
+Polasci  iz   MOLVICA:4.40  5.40  6.30  13.10NAPOMENA: N – vozi preko Novaka
+Polasci
+Polasci  iz  A.K.  ZAGREB:*5.30  6.30  7.30  13.15  14.20  *16.10  16.50
+Polasci iz PODSUSEDA (preko Kerestinca):19.15N  20.50  *22.40NAPOMENA:  *  vozi  do  MOLVICAN - vozi preko Novaka
+SAMOBOR  -  A.K. ZAGREB  (preko  Kerestinca)
+Polasci  iz  SAMOBORA (preko  Kerestinca):*9.20  *11.30   *16.35  *18.25
+Polasci iz A.K. ZAGREB (preko  Kerestinca):8.10  *11.45  *19.00  *21.50
+Polasci
+Polasci  iz  SAMOBORA (preko  Kerestinca):6.30  7.35  *9.20  *11.30  *16.35  *18.25
+Polasci iz Samobora  preko  Novaka  i  Rakitja:*4.40 5.50  6.40 7.35 *8.55  *9.50 *11.05 *12.50  *14.15 16.00  *17.05  *17.55  *19.25 *20.10  *21.10  *22.20
+Polasci iz Samobora  preko  Novaka  i  Rakitja:*4.40  7.15  *8.55  *9.50  *11.05  *12.50  *14.15  *17.05 *17.55  *19.25   *20.10   *21.10   *22.20
+Polasci
+Polasci iz LJUBLJANICE (prekoKerestinca):12.00 14.55 15.45 19.15  *22.05
+Polasci iz A.K.Zagreb preko  Novaka  i  Rakitja:*4.55 *5.50  6.45  9.05  10.00 *11.20 *12.10 *13.05 *14.00 *15.00  *16.30 17.05 *17.40 *18.35  *19.30  *20.30 *21.15  *22.25  *23.10  *23.45
+Polasci iz Ljubljanice  preko  Rakitja  i  Novaka :5.05  6.00  9.20  10.15  11.35  12.25  13.20  14.15  15.15 16.45  17.55  18.50  19.45  20.45  21.30  22.35  23.20 23.55
+S  u  b  o  t  a :
+Polasci
+Polasci  iz   MALE  GORICE:4.45    *6.00  7.10  12.30  14.10  15.35
+Polasci  iz   MALE  GORICE:17.00N  19.00  22.30
+Polasci  iz   MOLVICA:4.40  12.25
+Polasci
+Polasci  iz  LJUBLJANICE:5.25  6.30  8.10  13.15  14.50  16.15
+Polasci  iz  PODSUSEDA:17.50  21.05N  22.50N
+NAPOMENA : * polazi  iz  Brezja; N  ; vozi preko Novaka i Rakitja
+SAMOBOR  -  A.K. ZAGREB  (preko  Kerestinca) 
+Polasci  iz  SAMOBORA (preko  Kerestinca):7.00  9.10  11.10  14.35  15.30  17.00  20.00  21.30  23.00
+Polasci
+Polasci iz A.K. ZAGREB (preko  Kerestinca):6.30  8.00  10.10  12.05  15.35  16.30  18.00  19.30  20.30  22.20
+Polasci iz LJUBLJANICE (prekoKerestinca):6.40  8.10  10.20  12.20  15.45  16.40  18.10  19.40  20.40  22.30
+-svi autobusi voze preko Ljubljanice-
+N e d j e l j a     i     b l a g d a n i :
+Polasci  iz   MALE  GORICE:13.55  20.10
+Polasci  iz  A.K.  ZAGREB:13.10  19.30
+SAMOBOR  -  A.K. ZAGREB  (preko  Kerestinca) 
+Polasci  iz  SAMOBORA (preko  Kerestinca):5.10  6.30  12.00  20.30  22.10
+Polasci iz A.K. ZAGREB (preko  Kerestinca):7.00  8.00  10.00  16.30  21.30  23.00
+-svi autobusi voze preko Ljubljanice-

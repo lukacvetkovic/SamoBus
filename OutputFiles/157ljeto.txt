@@ -1,0 +1,19 @@
+R  a  d  n  i     d  a  n :
+Polasci  iz   SAMOBORA:**4.20  **5.00  **5.40   6.50   12.10  *14.20  *15.45
+Polasci
+Polasci  iz  GALGOVA:*4.50  *6.05   7.20   8.05  **15.05  **16.30  **17.40
+Polasci  iz  SV.  MARTINA:*4.45  *6.00  7.15  8.10  15.10  16.35  17.45
+Polasci  iz  PODGRA?A:7.10
+NAPOMENA:    *  vozi  preko  Terihaja;
+**  vozi  preko  Sv. Martina;
+ S  u  b  o  t  a :
+Polasci
+Polasci  iz   SAMOBORA:4.25  7.05  11.55  12.35   *14.15  *15.30
+Polasci  za  Sv. Martin:4.25  7.05  11.55  12.35
+Polasci iz SAMOBORA za Podgrade:4.25  7.05  11.55  12.35
+Polasci
+Polasci  iz  GALGOVA:*4.55  7.30  7.50  12.30  15.05  16.15  **17.00
+Polasci  iz  SV.  MARTINA:4.45  7.25  12.25  17.05
+Polasci  iz  PODGRA?A:4.45  7.25  12.25
+NAPOMENA:    *  vozi  preko  Terihaja; **  vozi  preko  Sv. Martina.
+N e d j e l j o m      i     b l a g d a n o m     n e   v o z i   !

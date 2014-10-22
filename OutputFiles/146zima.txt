@@ -1,0 +1,11 @@
+ R  a  d  n  i     d  a  n :
+Polasci  iz   SAMOBORA:5.10   6.05  7.05  11.00  12.00  13.15  14.20  15.20  17.40  18.30  20.30  22.20
+Polasci  iz  VRHOVCAKA:5.25  6.25  *7.20  11.20  12.20  *13.35  14.35  15.35  18.00  18.50  20.50  22.35
+NAPOMENA:  *  vozi  trasom:  Vrhovcak  -  Otrusevac  -  Mala Jazbina  -  Bregana  -  (betonskom  cestom)
+Klokocevec  ; Smidhen ; Samobor.
+S  u  b  o  t  a :
+Polasci  iz   SAMOBORA:5.00  6.10  8.00  11.40  12.50  14.15  15.20 18.30  22.15
+Polasci  iz  VRHOVCAKA:5.20  6.30  8.20  12.00  13.10  14.35  15.40 18.50  22.30
+N e d j e l j a     i     b l a g d a n i :
+Polasci  iz  SAMOBORA:7.30  11.50  18.30
+Polasci  iz  VRHOVCAKA:7.50  12.10  19.00

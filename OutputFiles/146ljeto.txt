@@ -1,0 +1,9 @@
+R  a  d  n  i     d  a  n :
+Polasci  iz   SAMOBORA:5.00 6.00 7.00 12.30 14.20  15.20  16.20  18.30  22.15
+Polasci  iz   VRHOVCAKA:5.20  6.20  7.15  13.00  14.40  15.40  16.40  18.50  22.30
+S  u  b  o  t  a :
+Polasci  iz   SAMOBORA:5.00  6.10  8.00 11.40  12.50  14.15  15.20  18.30  22.15
+Polasci  iz  VRHOVCAKA:5.20  6.30  8.20  12.00  13.10  14.35  15.40  18.50  22.30
+N e d j e l j a     i     b l a g d a n i :
+Polasci  iz  SAMOBORA:7.30  11.50  18.30
+Polasci  iz  VRHOVCAKA:7.50  12.10  19.00

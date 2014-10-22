@@ -92,7 +92,51 @@ public class SamoBusHTMLParser {
 		}
 		System.out.println("post while");
 		reader.close();
+		reader = null;
 		writer.close();
+		writer = null;
+		
+		reader = new BufferedReader(new FileReader("vozniRedOutput.txt"));
+		String doba = "GRESKA";
+		String path = "OutputFiles/";
+		int brojLinije;
+		while((line = reader.readLine()) != null){
+			if(line.contains("ZIMSKI VOZNI RED")){
+				doba = "zima";
+			}
+			if(line.contains("LJETNI VOZNI RED")){
+				doba = "ljeto";
+			}
+			
+			try{
+				brojLinije = Integer.parseInt(line.substring(0, 3));		// Pokusam dobit broj linije s pocetka stringa
+				String fileName = path + brojLinije + doba + ".txt";
+				System.out.println("pisem file -> " + path + brojLinije + doba + ".txt");
+				if(writer == null){											// Samo za pocetak kad je null
+					writer = new BufferedWriter(new FileWriter(fileName));
+				}
+				else{														// Dosli smo do druge linije,
+					writer.close();											//zatvaramo sari file i zapoinjemo novi							
+					writer = new BufferedWriter(new FileWriter(fileName));
+				}				
+			}																
+			catch(Exception e){					// Ne pocinje sa brojem i onda znaci da imamo samo podatke koje upisujemo
+				try{
+					writer.write(line + '\n');		
+					continue;
+				}
+				catch(Exception e1){			// Za kad je writer null
+					continue;
+				}
+			}				
+		}
+		try{
+			writer.close();
+			writer = null;
+		}
+		catch(Exception e){
+			System.out.println("Error closing writer");
+		}
 		
 	}
 	
