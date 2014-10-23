@@ -71,7 +71,7 @@ public class MainActivity extends Activity {
 
         SharedPreferences brojLinijaZaIspis = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         String brojLinija = brojLinijaZaIspis.getString("brojLinija","1");
-        if(brojLinija.equals(1)){
+        if(brojLinija.equals("1")){
             printDvijeLinije=false;
         }
         else{
