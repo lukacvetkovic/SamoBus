@@ -76,14 +76,14 @@ public class NewDepartureHelper {
         }
 
         String secondDepartureStart = line.split("\\s+")[2];       // Polazak iz "OVO_SA_DRUGE_STRANE_RELACIJE"
-        //String secondDepartureStart = reader.readLine().split("\\s+")[2];       // Polazak iz "OVO_SA_DRUGE_STRANE_RELACIJE"
         String[] secondDepartureTimes = reader.readLine().split("\\s+");        // Vremena svih polazaka
 
-        while((line = reader.readLine()).contains("preko")){
-            secondSporaLinijaList.add(new SporaLinija(line, Arrays.asList(reader.readLine().split(" "))));      // Ista stvar ko gore
+        line = reader.readLine();
+        while(line != null && line.contains("preko")){
+            secondSporaLinijaList.add(new SporaLinija(line, Arrays.asList(reader.readLine().split("\\s+"))));      // Ista stvar ko gore
+            line = reader.readLine();
         }
 
-        line = reader.readLine();
         while(line != null){
             if( line.contains("NAPOMENA")){
                 break;
@@ -172,7 +172,7 @@ public class NewDepartureHelper {
         }
         for(SporaLinija sporaLinija : lista){
             if(sporaLinija.getVremenaList().contains(time)){
-                String[] words = sporaLinija.getPrekoCega().split("\\s+");
+                String[] words = sporaLinija.getPrekoCega().replaceAll(":","").split("\\s+");
                 if(words.length >=3) {
                     String s = "";
                     for (int i = 2; i < words.length; i++) {
@@ -186,6 +186,7 @@ public class NewDepartureHelper {
         return "Brza linija";
     }
 
+    // TODO UBACIT STRING BUILDER TU
     private void buildDialog(String firstDepartureStart, String[] firstDepartureTimes, int firstDepartureTimeIndex,
                              String secondDepartureStart, String[] secondDepartureTimes, int secondDepartureTimeIndex){
         alertDialogBuilder.setTitle("Slijedeci busevi");
