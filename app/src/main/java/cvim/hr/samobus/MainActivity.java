@@ -39,6 +39,7 @@ public class MainActivity extends ActionBarActivity {
     private Linija linija14;
     private Linija linija15;
 
+
     private NewDepartureHelper departureHelper;
 
     private Boolean printDvijeLinije = false;
@@ -64,7 +65,7 @@ public class MainActivity extends ActionBarActivity {
 
         SharedPreferences brojLinijaZaIspis = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         String brojLinija = brojLinijaZaIspis.getString("brojLinija","1");
-        if(brojLinija.equals(1)){
+        if(brojLinija.equals("1")){
             printDvijeLinije=false;
         }
         else{
