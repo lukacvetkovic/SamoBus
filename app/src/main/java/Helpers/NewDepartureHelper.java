@@ -157,20 +157,7 @@ public class NewDepartureHelper {
     }
 
     public void obradiLinijeSVisePolazaka(int linijaNumber) throws IOException {
-        Calendar calendar1 = Calendar.getInstance();
-        dayType = getDayOfTheWeek();
-        firstSporaLinijaList.clear();
-        secondSporaLinijaList.clear();
-        napomeneList.clear();
-        String day = dayType.toString();
-        String fileName = "Vremena/" + linijaNumber + getPeriod() + ".txt";
-        String line;
-
-        int firstDepartureTimeIndex, secondDepartureTimeIndex;
-
-        BufferedReader reader = new BufferedReader(new InputStreamReader(context.getAssets().open(fileName)));
-        while (!(line = reader.readLine()).contains(day));    // -> pozicioniranje na pocetak radnog dana, subote ili nedelje
-
+        //treba napravit
     }
 
 
