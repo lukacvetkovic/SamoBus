@@ -16,6 +16,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
 
 import Helpers.NewDepartureHelper;
 import Views.Linija;
@@ -39,9 +40,6 @@ public class MainActivity extends Activity {
     private Linija linija14;
     private Linija linija15;
 
-    static Map<Integer,String> imeLinije=new HashMap<Integer, String>();
-
-
     private NewDepartureHelper departureHelper;
 
     @Override
@@ -64,6 +62,8 @@ public class MainActivity extends Activity {
         setValeuesToLinije();
 
         napuniImenima();
+
+
     }
 
     private void napuniImenima() {
