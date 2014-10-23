@@ -1,12 +1,11 @@
 package cvim.hr.samobus;
 
-import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -14,20 +13,15 @@ import android.view.View;
 
 import android.widget.Toast;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Properties;
 
 import Helpers.NewDepartureHelper;
 import Views.Linija;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
 
     private Linija linija1;
     private Linija linija2;
@@ -47,7 +41,7 @@ public class MainActivity extends Activity {
 
     private NewDepartureHelper departureHelper;
 
-    private Boolean printDvijeLinije=false;
+    private Boolean printDvijeLinije = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,10 +70,6 @@ public class MainActivity extends Activity {
         else{
            printDvijeLinije=true;
         }
-
-        napuniImenima();
-
-
     }
 
     private void setValeuesToLinije() {
@@ -130,7 +120,6 @@ public class MainActivity extends Activity {
         }
     }
 
-
     private void initLinije() {
         linija1 = (Linija) findViewById(R.id.linija1);
         linija2 = (Linija) findViewById(R.id.linija2);
@@ -147,33 +136,6 @@ public class MainActivity extends Activity {
         linija13 = (Linija) findViewById(R.id.linija13);
         linija14 = (Linija) findViewById(R.id.linija14);
         linija15 = (Linija) findViewById(R.id.linija15);
-    }
-
-    private void napuniImenima() {
-        /*
-        Properties props = new Properties();
-        InputStream inStream = null;
-
-        try {
-            inStream = new FileInputStream("student.properties");
-            props.load(inStream);
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally{
-            try {
-                if(inStream != null) {
-                    inStream.close();
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-
-
-        System.out.println(props.containsKey("mjesto"));
-        System.out.println(props.getProperty("fax"));
-        */
     }
 
     @Override
