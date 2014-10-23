@@ -123,8 +123,7 @@
                 android:layout_height="wrap_content"
                 class="Views.Linija"
                 android:id="@+id/linija15"
-                android:layout_centerHorizontal="true"
-                android:onClick="handleButton"/>
+                android:layout_centerHorizontal="true"/>
 
         </LinearLayout>
     </ScrollView>

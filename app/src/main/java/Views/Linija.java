@@ -25,11 +25,11 @@ public class Linija extends Button {
         super(context, attrs, defStyle);
     }
 
-
-    public void refresh(){
-        this.setText(""+broj);
+    public void setLineText(String text){
+        if(text != null) {
+            this.setText("" + text);
+        }
     }
-
 
     public String getVozniRedFile() {
         return vozniRedFile;
