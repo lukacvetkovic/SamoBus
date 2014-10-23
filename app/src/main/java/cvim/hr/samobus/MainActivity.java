@@ -78,7 +78,7 @@ public class MainActivity extends Activity {
         Linija[] linije = {linija1, linija2, linija3, linija4, linija5, linija6, linija7,
                 linija8, linija9, linija10, linija11, linija12, linija13, linija14, linija15};
 
-        int n = 146;
+        int n = 141;
         for (final Linija linija : linije) {
             linija.setBroj(n++);
             linija.refresh();

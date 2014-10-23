@@ -91,7 +91,7 @@ public class NewDepartureHelper {
             else{
                 line = reader.readLine();
             }
-        }        // Dodemo do napomena iako bi mozda vec trebali biti na njima pozicionirani, TODO?
+        }        // Dodemo do napomena iako bi mozda vec trebali biti na njima pozicionirani
 
         line = reader.readLine();
         while(line != null) {
@@ -108,24 +108,26 @@ public class NewDepartureHelper {
 
         firstDepartureTimeIndex = -1;                            // Tu nadjemo index vremena koje je slijedeci polazak
         int i = 0;                                              // Koristim i tak da provjerim poslje dal ima bus ili ne if(first.. == -1)->nema busa
-        for(String departureTime : firstDepartureTimes){
-            if(parseTimeToMinutes(departureTime) > now){        // TODO neki "pametniji" search ako ce nam se dat.. (Umjesto foreach petlji)
-                firstDepartureTimeIndex = i;
-                break;
-            }
-            else{
-                i = i + 1;
+        if(firstDepartureTimes.length != 1) {
+            for (String departureTime : firstDepartureTimes) {
+                if (parseTimeToMinutes(departureTime) > now) {        // TODO neki "pametniji" search ako ce nam se dat.. (Umjesto foreach petlji)
+                    firstDepartureTimeIndex = i;
+                    break;
+                } else {
+                    i = i + 1;
+                }
             }
         }
         secondDepartureTimeIndex = -1;
         i = 0;
-        for(String departureTime : secondDepartureTimes){
-            if(parseTimeToMinutes(departureTime) > now){
-                secondDepartureTimeIndex = i;
-                break;
-            }
-            else{
-                i = i + 1;
+        if(secondDepartureTimes.length != 1) {
+            for (String departureTime : secondDepartureTimes) {
+                if (parseTimeToMinutes(departureTime) > now) {
+                    secondDepartureTimeIndex = i;
+                    break;
+                } else {
+                    i = i + 1;
+                }
             }
         }
 
