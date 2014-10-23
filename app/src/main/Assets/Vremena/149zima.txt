@@ -4,7 +4,7 @@ Polasci iz SAMOBORA:
 Polasci iz MEDSAVA:
 4.35 5.15 6.00 7.20 10.35 12.25 13.35 14.55 15.35 16.35 17.35 *18.55 19.45 20.35 22.40
 Napomena:
-*za vrijeme skolskih praznika autobus ne vozi.
+*za vrijeme skolskih praznika autobus ne vozi
 SUBOTA:
 Polasci iz SAMOBORA:
 4.45 7.00 10.50 12.30 14.15 16.40 22.25
