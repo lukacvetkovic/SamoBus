@@ -45,6 +45,7 @@ public class MainActivity extends Activity {
     private Linija linija14;
     private Linija linija15;
 
+
     private NewDepartureHelper departureHelper;
 
     private Boolean printDvijeLinije=false;
