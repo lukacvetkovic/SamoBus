@@ -29,4 +29,9 @@ public class StartingPoint extends Activity{
         };
         timer.start();
     }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        finish();
+    }
 }
