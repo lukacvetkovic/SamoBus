@@ -15,6 +15,9 @@ import android.view.View;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
@@ -79,22 +82,29 @@ public class MainActivity extends Activity {
 
     }
 
-    private void napuniImenima() {
-
-        /*
-        Ne radi, ne znam kak citat iz datoteke :(
-         */
-    }
-
-
     private void setValeuesToLinije() {
         Linija[] linije = {linija1, linija2, linija3, linija4, linija5, linija6, linija7,
-                linija8, linija9, linija10, linija11, linija12, linija13, linija14, linija15};
+                linija8, linija9, linija10, linija11, linija12, linija13};
 
-        int n = 141;
+        Properties props = new Properties();
+        InputStream inStream = null;
+
+        try {
+            inStream = MainActivity.this.getAssets().open("ImeLinije/ime.properties");
+            props.load(inStream);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        Integer n = 141;
+
         for (final Linija linija : linije) {
-            linija.setBroj(n++);
-            linija.refresh();
+            if( n == 142 || n == 150 || n == 152 || n == 154 || n == 157 || n == 159 || n == 160 ){     //TODO ovo pokrpat kak krpamo linije
+                n += 1;
+            }
+            linija.setBroj(n);
+            linija.setLineText(n.toString() + " - " + props.getProperty(n.toString()));
+            n += 1;
             linija.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -109,6 +119,14 @@ public class MainActivity extends Activity {
                     }
                 }
             });
+        }
+
+        if(inStream != null){
+            try {
+                inStream.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
 
@@ -129,6 +147,33 @@ public class MainActivity extends Activity {
         linija13 = (Linija) findViewById(R.id.linija13);
         linija14 = (Linija) findViewById(R.id.linija14);
         linija15 = (Linija) findViewById(R.id.linija15);
+    }
+
+    private void napuniImenima() {
+        /*
+        Properties props = new Properties();
+        InputStream inStream = null;
+
+        try {
+            inStream = new FileInputStream("student.properties");
+            props.load(inStream);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally{
+            try {
+                if(inStream != null) {
+                    inStream.close();
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+
+
+        System.out.println(props.containsKey("mjesto"));
+        System.out.println(props.getProperty("fax"));
+        */
     }
 
     @Override
