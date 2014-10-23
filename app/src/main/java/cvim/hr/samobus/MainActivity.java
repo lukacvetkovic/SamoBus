@@ -4,7 +4,9 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -45,6 +47,8 @@ public class MainActivity extends Activity {
 
     private NewDepartureHelper departureHelper;
 
+    private Boolean printDvijeLinije=false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,6 +67,15 @@ public class MainActivity extends Activity {
         initLinije();
 
         setValeuesToLinije();
+
+        SharedPreferences brojLinijaZaIspis = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+        String brojLinija = brojLinijaZaIspis.getString("brojLinija","1");
+        if(brojLinija.equals(1)){
+            printDvijeLinije=false;
+        }
+        else{
+           printDvijeLinije=true;
+        }
 
         napuniImenima();
 
@@ -97,7 +110,7 @@ public class MainActivity extends Activity {
                 public void onClick(View view) {
                     try {
                         //DepartureHelper.getNextDepartures(linija.getBroj(), MainActivity.this);       // Stari departure helper
-                        departureHelper.getNextDepartures(linija.getBroj());
+                        departureHelper.getNextDepartures(linija.getBroj(),printDvijeLinije);
                     } catch (Exception e) {
                         Log.e("MAIN", "Error reading file from assets");
                         Toast toast = Toast.makeText(MainActivity.this, "There is not txt file for " + linija.getBroj() + " line, yet ;)", Toast.LENGTH_LONG);

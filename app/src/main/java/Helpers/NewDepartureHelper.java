@@ -3,6 +3,8 @@ package Helpers;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.util.Log;
 
 import java.io.BufferedReader;
@@ -38,6 +40,8 @@ public class NewDepartureHelper {
     private AlertDialog alertDialog;
 
     public NewDepartureHelper(Context context) {
+           
+
         if (context != null) {
             this.context = context;
             this.calendar = Calendar.getInstance();
@@ -50,7 +54,7 @@ public class NewDepartureHelper {
         }
     }
 
-    public void getNextDepartures(int linijaNumber) throws IOException {
+    public void getNextDepartures(int linijaNumber,Boolean printDvijeLinije) throws IOException {
         switch (linijaNumber) {
             case 142:
                 obradiLinijeSVisePolazaka(linijaNumber);
