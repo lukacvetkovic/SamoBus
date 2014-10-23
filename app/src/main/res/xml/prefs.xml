@@ -2,15 +2,9 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <EditTextPreference
-        android:title="EditText"
-        android:key="name"
-        android:summary="Enter your name"></EditTextPreference>
-
-    <CheckBoxPreference
-        android:title="FavoriteLines"
-        android:defaultValue="true"
-        android:key="checkbox"
-        android:summary="Choose line you want to see"></CheckBoxPreference>
-
+    <ListPreference
+        android:entries="@array/listLinije"
+        android:entryValues="@array/listValues"
+        android:key="brojLinija"
+        android:title="Broj sljedećih linija" />
 </PreferenceScreen>
