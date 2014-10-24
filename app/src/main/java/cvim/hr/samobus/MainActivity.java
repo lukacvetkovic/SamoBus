@@ -1,9 +1,13 @@
 package cvim.hr.samobus;
 
+import android.app.Activity;
 import android.content.Intent;
 
 import android.content.SharedPreferences;
+import android.location.GpsStatus;
 import android.os.Bundle;
+import android.preference.Preference;
+import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
@@ -22,7 +26,7 @@ import Helpers.NewDepartureHelper;
 import Views.Linija;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
     private Linija linija1;
     private Linija linija2;
@@ -44,6 +48,11 @@ public class MainActivity extends ActionBarActivity {
     private NewDepartureHelper departureHelper;
 
     private Boolean printDvijeLinije = false;
+    private Boolean zakljucajFavorite= false;
+    private Boolean prikazBrojaLinije = true;
+    private Boolean pamtiZakljucajFavorite;
+    private Boolean pamtiPrikazBrojaLinije;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,17 +71,13 @@ public class MainActivity extends ActionBarActivity {
 
         initLinije();
 
+        getPrefs();
+
         setValeuesToLinije();
 
-        SharedPreferences brojLinijaZaIspis = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-        String brojLinija = brojLinijaZaIspis.getString("brojLinija","1");
-        if(brojLinija.equals("1")){
-            printDvijeLinije=false;
-        }
-        else{
-           printDvijeLinije=true;
-        }
     }
+
+
 
     private void setValeuesToLinije() {
         Linija[] linije = {linija1, linija2, linija3, linija4, linija5, linija6, linija7,
@@ -95,7 +100,12 @@ public class MainActivity extends ActionBarActivity {
                 n += 1;
             }
             linija.setBroj(n);
-            linija.setLineText(n.toString() + " - " + props.getProperty(n.toString()));
+            if (prikazBrojaLinije) {
+                linija.setLineText(n.toString() + " - " + props.getProperty(n.toString()));
+            } else {
+                linija.setLineText(props.getProperty(n.toString()));
+            }
+
             n += 1;
             linija.backGroundButton.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -174,7 +184,6 @@ public class MainActivity extends ActionBarActivity {
             case R.id.preferences:
                 Intent p = new Intent("cvim.hr.PREFS");
                 startActivity(p);
-
                 break;
 
             case R.id.exit:
@@ -183,5 +192,20 @@ public class MainActivity extends ActionBarActivity {
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void getPrefs() {
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+        String brojLinija = sharedPref.getString("brojLinija","1");
+        if(brojLinija.equals("1")){
+            printDvijeLinije=false;
+        }
+        else{
+            printDvijeLinije=true;
+        }
+
+        zakljucajFavorite=sharedPref.getBoolean("favsLock",false);
+        prikazBrojaLinije=sharedPref.getBoolean("numShow",true);
+
     }
 }

@@ -2,9 +2,20 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <CheckBoxPreference
+    android:title="Zakljucaj favorite"
+    android:defaultValue="false"
+    android:key="favsLock"></CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:title="Prikaz broja linije uz naziv"
+        android:defaultValue="true"
+        android:key="numShow"></CheckBoxPreference>
+
     <ListPreference
         android:entries="@array/listLinije"
         android:entryValues="@array/listValues"
         android:key="brojLinija"
         android:title="Broj sljedećih linija" />
+
 </PreferenceScreen>
