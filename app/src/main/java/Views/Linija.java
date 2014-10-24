@@ -9,6 +9,9 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import java.util.LinkedList;
+import java.util.List;
+
 import cvim.hr.samobus.R;
 
 /**
@@ -47,7 +50,7 @@ public class Linija extends RelativeLayout {
             isFavs = false;
             if(linesLayout != null && favsLayout != null){
                 favsLayout.removeView(this);
-                linesLayout.addView(this);
+                linesLayout.addView(this, getInsertionIndex(this, linesLayout));
                 refreshImage();
             }
         }
@@ -55,7 +58,7 @@ public class Linija extends RelativeLayout {
             isFavs = true;
             if(linesLayout != null && favsLayout != null){
                 linesLayout.removeView(this);
-                favsLayout.addView(this);
+                favsLayout.addView(this, getInsertionIndex(this, favsLayout));
                 refreshImage();
             }
         }
@@ -65,6 +68,24 @@ public class Linija extends RelativeLayout {
         if(text != null) {
            this.lineText.setText("" + text);
         }
+    }
+
+    private int getInsertionIndex(Linija linija, LinearLayout linearLayout){
+        List<Linija> lineList = new LinkedList<Linija>();
+        int childCount = linearLayout.getChildCount();
+        for(int i=0; i<childCount; i++){
+            lineList.add((Linija)linearLayout.getChildAt(i));
+        }
+        childCount = 0;     // recikliram varijablu i koristim ko counter sad
+        for(Linija line : lineList){
+            if(line.getBroj() > this.broj){
+                return childCount;
+            }
+            else{
+                childCount++;
+            }
+        }
+        return lineList.size();
     }
 
     private void init(){
