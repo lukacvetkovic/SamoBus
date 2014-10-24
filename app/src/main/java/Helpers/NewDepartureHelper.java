@@ -6,10 +6,12 @@ import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.util.Log;
+import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
@@ -32,6 +34,8 @@ public class NewDepartureHelper {
     private List<SporaLinija> firstSporaLinijaList;
     private List<SporaLinija> secondSporaLinijaList;
 
+    private List<Integer> brojeviFuckedUpLinija;
+
     private int now;
 
     private List<String> napomeneList;
@@ -49,119 +53,109 @@ public class NewDepartureHelper {
             this.secondSporaLinijaList = new ArrayList<SporaLinija>();
             this.alertDialogBuilder = new AlertDialog.Builder(context);
             this.napomeneList = new ArrayList<String>();
+            //this.brojeviFuckedUpLinija = new ArrayList<Integer>(142, 150, 157, 159, 160);
+            this.brojeviFuckedUpLinija = Arrays.asList(142, 150, 157, 159, 160);
         } else {
             Log.e(TAG, "Provided context is null !");
         }
     }
 
     public void getNextDepartures(int linijaNumber,Boolean printDvijeLinije) throws IOException {
-        switch (linijaNumber) {
-            case 142:
-                obradiLinijeSVisePolazaka(linijaNumber);
-                break;
-            case 150:
-                obradiLinijeSVisePolazaka(linijaNumber);
-                break;
-            case 157:
-                obradiLinijeSVisePolazaka(linijaNumber);
-                break;
-            case 159:
-                obradiLinijeSVisePolazaka(linijaNumber);
-                break;
-            case 160:
-                obradiLinijeSVisePolazaka(linijaNumber);
-                break;
-            default:
-                Calendar calendar1 = Calendar.getInstance();
-                dayType = getDayOfTheWeek();
-                firstSporaLinijaList.clear();
-                secondSporaLinijaList.clear();
-                napomeneList.clear();
-                String day = dayType.toString();
-                String fileName = "Vremena/" + linijaNumber + getPeriod() + ".txt";
-                String line;
+        if(brojeviFuckedUpLinija.contains(linijaNumber)){
+            obradiLinijeSVisePolazaka(linijaNumber);
+        }
+        else{
+            Calendar calendar1 = Calendar.getInstance();
+            dayType = getDayOfTheWeek();
+            firstSporaLinijaList.clear();
+            secondSporaLinijaList.clear();
+            napomeneList.clear();
+            String day = dayType.toString();
+            String fileName = "Vremena/" + linijaNumber + getPeriod() + ".txt";
+            String line;
 
-                int firstDepartureTimeIndex, secondDepartureTimeIndex;
+            int firstDepartureTimeIndex, secondDepartureTimeIndex;
 
-                BufferedReader reader = new BufferedReader(new InputStreamReader(context.getAssets().open(fileName)));
-                while (!(line = reader.readLine()).contains(day))
-                    ;    // -> pozicioniranje na pocetak radnog dana, subote ili nedelje
+            BufferedReader reader = new BufferedReader(new InputStreamReader(context.getAssets().open(fileName)));
+            while (!(line = reader.readLine()).contains(day))
+                ;    // -> pozicioniranje na pocetak radnog dana, subote ili nedelje
 
-                String firstDepartureStart = reader.readLine().split("\\s+")[2];       // polazak iz "OVO_OVDJE:"
-                String[] firstDepartureTimes = reader.readLine().split("\\s+");        // Vremena svih polazaka
+            String firstDepartureStart = reader.readLine().split("\\s+")[2];       // polazak iz "OVO_OVDJE:"
+            String[] firstDepartureTimes = reader.readLine().split("\\s+");        // Vremena svih polazaka
 
-                // Napravim objekt spora linija sa preko cega ide i svim vremenima i dodam u listu sporih linija na toj liniji, tak za sve spore linije
+            // Napravim objekt spora linija sa preko cega ide i svim vremenima i dodam u listu sporih linija na toj liniji, tak za sve spore linije
+            line = reader.readLine();
+            while (line.contains("preko")) {
+                firstSporaLinijaList.add(new SporaLinija(line, Arrays.asList(reader.readLine().split("\\s+"))));
                 line = reader.readLine();
-                while (line.contains("preko")) {
-                    firstSporaLinijaList.add(new SporaLinija(line, Arrays.asList(reader.readLine().split("\\s+"))));
+            }
+
+            String secondDepartureStart = line.split("\\s+")[2];       // Polazak iz "OVO_SA_DRUGE_STRANE_RELACIJE"
+            String[] secondDepartureTimes = reader.readLine().split("\\s+");        // Vremena svih polazaka
+
+            line = reader.readLine();
+            while (line != null && line.contains("preko")) {
+                secondSporaLinijaList.add(new SporaLinija(line, Arrays.asList(reader.readLine().split("\\s+"))));      // Ista stvar ko gore
+                line = reader.readLine();
+            }
+
+            while (line != null) {
+                if (line.contains("NAPOMENA")) {
+                    break;
+                } else {
                     line = reader.readLine();
                 }
+            }        // Dodemo do napomena iako bi mozda vec trebali biti na njima pozicionirani
 
-                String secondDepartureStart = line.split("\\s+")[2];       // Polazak iz "OVO_SA_DRUGE_STRANE_RELACIJE"
-                String[] secondDepartureTimes = reader.readLine().split("\\s+");        // Vremena svih polazaka
-
-                line = reader.readLine();
-                while (line != null && line.contains("preko")) {
-                    secondSporaLinijaList.add(new SporaLinija(line, Arrays.asList(reader.readLine().split("\\s+"))));      // Ista stvar ko gore
+            line = reader.readLine();
+            while (line != null) {
+                if (line.contains(DayType.SUBOTA.toString()) || line.contains(DayType.NEDJELJA_BLAGDAN.toString())) {
+                    break;
+                } else {
+                    napomeneList.add(line);
                     line = reader.readLine();
                 }
+            }
 
-                while (line != null) {
-                    if (line.contains("NAPOMENA")) {
+            now = calendar1.getTime().getHours() * 60 + calendar1.getTime().getMinutes();
+
+            firstDepartureTimeIndex = -1;                            // Tu nadjemo index vremena koje je slijedeci polazak
+            int i = 0;                                              // Koristim i tak da provjerim poslje dal ima bus ili ne if(first.. == -1)->nema busa
+            if (firstDepartureTimes.length != 1) {
+                for (String departureTime : firstDepartureTimes) {
+                    if (parseTimeToMinutes(departureTime) > now) {        // TODO neki "pametniji" search ako ce nam se dat.. (Umjesto foreach petlji)
+                        firstDepartureTimeIndex = i;
                         break;
                     } else {
-                        line = reader.readLine();
+                        i = i + 1;
                     }
-                }        // Dodemo do napomena iako bi mozda vec trebali biti na njima pozicionirani
-
-                line = reader.readLine();
-                while (line != null) {
-                    if (line.contains(DayType.SUBOTA.toString()) || line.contains(DayType.NEDJELJA_BLAGDAN.toString())) {
+                }
+            }
+            secondDepartureTimeIndex = -1;
+            i = 0;
+            if (secondDepartureTimes.length != 1) {
+                for (String departureTime : secondDepartureTimes) {
+                    if (parseTimeToMinutes(departureTime) > now) {
+                        secondDepartureTimeIndex = i;
                         break;
                     } else {
-                        napomeneList.add(line);
-                        line = reader.readLine();
+                        i = i + 1;
                     }
                 }
+            }
 
-                now = calendar1.getTime().getHours() * 60 + calendar1.getTime().getMinutes();
+            reader.close();
+            reader = null;
 
-                firstDepartureTimeIndex = -1;                            // Tu nadjemo index vremena koje je slijedeci polazak
-                int i = 0;                                              // Koristim i tak da provjerim poslje dal ima bus ili ne if(first.. == -1)->nema busa
-                if (firstDepartureTimes.length != 1) {
-                    for (String departureTime : firstDepartureTimes) {
-                        if (parseTimeToMinutes(departureTime) > now) {        // TODO neki "pametniji" search ako ce nam se dat.. (Umjesto foreach petlji)
-                            firstDepartureTimeIndex = i;
-                            break;
-                        } else {
-                            i = i + 1;
-                        }
-                    }
-                }
-                secondDepartureTimeIndex = -1;
-                i = 0;
-                if (secondDepartureTimes.length != 1) {
-                    for (String departureTime : secondDepartureTimes) {
-                        if (parseTimeToMinutes(departureTime) > now) {
-                            secondDepartureTimeIndex = i;
-                            break;
-                        } else {
-                            i = i + 1;
-                        }
-                    }
-                }
-
-                reader.close();
-                reader = null;
-
-                buildDialog(firstDepartureStart, firstDepartureTimes, firstDepartureTimeIndex,
-                        secondDepartureStart, secondDepartureTimes, secondDepartureTimeIndex);
+            buildDialog(firstDepartureStart, firstDepartureTimes, firstDepartureTimeIndex,
+                    secondDepartureStart, secondDepartureTimes, secondDepartureTimeIndex);
         }
 
     }
 
     public void obradiLinijeSVisePolazaka(int linijaNumber) throws IOException {
-        //treba napravit
+        Toast toast = Toast.makeText(context, "Fucked up linija", Toast.LENGTH_LONG);
+        toast.show();
     }
 
 
