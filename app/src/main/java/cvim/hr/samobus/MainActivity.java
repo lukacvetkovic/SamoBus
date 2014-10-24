@@ -96,17 +96,29 @@ public class MainActivity extends ActionBarActivity {
             linija.setBroj(n);
             linija.setLineText(n.toString() + " - " + props.getProperty(n.toString()));
             n += 1;
-            linija.setOnClickListener(new View.OnClickListener() {
+            linija.backGroundButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    try {
+                    //try {
                         //DepartureHelper.getNextDepartures(linija.getBroj(), MainActivity.this);       // Stari departure helper
-                        departureHelper.getNextDepartures(linija.getBroj(),printDvijeLinije);
-                    } catch (Exception e) {
+                        //departureHelper.getNextDepartures(linija.getBroj(), printDvijeLinije);
+                        linija.switchFavsState();
+                    /*} catch (Exception e) {
                         Log.e("MAIN", "Error reading file from assets");
                         Toast toast = Toast.makeText(MainActivity.this, "There is not txt file for " + linija.getBroj() + " line, yet ;)", Toast.LENGTH_LONG);
                         toast.show();
                         e.printStackTrace();
+                    }*/
+                }
+            });
+            linija.favsButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    try {
+                        linija.switchFavsState();
+                    }
+                    catch (Exception e){
+                        Log.e("ERR", "Index out of bounds kod switchanja stanja");
                     }
                 }
             });
