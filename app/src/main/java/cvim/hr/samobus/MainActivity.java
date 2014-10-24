@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import java.io.IOException;
@@ -99,23 +100,23 @@ public class MainActivity extends ActionBarActivity {
             linija.backGroundButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    //try {
+                    try {
                         //DepartureHelper.getNextDepartures(linija.getBroj(), MainActivity.this);       // Stari departure helper
-                        //departureHelper.getNextDepartures(linija.getBroj(), printDvijeLinije);
-                        linija.switchFavsState();
-                    /*} catch (Exception e) {
+                        departureHelper.getNextDepartures(linija.getBroj(), printDvijeLinije);
+                        //linija.switchFavsState((LinearLayout) findViewById(R.id.favsLinearLayout), (LinearLayout) findViewById(R.id.LinijeLinearLayout));
+                    } catch (Exception e) {
                         Log.e("MAIN", "Error reading file from assets");
                         Toast toast = Toast.makeText(MainActivity.this, "There is not txt file for " + linija.getBroj() + " line, yet ;)", Toast.LENGTH_LONG);
                         toast.show();
                         e.printStackTrace();
-                    }*/
+                    }
                 }
             });
             linija.favsButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
                     try {
-                        linija.switchFavsState();
+                        linija.switchFavsState((LinearLayout) findViewById(R.id.favsLinearLayout), (LinearLayout) findViewById(R.id.LinijeLinearLayout));
                     }
                     catch (Exception e){
                         Log.e("ERR", "Index out of bounds kod switchanja stanja");

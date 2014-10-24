@@ -41,30 +41,24 @@ public class Linija extends RelativeLayout {
         init();
     }
 
-    public void switchFavsState(){          // TODO promjenit layout i sliku
-        ViewGroup parentParent = (ViewGroup) this.getParent().getParent();
-        Log.i("LINE", "1");
-        LinearLayout favsLayout = (LinearLayout) parentParent.getChildAt(0);
-        Log.i("LINE", "1");
-        LinearLayout linesLayout = (LinearLayout) parentParent.getChildAt(1);
-        Log.i("LINE", "1");
+    public void switchFavsState(LinearLayout favsLayout, LinearLayout linesLayout){
+
         if(isFavs){
             isFavs = false;
-            if(linesLayout != null && favsLayout != null){
-                linesLayout.removeView(this);
-                favsLayout.addView(this);
-                refreshImage();
-            }
-        }
-        else{
-            isFavs = true;
             if(linesLayout != null && favsLayout != null){
                 favsLayout.removeView(this);
                 linesLayout.addView(this);
                 refreshImage();
             }
         }
-        Log.i("LINE", "1");
+        else{
+            isFavs = true;
+            if(linesLayout != null && favsLayout != null){
+                linesLayout.removeView(this);
+                favsLayout.addView(this);
+                refreshImage();
+            }
+        }
     }
 
     public void setLineText(String text){
