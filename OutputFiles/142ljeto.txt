@@ -4,7 +4,6 @@ Polasci iz SAMOBORA:
 Polasci iz TERIHAJA:
 *4.20 5.05 6.20 9.15 11.30 13.10 **14.50 **16.15 18.00 20.55 22.35
 NAPOMENA:
-BUG!!!
 * vozi do Klaka (Naglici)
 ** vozi preko Galgova i Sv. Martina
 *** vozi do Molvica
@@ -14,7 +13,6 @@ Polasci iz SAMOBORA:
 Polasci iz TERIHAJA:
 *5.15 6.30 9.40 11.30 13.10 *14.50 *16.00 19.30 22.40
 NAPOMENA:
-BUG!!!
 * vozi preko Galgova i Sv. Martina.
 NEDJELJA_BLAGDAN:
 Polasci iz SAMOBORA:

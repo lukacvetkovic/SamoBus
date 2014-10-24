@@ -11,124 +11,140 @@
 
     <ScrollView
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="fill_parent"
+        android:id="@+id/LinijeScrollView">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/LinearLayoutContainer">
 
-            <view
+            <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija1"
-                android:layout_alignTop="@+id/scrollView"
-                android:layout_centerHorizontal="true"/>
+                android:layout_height="match_parent"
+                android:id="@+id/FavsLinearLayout">
 
-            <view
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija2"
-                android:layout_centerHorizontal="true"/>
+            </LinearLayout>
 
-            <view
-                android:layout_width="fill_parent"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija3"
-                android:layout_centerHorizontal="true"/>
+                android:orientation="vertical"
+                android:id="@+id/LinijeLinearLayout">
 
-            <view
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija4"
-                android:layout_centerHorizontal="true"/>
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija1"
+                    android:layout_alignTop="@+id/scrollView"
+                    android:layout_centerHorizontal="true"/>
 
-            <view
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija5"
-                android:layout_centerHorizontal="true" />
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija2"
+                    android:layout_centerHorizontal="true"/>
 
-            <view
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija6"
-                android:layout_centerHorizontal="true" />
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija3"
+                    android:layout_centerHorizontal="true"/>
 
-            <view
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija7"
-                android:layout_centerHorizontal="true" />
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija4"
+                    android:layout_centerHorizontal="true"/>
 
-            <view
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija8"
-                android:layout_centerHorizontal="true" />
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija5"
+                    android:layout_centerHorizontal="true" />
 
-            <view
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija9"
-                android:layout_centerHorizontal="true" />
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija6"
+                    android:layout_centerHorizontal="true" />
 
-            <view
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija10"
-                android:layout_centerHorizontal="true" />
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija7"
+                    android:layout_centerHorizontal="true" />
 
-            <view
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija11"
-                android:layout_centerHorizontal="true" />
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija8"
+                    android:layout_centerHorizontal="true" />
 
-            <view
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija12"
-                android:layout_centerHorizontal="true" />
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija9"
+                    android:layout_centerHorizontal="true" />
 
-            <view
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija13"
-                android:layout_centerHorizontal="true" />
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija10"
+                    android:layout_centerHorizontal="true" />
 
-            <view
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija14"
-                android:layout_centerHorizontal="true" />
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija11"
+                    android:layout_centerHorizontal="true" />
 
-            <view
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                class="Views.Linija"
-                android:id="@+id/linija15"
-                android:layout_centerHorizontal="true"/>
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija12"
+                    android:layout_centerHorizontal="true" />
 
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija13"
+                    android:layout_centerHorizontal="true" />
+
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija14"
+                    android:layout_centerHorizontal="true" />
+
+                <view
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    class="Views.Linija"
+                    android:id="@+id/linija15"
+                    android:layout_centerHorizontal="true"/>
+
+
+            </LinearLayout>
 
         </LinearLayout>
+
     </ScrollView>
-
-
-
 
 </RelativeLayout>

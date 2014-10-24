@@ -48,12 +48,10 @@ public class NewDepartureHelper {
 
         if (context != null) {
             this.context = context;
-            this.calendar = Calendar.getInstance();
             this.firstSporaLinijaList = new ArrayList<SporaLinija>();
             this.secondSporaLinijaList = new ArrayList<SporaLinija>();
             this.alertDialogBuilder = new AlertDialog.Builder(context);
             this.napomeneList = new ArrayList<String>();
-            //this.brojeviFuckedUpLinija = new ArrayList<Integer>(142, 150, 157, 159, 160);
             this.brojeviFuckedUpLinija = Arrays.asList(142, 150, 157, 159, 160);
         } else {
             Log.e(TAG, "Provided context is null !");
@@ -65,7 +63,7 @@ public class NewDepartureHelper {
             obradiLinijeSVisePolazaka(linijaNumber);
         }
         else{
-            Calendar calendar1 = Calendar.getInstance();
+            this.calendar = Calendar.getInstance();
             dayType = getDayOfTheWeek();
             firstSporaLinijaList.clear();
             secondSporaLinijaList.clear();
@@ -117,10 +115,10 @@ public class NewDepartureHelper {
                 }
             }
 
-            now = calendar1.getTime().getHours() * 60 + calendar1.getTime().getMinutes();
+            now = calendar.getTime().getHours() * 60 + calendar.getTime().getMinutes();
 
             firstDepartureTimeIndex = -1;                            // Tu nadjemo index vremena koje je slijedeci polazak
-            int i = 0;                                              // Koristim i tak da provjerim poslje dal ima bus ili ne if(first.. == -1)->nema busa
+            int i = 0;                                               // Koristim i tak da provjerim poslje dal ima bus ili ne if(first.. == -1)->nema busa
             if (firstDepartureTimes.length != 1) {
                 for (String departureTime : firstDepartureTimes) {
                     if (parseTimeToMinutes(departureTime) > now) {        // TODO neki "pametniji" search ako ce nam se dat.. (Umjesto foreach petlji)
