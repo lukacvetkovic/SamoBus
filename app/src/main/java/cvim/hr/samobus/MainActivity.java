@@ -23,6 +23,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 import Helpers.NewDepartureHelper;
+import Helpers.SettingsHelper;
 import Views.Linija;
 
 
@@ -46,6 +47,7 @@ public class MainActivity extends Activity {
 
 
     private NewDepartureHelper departureHelper;
+    private SettingsHelper settingsHelper;
 
     private Boolean printDvijeLinije = false;
     private Boolean zakljucajFavorite= false;
@@ -74,6 +76,8 @@ public class MainActivity extends Activity {
         getPrefs();
 
         setValeuesToLinije();
+
+        settingsHelper= new SettingsHelper(this);
 
     }
 
@@ -182,8 +186,10 @@ public class MainActivity extends Activity {
                 break;
 
             case R.id.preferences:
-                Intent p = new Intent("cvim.hr.PREFS");
-                startActivity(p);
+                /*
+                to ne radi
+                 */
+                settingsHelper.init();
                 break;
 
             case R.id.exit:
