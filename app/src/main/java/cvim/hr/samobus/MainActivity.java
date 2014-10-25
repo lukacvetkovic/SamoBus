@@ -16,6 +16,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import java.io.IOException;
@@ -45,6 +46,7 @@ public class MainActivity extends Activity {
     private Linija linija14;
     private Linija linija15;
 
+    private RelativeLayout relativeLayout;
 
     private NewDepartureHelper departureHelper;
     private SettingsHelper settingsHelper;
@@ -78,6 +80,9 @@ public class MainActivity extends Activity {
         setValeuesToLinije();
 
         settingsHelper= new SettingsHelper(this);
+
+        //settingsHelper.showSettings(relativeLayout);
+
 
     }
 
@@ -164,6 +169,8 @@ public class MainActivity extends Activity {
         linija13 = (Linija) findViewById(R.id.linija13);
         linija14 = (Linija) findViewById(R.id.linija14);
         linija15 = (Linija) findViewById(R.id.linija15);
+
+        relativeLayout = (RelativeLayout) findViewById(R.id.mainRelativeLayout);
     }
 
     @Override
@@ -186,10 +193,7 @@ public class MainActivity extends Activity {
                 break;
 
             case R.id.preferences:
-                /*
-                to ne radi
-                 */
-                settingsHelper.init();
+                settingsHelper.showSettings(relativeLayout);
                 break;
 
             case R.id.exit:
