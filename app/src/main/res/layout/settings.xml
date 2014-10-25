@@ -1,17 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
     android:id="@+id/mainRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="#ffffffff"
-    android:clickable="true">
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkZakljucaj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rgBrojLinija"
+            android:layout_toEndOf="@+id/rgBrojLinija"
+            android:layout_toRightOf="@+id/rgBrojLinija"
+            android:text="Zakljucaj favorite"
+            android:checked="false"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/checkBroj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkZakljucaj"
+            android:layout_alignStart="@+id/checkZakljucaj"
+            android:layout_below="@+id/checkZakljucaj"
+            android:checked="false"
+            android:text="Prikaz broja linije uz naziv" />
+
+        <TextView
+            android:id="@+id/tvBrojLinija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkBroj"
+            android:text="Odaberite broj linija koje želite vidjeti pritiskom na gumb:" />
+
+        <RadioGroup
+            android:id="@+id/rgBrojLinija"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/btnId"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        </RadioGroup>
+
+        <RadioButton
+            android:id="@+id/rJedna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rDvije"
+            android:layout_alignStart="@+id/rDvije"
+            android:layout_below="@+id/tvBrojLinija"
+            android:layout_marginTop="25dp"
+            android:text="Jedna sljedeća linija"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rDvije"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/checkBroj"
+            android:layout_alignStart="@+id/checkBroj"
+            android:layout_below="@+id/rJedna"
+            android:text="Dvije sljedeće linije"></RadioButton>
+
+        <Button
+            android:id="@+id/bPrimjeni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rDvije"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="129dp"
+            android:text="Primjeni promjene"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
 </RelativeLayout>

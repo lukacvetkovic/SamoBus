@@ -218,4 +218,10 @@ public class MainActivity extends Activity {
         prikazBrojaLinije=sharedPref.getBoolean("numShow",true);
 
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        initLinije();
+    }
 }

@@ -7,12 +7,14 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity"
-    android:id="@+id/mainRelativeLayout">
+    android:id="@+id/mainRelativeLayout"
+    android:orientation="vertical">
 
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/LinijeScrollView">
+        android:id="@+id/LinijeScrollView"
+        >
 
         <LinearLayout
             android:orientation="vertical"

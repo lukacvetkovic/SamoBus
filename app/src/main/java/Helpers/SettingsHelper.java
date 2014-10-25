@@ -46,7 +46,7 @@ public class SettingsHelper extends RelativeLayout{
         if (layoutInflater != null) {
             settingsView = layoutInflater.inflate(R.layout.settings, this, true);
         }
-        this.button = (Button) findViewById(R.id.btnId);
+        this.button = (Button) findViewById(R.id.bPrimjeni);
         this.button.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
