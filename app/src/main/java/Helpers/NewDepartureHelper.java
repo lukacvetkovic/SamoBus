@@ -36,6 +36,8 @@ public class NewDepartureHelper {
 
     private List<Integer> brojeviFuckedUpLinija;
 
+    private StringBuilder stringBuilder;
+
     private int now;
 
     private List<String> napomeneList;
@@ -44,7 +46,6 @@ public class NewDepartureHelper {
     private AlertDialog alertDialog;
 
     public NewDepartureHelper(Context context) {
-           
 
         if (context != null) {
             this.context = context;
@@ -52,6 +53,8 @@ public class NewDepartureHelper {
             this.secondSporaLinijaList = new ArrayList<SporaLinija>();
             this.alertDialogBuilder = new AlertDialog.Builder(context);
             this.napomeneList = new ArrayList<String>();
+            this.stringBuilder = new StringBuilder();
+
             this.brojeviFuckedUpLinija = Arrays.asList(142, 150, 157, 159, 160);
         } else {
             Log.e(TAG, "Provided context is null !");
@@ -78,7 +81,17 @@ public class NewDepartureHelper {
             while (!(line = reader.readLine()).contains(day))
                 ;    // -> pozicioniranje na pocetak radnog dana, subote ili nedelje
 
-            String firstDepartureStart = reader.readLine().split("\\s+")[2];       // polazak iz "OVO_OVDJE:"
+            String[] firstDepartureStartWords = reader.readLine().split("\\s+");    // "polazak iz IME IME IME:"
+            //String firstDepartureStart = reader.readLine().split("\\s+")[2];
+            for(int i=0; i<firstDepartureStartWords.length; i++){
+                if(i>=2){
+                    stringBuilder.append(firstDepartureStartWords[i]).append(" ");
+                }
+            }
+            String firstDepartureStart = stringBuilder.toString();          // "IME IME IME:"
+            stringBuilder.setLength(0);     // flusha string builder
+
+
             String[] firstDepartureTimes = reader.readLine().split("\\s+");        // Vremena svih polazaka
 
             // Napravim objekt spora linija sa preko cega ide i svim vremenima i dodam u listu sporih linija na toj liniji, tak za sve spore linije
@@ -88,7 +101,16 @@ public class NewDepartureHelper {
                 line = reader.readLine();
             }
 
-            String secondDepartureStart = line.split("\\s+")[2];       // Polazak iz "OVO_SA_DRUGE_STRANE_RELACIJE"
+            String[] secondDepartureStartWords = line.split("\\s+");
+            //String secondDepartureStart = line.split("\\s+")[2];       // "Polazak iz OVO SA DRUGE STRANE RELACIJE:"
+            for(int i=0; i<secondDepartureStartWords.length; i++){
+                if(i>=2){
+                    stringBuilder.append(secondDepartureStartWords[i]).append(" ");
+                }
+            }
+            String secondDepartureStart = stringBuilder.toString();          // "OVO SA DRUGE STRANE RELACIJE:"
+            stringBuilder.setLength(0);
+
             String[] secondDepartureTimes = reader.readLine().split("\\s+");        // Vremena svih polazaka
 
             line = reader.readLine();
