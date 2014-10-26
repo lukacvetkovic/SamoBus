@@ -46,6 +46,9 @@ public class SettingsHelper extends RelativeLayout{
         if (layoutInflater != null) {
             settingsView = layoutInflater.inflate(R.layout.settings, this, true);
         }
+        /**
+         * taj ce zvat static metodu iz maina
+         */
         this.button = (Button) findViewById(R.id.bPrimjeni);
         this.button.setOnClickListener(new OnClickListener() {
             @Override
