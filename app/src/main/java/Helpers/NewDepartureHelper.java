@@ -199,9 +199,23 @@ public class NewDepartureHelper {
     /**
      * @return 'zima' or 'ljeto' depending on active bus schedule
      */
-    private String getPeriod() {         // // TODO odrediti dal je ljetni ili zimski raspored pa ? "zima" : "ljeto"
-
-        return "zima";
+    private String getPeriod() {
+        if(this.calendar.get(Calendar.YEAR) < 2015){
+            return  "zima";
+        }
+        else{
+            if(this.calendar.get(Calendar.MONTH) < Calendar.JUNE){
+                return "zima";
+            }
+            else{
+                if(this.calendar.get(Calendar.DAY_OF_MONTH) < 16){
+                    return "zima";
+                }
+                else{
+                    return "ljeto";
+                }
+            }
+        }
     }
 
     private String getBrzaIliSpora(String time, int firstOrSecond) {
