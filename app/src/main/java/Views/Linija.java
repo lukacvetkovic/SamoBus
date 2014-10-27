@@ -27,6 +27,7 @@ public class Linija extends RelativeLayout {
 
     public ImageButton backGroundButton;
     public ImageButton favsButton;
+    public ImageButton timesListButton;
     public TextView lineText;
 
     public Linija(Context context) {
@@ -92,6 +93,7 @@ public class Linija extends RelativeLayout {
         inflate(getContext(), R.layout.linija, this);
         this.backGroundButton = (ImageButton) findViewById(R.id.imgBtnBackground);
         this.favsButton = (ImageButton) findViewById(R.id.imgBtnFavs);
+        this.timesListButton = (ImageButton) findViewById(R.id.imgBtnAllTimes);
         this.lineText = (TextView) findViewById(R.id.txtLinija);
                                                                         // TODO init dal su u favs ili ne
         refreshImage();
@@ -99,11 +101,12 @@ public class Linija extends RelativeLayout {
 
     private void refreshImage(){
         if(this.isFavs) {
-            this.favsButton.setImageResource(R.drawable.unfav_button_gray);
+            this.favsButton.setImageResource(R.drawable.unfav_icon_s);
         }
         else{
-            this.favsButton.setImageResource(R.drawable.fav_button_gray);
+            this.favsButton.setImageResource(R.drawable.fav_icon_s);
         }
+        this.timesListButton.setImageResource(R.drawable.swipe_to_all_times_s);
     }
 
     public String getVozniRedFile() {
