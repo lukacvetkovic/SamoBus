@@ -90,7 +90,7 @@ public class MainActivity extends Activity {
 
     private void setValeuesToLinije() {
         Linija[] linije = {linija1, linija2, linija3, linija4, linija5, linija6, linija7,
-                linija8, linija9, linija10, linija11, linija12, linija13};
+                linija8, linija9, linija10, linija11, linija12, linija13, linija14, linija15};
 
         Properties props = new Properties();
         InputStream inStream = null;
@@ -105,7 +105,7 @@ public class MainActivity extends Activity {
         Integer n = 141;
 
         for (final Linija linija : linije) {
-            if( n == 142 || n == 150 || n == 152 || n == 154 || n == 157 || n == 159 || n == 160 ){     //TODO ovo pokrpat kak krpamo linije
+            if( n == 152 || n == 154 || n == 157 || n == 159 || n == 160 ){     //TODO ovo pokrpat kak krpamo linije
                 n += 1;
             }
             linija.setBroj(n);

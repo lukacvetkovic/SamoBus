@@ -3,22 +3,21 @@ package Helpers;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
+import java.util.LinkedList;
 import java.util.List;
 
 import Enums.DayType;
 import Models.SporaLinija;
+import Models.SubLinija;
 
 /**
  * Class which helps to get when is the next bus acording to current time.
@@ -63,7 +62,7 @@ public class NewDepartureHelper {
 
     public void getNextDepartures(int linijaNumber,Boolean printDvijeLinije) throws IOException {
         if(brojeviFuckedUpLinija.contains(linijaNumber)){
-            obradiLinijeSVisePolazaka(linijaNumber);
+            obradiLinijeSViseSubLinija(linijaNumber);
         }
         else{
             this.calendar = Calendar.getInstance();
@@ -173,9 +172,53 @@ public class NewDepartureHelper {
 
     }
 
-    public void obradiLinijeSVisePolazaka(int linijaNumber) throws IOException {
-        Toast toast = Toast.makeText(context, "Fucked up linija", Toast.LENGTH_LONG);
-        toast.show();
+    public void obradiLinijeSViseSubLinija(int linijaNumber) throws IOException {
+        List<SubLinija> subLinijaList = new LinkedList<SubLinija>();
+
+        this.calendar = Calendar.getInstance();
+        dayType = getDayOfTheWeek();
+        firstSporaLinijaList.clear();
+        secondSporaLinijaList.clear();
+        napomeneList.clear();
+        String day = dayType.toString();
+        String fileName = "Vremena/" + linijaNumber + getPeriod() + ".txt";
+        String line;
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(context.getAssets().open(fileName)));
+        while (!(line = reader.readLine()).contains(day))
+            ;    // -> pozicioniranje na pocetak radnog dana, subote ili nedelje
+
+        line = reader.readLine();
+        while( line.contains("Polasci")){
+            subLinijaList.add(new SubLinija(line, reader.readLine(), reader.readLine(), reader.readLine()));
+            line = reader.readLine();
+        }
+
+        while (line != null) {
+            if (line.contains("NAPOMENA")) {
+                break;
+            } else {
+                line = reader.readLine();
+            }
+        }
+
+        line = reader.readLine();
+        while (line != null) {
+            if (line.contains(DayType.SUBOTA.toString()) || line.contains(DayType.NEDJELJA_BLAGDAN.toString())) {
+                break;
+            } else {
+                napomeneList.add(line);
+                line = reader.readLine();
+            }
+        }
+
+        reader.close();
+        reader = null;
+
+        now = calendar.getTime().getHours() * 60 + calendar.getTime().getMinutes();
+
+        buildFuckedUpDialog(subLinijaList);
+
     }
 
 
@@ -286,5 +329,34 @@ public class NewDepartureHelper {
                 });
         alertDialog = alertDialogBuilder.create();
         alertDialog.show();
+    }
+
+    private void buildFuckedUpDialog(List<SubLinija> subLinijaList){
+        alertDialogBuilder.setTitle("Slijedeci busevi");
+        String message = "";
+
+        for(SubLinija subLinija : subLinijaList){
+            message = message + " \n" + subLinija.getNextDepartures(now, 1);
+        }
+
+        if (napomeneList.size() != 0) {       // ima napomena
+            message = message + "\n Napomene:";
+
+            for (String hint : napomeneList) {
+                message = message + "\n " + hint;
+            }
+        }
+
+        alertDialogBuilder.setMessage(message)
+                .setCancelable(false)
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {        //TODO, discuss -> Mozda tu isto gumb koji pokazuje brojeve svih taksija?
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                });
+        alertDialog = alertDialogBuilder.create();
+        alertDialog.show();
+
     }
 }
