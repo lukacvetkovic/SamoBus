@@ -25,6 +25,7 @@ import java.util.Properties;
 
 import Helpers.NewDepartureHelper;
 import Helpers.SettingsHelper;
+import Views.AllTimesLayout;
 import Views.Linija;
 
 
@@ -47,6 +48,8 @@ public class MainActivity extends Activity {
     private Linija linija15;
 
     private RelativeLayout relativeLayout;
+
+    private AllTimesLayout allTimesLayout;
 
     private NewDepartureHelper departureHelper;
     private SettingsHelper settingsHelper;
@@ -80,6 +83,8 @@ public class MainActivity extends Activity {
         setValeuesToLinije();
 
         settingsHelper= new SettingsHelper(this);
+
+        allTimesLayout = new AllTimesLayout(this);
 
         //settingsHelper.showSettings(relativeLayout);
 
@@ -142,6 +147,12 @@ public class MainActivity extends Activity {
                     }
                 }
             });
+            linija.timesListButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    allTimesLayout.showAllDepartureTimes(relativeLayout, linija.getBroj());
+                }
+            });
         }
 
         if(inStream != null){
@@ -171,6 +182,7 @@ public class MainActivity extends Activity {
         linija15 = (Linija) findViewById(R.id.linija15);
 
         relativeLayout = (RelativeLayout) findViewById(R.id.mainRelativeLayout);
+
     }
 
     @Override
