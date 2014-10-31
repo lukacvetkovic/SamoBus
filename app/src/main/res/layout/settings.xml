@@ -20,8 +20,8 @@
             android:layout_below="@+id/rgBrojLinija"
             android:layout_toEndOf="@+id/rgBrojLinija"
             android:layout_toRightOf="@+id/rgBrojLinija"
-            android:text="Zakljucaj favorite"
-            android:checked="false"></CheckBox>
+            android:checked="false"
+            android:text="Zakljucaj favorite"></CheckBox>
 
         <CheckBox
             android:id="@+id/checkBroj"
@@ -47,27 +47,33 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
+            <RadioButton
+                android:id="@+id/rJedna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/rDvije"
+                android:layout_alignStart="@+id/rDvije"
+                android:layout_below="@+id/tvBrojLinija"
+                android:layout_marginTop="25dp"
+                android:text="Jedna sljedeća linija"></RadioButton>
 
+            <RadioButton
+                android:id="@+id/rDvije"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/checkBroj"
+                android:layout_alignStart="@+id/checkBroj"
+                android:layout_below="@+id/rJedna"
+                android:text="Dvije sljedeće linije"></RadioButton>
         </RadioGroup>
 
-        <RadioButton
-            android:id="@+id/rJedna"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/rDvije"
-            android:layout_alignStart="@+id/rDvije"
-            android:layout_below="@+id/tvBrojLinija"
-            android:layout_marginTop="25dp"
-            android:text="Jedna sljedeća linija"></RadioButton>
 
-        <RadioButton
-            android:id="@+id/rDvije"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/checkBroj"
-            android:layout_alignStart="@+id/checkBroj"
-            android:layout_below="@+id/rJedna"
-            android:text="Dvije sljedeće linije"></RadioButton>
+            android:text="New Text"
+            android:id="@+id/tvTest"
+            android:layout_gravity="center_horizontal" />
 
         <Button
             android:id="@+id/bPrimjeni"
@@ -75,9 +81,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/rDvije"
             android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
             android:layout_marginTop="129dp"
-            android:text="Primjeni promjene"
-            android:layout_gravity="center_horizontal" />
+            android:text="Primjeni promjene" />
 
     </LinearLayout>
 </RelativeLayout>
