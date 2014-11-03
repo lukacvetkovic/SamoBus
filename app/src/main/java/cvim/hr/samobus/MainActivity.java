@@ -4,12 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 
 import android.content.SharedPreferences;
-import android.location.GpsStatus;
 import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,7 +20,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 import Helpers.NewDepartureHelper;
-import Helpers.SettingsHelper;
+import Views.SettingsView;
 import Views.AllTimesLayout;
 import Views.Linija;
 
@@ -52,7 +48,7 @@ public class MainActivity extends Activity {
     private AllTimesLayout allTimesLayout;
 
     private NewDepartureHelper departureHelper;
-    private SettingsHelper settingsHelper;
+    private SettingsView settingsView;
 
     private Boolean printDvijeLinije = false;
     private Boolean zakljucajFavorite= false;
@@ -82,7 +78,7 @@ public class MainActivity extends Activity {
 
         setValeuesToLinije();
 
-        settingsHelper= new SettingsHelper(this);
+        settingsView = new SettingsView(this);
 
         allTimesLayout = new AllTimesLayout(this);
 
@@ -205,7 +201,7 @@ public class MainActivity extends Activity {
                 break;
 
             case R.id.preferences:
-                settingsHelper.showSettings(relativeLayout);
+                settingsView.showSettings(relativeLayout);
                 break;
 
             case R.id.exit:

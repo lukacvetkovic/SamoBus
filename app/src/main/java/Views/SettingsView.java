@@ -1,4 +1,4 @@
-package Helpers;
+package Views;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -12,12 +12,13 @@ import android.widget.RadioGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import Helpers.SharedPrefsHelper;
 import cvim.hr.samobus.R;
 
 /**
  * Created by Cveki on 24.10.2014..
  */
-public class SettingsHelper extends RelativeLayout {
+public class SettingsView extends RelativeLayout {
 
     private Context context;
     Button button;
@@ -30,19 +31,19 @@ public class SettingsHelper extends RelativeLayout {
     private RelativeLayout relativeLayout;
     SharedPrefsHelper sharedPrefsHelper = new SharedPrefsHelper(context);
 
-    public SettingsHelper(Context context) {
+    public SettingsView(Context context) {
         super(context);
         this.context = context;
         init();
     }
 
-    public SettingsHelper(Context context, AttributeSet attrs) {
+    public SettingsView(Context context, AttributeSet attrs) {
         super(context, attrs);
         this.context = context;
         init();
     }
 
-    public SettingsHelper(Context context, AttributeSet attrs, int defStyle) {
+    public SettingsView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         this.context = context;
         init();
