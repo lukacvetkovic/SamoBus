@@ -23,12 +23,12 @@ public class SettingsHelper extends RelativeLayout {
     Button button;
     CheckBox zakljucajFavorite;
     CheckBox prikazBrojaUzLinije;
-    TextView probniText;
     RadioButton jednaLinija;
     RadioButton dvijelinije;
 
     private View settingsView;
     private RelativeLayout relativeLayout;
+    SharedPrefsHelper sharedPrefsHelper = new SharedPrefsHelper(context);
 
     public SettingsHelper(Context context) {
         super(context);
@@ -63,6 +63,7 @@ public class SettingsHelper extends RelativeLayout {
         this.button.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 hideSettings(relativeLayout);
             }
         });
@@ -72,10 +73,11 @@ public class SettingsHelper extends RelativeLayout {
             @Override
             public void onClick(View view) {
                 if(zakljucajFavorite.isChecked()){
-                    probniText.setText("Zakljucaj");
+                    sharedPrefsHelper.putBoolean("zakljucaj",true);
                 }
                 else{
-                    probniText.setText("NEZakljucaj");
+                    sharedPrefsHelper.putBoolean("zakljucaj",false);
+
                 }
 
                 //dodaj u sharedpreffse
@@ -87,16 +89,18 @@ public class SettingsHelper extends RelativeLayout {
             @Override
             public void onClick(View view) {
                 if (prikazBrojaUzLinije.isChecked()) {
-                    probniText.setText("BROJ");
+                    sharedPrefsHelper.putBoolean("prikazBroja",true);
+
                 } else {
-                    probniText.setText("NEBroj");
+                    sharedPrefsHelper.putBoolean("prikazBroja",false);
+
                 }
 
                 //dodaj u sharedpreffse
             }
         });
 
-        probniText=(TextView)findViewById(R.id.tvTest);
+
         jednaLinija=(RadioButton) findViewById(R.id.rJedna);
         dvijelinije=(RadioButton) findViewById(R.id.rDvije);
 
@@ -104,7 +108,8 @@ public class SettingsHelper extends RelativeLayout {
             @Override
             public void onClick(View view) {
                 if (jednaLinija.isChecked()) {
-                    probniText.setText("JEDNA");
+                    sharedPrefsHelper.putString("brojLinija","jedna");
+
                 }
 
                 //dodaj u sharedpreffse
@@ -115,7 +120,8 @@ public class SettingsHelper extends RelativeLayout {
             @Override
             public void onClick(View view) {
                 if (dvijelinije.isChecked()) {
-                    probniText.setText("DVIJE");
+                    sharedPrefsHelper.putString("brojLinija","dvije");
+
                 }
 
                 //dodaj u sharedpreffse
