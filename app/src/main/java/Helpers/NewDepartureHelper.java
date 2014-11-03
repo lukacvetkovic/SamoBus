@@ -60,7 +60,7 @@ public class NewDepartureHelper {
         }
     }
 
-    public void getNextDepartures(int linijaNumber,Boolean printDvijeLinije) throws IOException {
+    public void getNextDepartures(int linijaNumber, Boolean printDvijeLinije) throws IOException {
         if(brojeviFuckedUpLinija.contains(linijaNumber)){
             obradiLinijeSViseSubLinija(linijaNumber);
         }

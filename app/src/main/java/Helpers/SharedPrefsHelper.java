@@ -2,6 +2,7 @@ package Helpers;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.util.Log;
 
 import java.util.Set;
 
@@ -10,6 +11,10 @@ import java.util.Set;
  */
 public class SharedPrefsHelper {
 
+    public static final String ZAKLJUCAJ = "zakljucaj";
+    public static final String PRIKAZ_BROJA = "prikazBroja";
+    public static final String BROJ_LINIJA = "brojLinija";
+
     private SharedPreferences sharedPrefs;
     private SharedPreferences.Editor sharedPrefsEditor;
     private String prefsName = "cvim.smbus";
@@ -17,6 +22,8 @@ public class SharedPrefsHelper {
     private Context context;
 
     public SharedPrefsHelper(Context context) {
+        this.context = context;
+        Log.i("CON", "" + context);
         sharedPrefs = context.getSharedPreferences(prefsName, Context.MODE_PRIVATE);
         sharedPrefsEditor = sharedPrefs.edit();
     }

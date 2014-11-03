@@ -13,6 +13,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import Helpers.SharedPrefsHelper;
+import Listeners.SettingsListener;
+import cvim.hr.samobus.MainActivity;
 import cvim.hr.samobus.R;
 
 /**
@@ -27,9 +29,11 @@ public class SettingsView extends RelativeLayout {
     RadioButton jednaLinija;
     RadioButton dvijelinije;
 
+    private SettingsListener settingsListener;
+
     private View settingsView;
     private RelativeLayout relativeLayout;
-    SharedPrefsHelper sharedPrefsHelper = new SharedPrefsHelper(context);
+    SharedPrefsHelper sharedPrefsHelper;
 
     public SettingsView(Context context) {
         super(context);
@@ -51,6 +55,8 @@ public class SettingsView extends RelativeLayout {
 
     public void init() {
 
+        sharedPrefsHelper = new SharedPrefsHelper(context);
+
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         if (layoutInflater != null) {
             settingsView = layoutInflater.inflate(R.layout.settings, this, true);
@@ -65,6 +71,9 @@ public class SettingsView extends RelativeLayout {
             @Override
             public void onClick(View view) {
 
+                if(settingsListener != null){
+                    settingsListener.updatedSettings(SettingsListener.BROJ_UZ_LINIJE);
+                }
                 hideSettings(relativeLayout);
             }
         });
@@ -74,14 +83,11 @@ public class SettingsView extends RelativeLayout {
             @Override
             public void onClick(View view) {
                 if(zakljucajFavorite.isChecked()){
-                    sharedPrefsHelper.putBoolean("zakljucaj",true);
+                    sharedPrefsHelper.putBoolean(SharedPrefsHelper.ZAKLJUCAJ,true);
                 }
                 else{
-                    sharedPrefsHelper.putBoolean("zakljucaj",false);
-
+                    sharedPrefsHelper.putBoolean(SharedPrefsHelper.ZAKLJUCAJ,false);
                 }
-
-                //dodaj u sharedpreffse
             }
         });
 
@@ -90,14 +96,11 @@ public class SettingsView extends RelativeLayout {
             @Override
             public void onClick(View view) {
                 if (prikazBrojaUzLinije.isChecked()) {
-                    sharedPrefsHelper.putBoolean("prikazBroja",true);
+                    sharedPrefsHelper.putBoolean(SharedPrefsHelper.PRIKAZ_BROJA,true);
 
                 } else {
-                    sharedPrefsHelper.putBoolean("prikazBroja",false);
-
+                    sharedPrefsHelper.putBoolean(SharedPrefsHelper.PRIKAZ_BROJA,false);
                 }
-
-                //dodaj u sharedpreffse
             }
         });
 
@@ -109,11 +112,8 @@ public class SettingsView extends RelativeLayout {
             @Override
             public void onClick(View view) {
                 if (jednaLinija.isChecked()) {
-                    sharedPrefsHelper.putString("brojLinija","jedna");
-
+                    sharedPrefsHelper.putInt(SharedPrefsHelper.BROJ_LINIJA, 1);
                 }
-
-                //dodaj u sharedpreffse
             }
         });
 
@@ -121,11 +121,8 @@ public class SettingsView extends RelativeLayout {
             @Override
             public void onClick(View view) {
                 if (dvijelinije.isChecked()) {
-                    sharedPrefsHelper.putString("brojLinija","dvije");
-
+                    sharedPrefsHelper.putInt(SharedPrefsHelper.BROJ_LINIJA, 2);
                 }
-
-                //dodaj u sharedpreffse
             }
         });
 
@@ -145,5 +142,9 @@ public class SettingsView extends RelativeLayout {
             this.startAnimation(AnimationUtils.loadAnimation(context, R.anim.slide_out_to_left));
             relativeLayout.removeView(this);
         }
+    }
+
+    public void setSettingsListener(SettingsListener settingsListener) {
+        this.settingsListener = settingsListener;
     }
 }

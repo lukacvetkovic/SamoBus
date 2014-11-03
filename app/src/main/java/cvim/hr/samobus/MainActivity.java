@@ -20,12 +20,14 @@ import java.io.InputStream;
 import java.util.Properties;
 
 import Helpers.NewDepartureHelper;
+import Helpers.SharedPrefsHelper;
+import Listeners.SettingsListener;
 import Views.SettingsView;
 import Views.AllTimesLayout;
 import Views.Linija;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements SettingsListener{
 
     private Linija linija1;
     private Linija linija2;
@@ -53,9 +55,11 @@ public class MainActivity extends Activity {
     private Boolean printDvijeLinije = false;
     private Boolean zakljucajFavorite= false;
     private Boolean prikazBrojaLinije = true;
-    private Boolean pamtiZakljucajFavorite;
-    private Boolean pamtiPrikazBrojaLinije;
 
+    private boolean suPrikazaniBrojeviLinija;
+    private boolean init = true;
+
+    private SharedPrefsHelper sharedPrefsHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,15 +76,17 @@ public class MainActivity extends Activity {
 
         departureHelper = new NewDepartureHelper(this);
 
-        initLinije();
-
-        getPrefs();
-
-        setValeuesToLinije();
+        sharedPrefsHelper = new SharedPrefsHelper(MainActivity.this);
 
         settingsView = new SettingsView(this);
 
         allTimesLayout = new AllTimesLayout(this);
+
+        getPrefs();
+
+        initLinije();
+
+        setValeuesToLinije();
 
         //settingsHelper.showSettings(relativeLayout);
 
@@ -110,7 +116,7 @@ public class MainActivity extends Activity {
                 n += 1;
             }
             linija.setBroj(n);
-            if (prikazBrojaLinije) {
+            if (suPrikazaniBrojeviLinija) {
                 linija.setLineText(n.toString() + " - " + props.getProperty(n.toString()));
             } else {
                 linija.setLineText(props.getProperty(n.toString()));
@@ -181,6 +187,47 @@ public class MainActivity extends Activity {
 
     }
 
+    public void updateLinije(){
+        LinearLayout favsLayout = (LinearLayout) findViewById(R.id.favsLinearLayout);
+        LinearLayout lineLayout = (LinearLayout) findViewById(R.id.LinijeLinearLayout);
+
+        Linija linija;
+        String text;
+        if(suPrikazaniBrojeviLinija){
+            int childCount = favsLayout.getChildCount();
+            for(int i = 0; i < childCount; i++){
+                linija =(Linija) favsLayout.getChildAt(i);
+                text =(String) linija.lineText.getText();
+                linija.setLineText(text.split(" \\- ")[1]);
+            }
+            childCount = lineLayout.getChildCount();
+            for(int i = 0; i < childCount; i++){
+                linija =(Linija) lineLayout.getChildAt(i);
+                text =(String) linija.lineText.getText();
+                linija.setLineText(text.split(" \\- ")[1]);
+            }
+            suPrikazaniBrojeviLinija = false;
+        }
+        else{
+            int childCount = favsLayout.getChildCount();
+            int brojLinije;
+            for(int i = 0; i < childCount; i++){
+                linija =(Linija) favsLayout.getChildAt(i);
+                text =(String) linija.lineText.getText();
+                brojLinije = linija.getBroj();
+                linija.setLineText(brojLinije + " - " + text);
+            }
+            childCount = lineLayout.getChildCount();
+            for(int i = 0; i < childCount; i++){
+                linija =(Linija) lineLayout.getChildAt(i);
+                text =(String) linija.lineText.getText();
+                brojLinije = linija.getBroj();
+                linija.setLineText(brojLinije + " - " + text);
+            }
+            suPrikazaniBrojeviLinija = true;
+        }
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -206,30 +253,39 @@ public class MainActivity extends Activity {
 
             case R.id.exit:
                 finish();
-
                 break;
         }
         return super.onOptionsItemSelected(item);
     }
 
     public void getPrefs() {
-        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-        String brojLinija = sharedPref.getString("brojLinija","1");
-        if(brojLinija.equals("1")){
-            printDvijeLinije=false;
+        settingsView.setSettingsListener(this);
+        int brojLinija = sharedPrefsHelper.getInt(SharedPrefsHelper.BROJ_LINIJA, 1);
+        if(brojLinija == 1){
+            printDvijeLinije = false;
         }
         else{
-            printDvijeLinije=true;
+            printDvijeLinije = true;
         }
-
-        zakljucajFavorite=sharedPref.getBoolean("favsLock",false);
-        prikazBrojaLinije=sharedPref.getBoolean("numShow",true);
-
+        zakljucajFavorite = sharedPrefsHelper.getBoolean(SharedPrefsHelper.ZAKLJUCAJ, false);
+        prikazBrojaLinije = sharedPrefsHelper.getBoolean(SharedPrefsHelper.PRIKAZ_BROJA, true);
+        if(init){
+            suPrikazaniBrojeviLinija = prikazBrojaLinije;
+            init = false;
+        }
     }
 
     @Override
     protected void onResume() {
         super.onResume();
         initLinije();
+    }
+
+    @Override
+    public void updatedSettings(int whichSettings) {
+        getPrefs();     // Update prefsa svaki puta nakon kaj se zatvori settingsView
+        if(whichSettings == SettingsListener.BROJ_UZ_LINIJE){
+            updateLinije();
+        }
     }
 }
