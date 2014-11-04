@@ -64,6 +64,9 @@ public class SharedPrefsHelper {
         sharedPrefsEditor.apply();
     }
 
+    public boolean doesExist(String varName){
+        return sharedPrefs.contains(varName);
+    }
 
 
 

@@ -61,8 +61,18 @@ public class SettingsView extends RelativeLayout {
 
         sharedPrefsHelper = new SharedPrefsHelper(context);
 
+        if(! sharedPrefsHelper.doesExist(SharedPrefsHelper.ZAKLJUCAJ)){
+            sharedPrefsHelper.putBoolean(SharedPrefsHelper.ZAKLJUCAJ, false);
+        }
+        if(! sharedPrefsHelper.doesExist(SharedPrefsHelper.BROJ_LINIJA)){
+            sharedPrefsHelper.putInt(SharedPrefsHelper.BROJ_LINIJA, 1);
+        }
+        if(! sharedPrefsHelper.doesExist(SharedPrefsHelper.PRIKAZ_BROJA)){
+            sharedPrefsHelper.putBoolean(SharedPrefsHelper.PRIKAZ_BROJA, true);
+        }
+
         zakljucajFavse = sharedPrefsHelper.getBoolean(SharedPrefsHelper.ZAKLJUCAJ, false);
-        prikazBrojevaLinija = sharedPrefsHelper.getBoolean(SharedPrefsHelper.PRIKAZ_BROJA, false);
+        prikazBrojevaLinija = sharedPrefsHelper.getBoolean(SharedPrefsHelper.PRIKAZ_BROJA, true);
         polazakaZaPrikaz = sharedPrefsHelper.getInt(SharedPrefsHelper.BROJ_LINIJA, 1);
 
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
