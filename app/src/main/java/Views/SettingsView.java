@@ -75,10 +75,23 @@ public class SettingsView extends RelativeLayout {
             @Override
             public void onClick(View view) {
 
+                boolean promjenaPrikazaBrojaLinija = ( sharedPrefsHelper.getBoolean(SharedPrefsHelper.PRIKAZ_BROJA, false) != prikazBrojevaLinija );
+                boolean promjenaZakljucavanjaFavsa = ( sharedPrefsHelper.getBoolean(SharedPrefsHelper.ZAKLJUCAJ, false ) != zakljucajFavse );
+                boolean promjenaPrikazaBroja = ( sharedPrefsHelper.getInt(SharedPrefsHelper.BROJ_LINIJA, 1) != polazakaZaPrikaz );
+
                 updateSharedPreferences();
 
                 if(settingsListener != null){
-                    settingsListener.updatedSettings(SettingsListener.BROJ_UZ_LINIJE);
+                    if(promjenaZakljucavanjaFavsa){
+                        settingsListener.updatedSettings(SettingsListener.ZAKLJUVACANJE_FAVSA);
+                    }
+                    if(promjenaPrikazaBroja){
+                        settingsListener.updatedSettings(SettingsListener.N_LINIJA_ZA_PRIKAZ);
+                    }
+                    if(promjenaPrikazaBrojaLinija){
+                        settingsListener.updatedSettings(SettingsListener.BROJ_UZ_LINIJE);
+                    }
+
                 }
                 hideSettings(relativeLayout);
             }

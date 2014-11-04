@@ -22,6 +22,7 @@ public class Linija extends RelativeLayout {
     private int broj;
 
     private boolean isFavs = false;     // TODO negdje u prefse spremit listu onih koji su u favsim i u initu ih initat
+    private boolean suZakljucaniFavsi = false;
 
     private String vozniRedFile;
 
@@ -45,22 +46,38 @@ public class Linija extends RelativeLayout {
         init();
     }
 
-    public void switchFavsState(LinearLayout favsLayout, LinearLayout linesLayout){
+    public void setFavs(boolean isFavs, boolean zakljucaniFavsi){       // TODO kod inicijalizacije linija postavit ovo svakoj
+        this.isFavs = isFavs;
+        this.suZakljucaniFavsi = zakljucaniFavsi;
+    }
 
-        if(isFavs){
-            isFavs = false;
-            if(linesLayout != null && favsLayout != null){
-                favsLayout.removeView(this);
-                linesLayout.addView(this, getInsertionIndex(this, linesLayout));
-                refreshImage();
-            }
+    public void setZakljucaniFavsi(boolean suZakljucaniFavsi){
+        this.suZakljucaniFavsi = suZakljucaniFavsi;
+        if(suZakljucaniFavsi){
+            lockFavs();
         }
         else{
-            isFavs = true;
-            if(linesLayout != null && favsLayout != null){
-                linesLayout.removeView(this);
-                favsLayout.addView(this, getInsertionIndex(this, favsLayout));
-                refreshImage();
+            unlockFavs();
+        }
+    }
+
+    public void switchFavsState(LinearLayout favsLayout, LinearLayout linesLayout){
+
+        if(! suZakljucaniFavsi) {
+            if (isFavs) {
+                isFavs = false;
+                if (linesLayout != null && favsLayout != null) {
+                    favsLayout.removeView(this);
+                    linesLayout.addView(this, getInsertionIndex(this, linesLayout));
+                    refreshImage();
+                }
+            } else {
+                isFavs = true;
+                if (linesLayout != null && favsLayout != null) {
+                    linesLayout.removeView(this);
+                    favsLayout.addView(this, getInsertionIndex(this, favsLayout));
+                    refreshImage();
+                }
             }
         }
     }
@@ -107,6 +124,14 @@ public class Linija extends RelativeLayout {
             this.favsButton.setImageResource(R.drawable.fav_icon_s);
         }
         this.timesListButton.setImageResource(R.drawable.swipe_to_all_times_s);
+    }
+
+    private void lockFavs(){
+        this.favsButton.setImageResource(R.drawable.lock_icon_s);
+    }
+
+    private void unlockFavs(){
+        refreshImage();
     }
 
     public String getVozniRedFile() {

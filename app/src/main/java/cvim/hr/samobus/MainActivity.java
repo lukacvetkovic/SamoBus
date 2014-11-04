@@ -18,6 +18,7 @@ import android.widget.Toast;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+import java.util.Set;
 
 import Helpers.NewDepartureHelper;
 import Helpers.SharedPrefsHelper;
@@ -57,6 +58,8 @@ public class MainActivity extends Activity implements SettingsListener{
     private Boolean prikazBrojaLinije = true;
 
     private boolean suPrikazaniBrojeviLinija;
+    private boolean suZakljucaniFavsi;
+
     private boolean init = true;
 
     private SharedPrefsHelper sharedPrefsHelper;
@@ -228,6 +231,49 @@ public class MainActivity extends Activity implements SettingsListener{
         }
     }
 
+    private void changeLockFavsState(){
+        LinearLayout favsLayout = (LinearLayout) findViewById(R.id.favsLinearLayout);
+        LinearLayout lineLayout = (LinearLayout) findViewById(R.id.LinijeLinearLayout);
+        boolean trebaZakljucatFavse = sharedPrefsHelper.getBoolean(SharedPrefsHelper.ZAKLJUCAJ, false);
+        Linija linija;
+        if(suZakljucaniFavsi && !trebaZakljucatFavse){
+            int childCount = favsLayout.getChildCount();
+            for(int i = 0; i < childCount; i++){
+                linija =(Linija) favsLayout.getChildAt(i);
+                linija.setZakljucaniFavsi(true);
+            }
+            childCount = lineLayout.getChildCount();
+            for(int i = 0; i < childCount; i++){
+                linija =(Linija) lineLayout.getChildAt(i);
+                linija.setZakljucaniFavsi(true);
+            }
+            suZakljucaniFavsi = true;
+        }
+        else if(!suZakljucaniFavsi && trebaZakljucatFavse){
+            int childCount = favsLayout.getChildCount();
+            for(int i = 0; i < childCount; i++){
+                linija =(Linija) favsLayout.getChildAt(i);
+                linija.setZakljucaniFavsi(false);
+            }
+            childCount = lineLayout.getChildCount();
+            for(int i = 0; i < childCount; i++){
+                linija =(Linija) lineLayout.getChildAt(i);
+                linija.setZakljucaniFavsi(false);
+            }
+            suZakljucaniFavsi = false;
+        }
+    }
+
+    private void updatePrikazNLinija(){
+        int brojLinija = sharedPrefsHelper.getInt(SharedPrefsHelper.BROJ_LINIJA, 1);
+        if(brojLinija == 1){
+            printDvijeLinije = false;
+        }
+        else{
+            printDvijeLinije = true;
+        }
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -271,6 +317,7 @@ public class MainActivity extends Activity implements SettingsListener{
         prikazBrojaLinije = sharedPrefsHelper.getBoolean(SharedPrefsHelper.PRIKAZ_BROJA, true);
         if(init){
             suPrikazaniBrojeviLinija = prikazBrojaLinije;
+            suZakljucaniFavsi = zakljucajFavorite;
             init = false;
         }
     }
@@ -286,6 +333,12 @@ public class MainActivity extends Activity implements SettingsListener{
         getPrefs();     // Update prefsa svaki puta nakon kaj se zatvori settingsView
         if(whichSettings == SettingsListener.BROJ_UZ_LINIJE){
             updateLinije();
+        }
+        if(whichSettings == SettingsListener.ZAKLJUVACANJE_FAVSA){
+            changeLockFavsState();
+        }
+        if(whichSettings == SettingsListener.N_LINIJA_ZA_PRIKAZ){
+            updatePrikazNLinija();
         }
     }
 }
