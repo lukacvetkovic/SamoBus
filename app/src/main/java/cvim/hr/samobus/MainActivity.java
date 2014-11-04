@@ -119,6 +119,7 @@ public class MainActivity extends Activity implements SettingsListener{
                 n += 1;
             }
             linija.setBroj(n);
+            linija.setZakljucaniFavsi(suZakljucaniFavsi);
             if (suPrikazaniBrojeviLinija) {
                 linija.setLineText(n.toString() + " - " + props.getProperty(n.toString()));
             } else {
@@ -240,19 +241,6 @@ public class MainActivity extends Activity implements SettingsListener{
             int childCount = favsLayout.getChildCount();
             for(int i = 0; i < childCount; i++){
                 linija =(Linija) favsLayout.getChildAt(i);
-                linija.setZakljucaniFavsi(true);
-            }
-            childCount = lineLayout.getChildCount();
-            for(int i = 0; i < childCount; i++){
-                linija =(Linija) lineLayout.getChildAt(i);
-                linija.setZakljucaniFavsi(true);
-            }
-            suZakljucaniFavsi = true;
-        }
-        else if(!suZakljucaniFavsi && trebaZakljucatFavse){
-            int childCount = favsLayout.getChildCount();
-            for(int i = 0; i < childCount; i++){
-                linija =(Linija) favsLayout.getChildAt(i);
                 linija.setZakljucaniFavsi(false);
             }
             childCount = lineLayout.getChildCount();
@@ -261,6 +249,19 @@ public class MainActivity extends Activity implements SettingsListener{
                 linija.setZakljucaniFavsi(false);
             }
             suZakljucaniFavsi = false;
+        }
+        else if(!suZakljucaniFavsi && trebaZakljucatFavse){
+            int childCount = favsLayout.getChildCount();
+            for(int i = 0; i < childCount; i++){
+                linija =(Linija) favsLayout.getChildAt(i);
+                linija.setZakljucaniFavsi(true);
+            }
+            childCount = lineLayout.getChildCount();
+            for(int i = 0; i < childCount; i++){
+                linija =(Linija) lineLayout.getChildAt(i);
+                linija.setZakljucaniFavsi(true);
+            }
+            suZakljucaniFavsi = true;
         }
     }
 
@@ -332,12 +333,15 @@ public class MainActivity extends Activity implements SettingsListener{
     public void updatedSettings(int whichSettings) {
         getPrefs();     // Update prefsa svaki puta nakon kaj se zatvori settingsView
         if(whichSettings == SettingsListener.BROJ_UZ_LINIJE){
+            Log.i("PREFS", "Update Broj uz linije");
             updateLinije();
         }
         if(whichSettings == SettingsListener.ZAKLJUVACANJE_FAVSA){
+            Log.i("PREFS", "Update Zakljucavanje favsa");
             changeLockFavsState();
         }
         if(whichSettings == SettingsListener.N_LINIJA_ZA_PRIKAZ){
+            Log.i("PREFS", "Update Broj linija za prikaz");
             updatePrikazNLinija();
         }
     }
