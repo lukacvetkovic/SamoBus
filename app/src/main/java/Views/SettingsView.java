@@ -29,6 +29,10 @@ public class SettingsView extends RelativeLayout {
     RadioButton jednaLinija;
     RadioButton dvijelinije;
 
+    private boolean zakljucajFavse;
+    private boolean prikazBrojevaLinija;
+    private int polazakaZaPrikaz = 1;
+
     private SettingsListener settingsListener;
 
     private View settingsView;
@@ -57,19 +61,21 @@ public class SettingsView extends RelativeLayout {
 
         sharedPrefsHelper = new SharedPrefsHelper(context);
 
+        zakljucajFavse = sharedPrefsHelper.getBoolean(SharedPrefsHelper.ZAKLJUCAJ, false);
+        prikazBrojevaLinija = sharedPrefsHelper.getBoolean(SharedPrefsHelper.PRIKAZ_BROJA, false);
+        polazakaZaPrikaz = sharedPrefsHelper.getInt(SharedPrefsHelper.BROJ_LINIJA, 1);
+
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         if (layoutInflater != null) {
             settingsView = layoutInflater.inflate(R.layout.settings, this, true);
         }
 
-        /**
-         * taj ce zvat static metodu iz maina
-         */
-
         this.button = (Button) findViewById(R.id.bPrimjeni);
         this.button.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                updateSharedPreferences();
 
                 if(settingsListener != null){
                     settingsListener.updatedSettings(SettingsListener.BROJ_UZ_LINIJE);
@@ -79,40 +85,47 @@ public class SettingsView extends RelativeLayout {
         });
 
         zakljucajFavorite = (CheckBox) findViewById(R.id.checkZakljucaj);
+        zakljucajFavorite.setChecked(zakljucajFavse);               // tak da ako je u settingsima od prije da da -> kvacica je tu
         zakljucajFavorite.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 if(zakljucajFavorite.isChecked()){
-                    sharedPrefsHelper.putBoolean(SharedPrefsHelper.ZAKLJUCAJ,true);
+                    zakljucajFavse = true;
                 }
                 else{
-                    sharedPrefsHelper.putBoolean(SharedPrefsHelper.ZAKLJUCAJ,false);
+                    zakljucajFavse = false;
                 }
             }
         });
 
-        prikazBrojaUzLinije=(CheckBox)findViewById(R.id.checkBroj);
+        prikazBrojaUzLinije = (CheckBox)findViewById(R.id.checkBroj);
+        prikazBrojaUzLinije.setChecked(prikazBrojevaLinija);
         prikazBrojaUzLinije.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (prikazBrojaUzLinije.isChecked()) {
-                    sharedPrefsHelper.putBoolean(SharedPrefsHelper.PRIKAZ_BROJA,true);
-
+                    prikazBrojevaLinija = true;
                 } else {
-                    sharedPrefsHelper.putBoolean(SharedPrefsHelper.PRIKAZ_BROJA,false);
+                    prikazBrojevaLinija = false;
                 }
             }
         });
 
 
-        jednaLinija=(RadioButton) findViewById(R.id.rJedna);
-        dvijelinije=(RadioButton) findViewById(R.id.rDvije);
+        jednaLinija = (RadioButton) findViewById(R.id.rJedna);
+        dvijelinije = (RadioButton) findViewById(R.id.rDvije);
+        if(polazakaZaPrikaz == 1){
+            jednaLinija.setChecked(true);
+        }
+        else{
+            dvijelinije.setChecked(true);
+        }
 
         jednaLinija.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (jednaLinija.isChecked()) {
-                    sharedPrefsHelper.putInt(SharedPrefsHelper.BROJ_LINIJA, 1);
+                    polazakaZaPrikaz = 1;
                 }
             }
         });
@@ -121,11 +134,17 @@ public class SettingsView extends RelativeLayout {
             @Override
             public void onClick(View view) {
                 if (dvijelinije.isChecked()) {
-                    sharedPrefsHelper.putInt(SharedPrefsHelper.BROJ_LINIJA, 2);
+                    polazakaZaPrikaz = 2;
                 }
             }
         });
 
+    }
+
+    private void updateSharedPreferences() {
+        sharedPrefsHelper.putBoolean(SharedPrefsHelper.ZAKLJUCAJ, zakljucajFavse);
+        sharedPrefsHelper.putBoolean(SharedPrefsHelper.PRIKAZ_BROJA, prikazBrojevaLinija);
+        sharedPrefsHelper.putInt(SharedPrefsHelper.BROJ_LINIJA, polazakaZaPrikaz);
     }
 
 

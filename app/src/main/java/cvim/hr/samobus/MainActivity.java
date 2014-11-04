@@ -190,10 +190,10 @@ public class MainActivity extends Activity implements SettingsListener{
     public void updateLinije(){
         LinearLayout favsLayout = (LinearLayout) findViewById(R.id.favsLinearLayout);
         LinearLayout lineLayout = (LinearLayout) findViewById(R.id.LinijeLinearLayout);
-
+        boolean trebaPrikazatBrojeve = sharedPrefsHelper.getBoolean(SharedPrefsHelper.PRIKAZ_BROJA, false);
         Linija linija;
         String text;
-        if(suPrikazaniBrojeviLinija){
+        if(suPrikazaniBrojeviLinija && !trebaPrikazatBrojeve){
             int childCount = favsLayout.getChildCount();
             for(int i = 0; i < childCount; i++){
                 linija =(Linija) favsLayout.getChildAt(i);
@@ -208,7 +208,7 @@ public class MainActivity extends Activity implements SettingsListener{
             }
             suPrikazaniBrojeviLinija = false;
         }
-        else{
+        else if(!suPrikazaniBrojeviLinija && trebaPrikazatBrojeve){
             int childCount = favsLayout.getChildCount();
             int brojLinije;
             for(int i = 0; i < childCount; i++){

@@ -46,22 +46,22 @@ public class SharedPrefsHelper {
 
     public void putString(String varName, String value){
         sharedPrefsEditor.putString(varName, value);
-        sharedPrefsEditor.commit();
+        sharedPrefsEditor.apply();
     }
 
     public void putInt(String varName, int value){
         sharedPrefsEditor.putInt(varName, value);
-        sharedPrefsEditor.commit();
+        sharedPrefsEditor.apply();
     }
 
     public void putBoolean(String varName, boolean value){
         sharedPrefsEditor.putBoolean(varName, value);
-        sharedPrefsEditor.commit();
+        sharedPrefsEditor.apply();
     }
 
     public void putStringSet(String varName, Set<String> value){
         sharedPrefsEditor.putStringSet(varName, value);
-        sharedPrefsEditor.commit();
+        sharedPrefsEditor.apply();
     }
 
 
