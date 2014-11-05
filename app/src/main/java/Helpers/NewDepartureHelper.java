@@ -317,11 +317,11 @@ public class NewDepartureHelper {
                     }
                 }
                 else{
-                    message = message + "\t\t Nema slijedeceg busa do sutra :(";
+                    message = message + "\n\t\t Nema slijedeceg busa do sutra :(";
                 }
             } else {
                 message = message + "\t\t Nema slijedeceg busa do sutra :(";        // nema sljedeceg pa ispise prvog sutra -> opasno ako ej s petka->subotu->nedelju
-                message = message + "\t\t Polazi u " + firstDepartureTimes[0] + "," +
+                message = message + "\n\t\t Polazi u " + firstDepartureTimes[0] + "," +
                         " za " + (parseTimeToMinutes(firstDepartureTimes[0]) - now) + " minuta.";
             }
         }
@@ -335,7 +335,7 @@ public class NewDepartureHelper {
                     message = message + "\n\t\t " + getBrzaIliSpora(secondDepartureTimes[secondDepartureTimeIndex], 2);
                 }
             } else {
-                message = message + "\t\t Nema slijedeceg busa do sutra :(";
+                message = message + "\n\t\t Nema slijedeceg busa do sutra :(";
             }
         }
         else{
@@ -354,10 +354,10 @@ public class NewDepartureHelper {
                     }
                 }
                 else{
-                    message = message + "\t\t Nema slijedeceg busa do sutra :(";
+                    message = message + "\n\t\t Nema slijedeceg busa do sutra :(";
                 }
             } else {
-                message = message + "\t\t Nema slijedeceg busa do sutra :(";        // nema sljedeceg pa ispise prvog sutra -> opasno ako ej s petka->subotu->nedelju
+                message = message + "\n\t\t Nema slijedeceg busa do sutra :(";        // nema sljedeceg pa ispise prvog sutra -> opasno ako ej s petka->subotu->nedelju
                 message = message + "\t\t Polazi u " + secondDepartureTimes[0] + "," +
                         " za " + (parseTimeToMinutes(secondDepartureTimes[0]) - now) + " minuta.";
             }
