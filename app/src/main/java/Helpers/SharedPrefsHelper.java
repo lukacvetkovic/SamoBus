@@ -14,6 +14,7 @@ public class SharedPrefsHelper {
     public static final String ZAKLJUCAJ = "zakljucaj";
     public static final String PRIKAZ_BROJA = "prikazBroja";
     public static final String BROJ_LINIJA = "brojLinija";
+    public static final String FAVS_LISTA = "favsLista";
 
     private SharedPreferences sharedPrefs;
     private SharedPreferences.Editor sharedPrefsEditor;
@@ -40,7 +41,7 @@ public class SharedPrefsHelper {
         return sharedPrefs.getBoolean(varName, defaulrReturnValue);
     }
 
-    public Set<String> getString(String varName, Set<String> defaulrReturnValue){
+    public Set<String> getStringSet(String varName, Set<String> defaulrReturnValue){
         return sharedPrefs.getStringSet(varName, defaulrReturnValue);
     }
 
@@ -60,6 +61,8 @@ public class SharedPrefsHelper {
     }
 
     public void putStringSet(String varName, Set<String> value){
+        sharedPrefsEditor.remove(varName);
+        sharedPrefsEditor.commit();
         sharedPrefsEditor.putStringSet(varName, value);
         sharedPrefsEditor.apply();
     }

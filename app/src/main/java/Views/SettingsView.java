@@ -12,6 +12,9 @@ import android.widget.RadioGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import Helpers.SharedPrefsHelper;
 import Listeners.SettingsListener;
 import cvim.hr.samobus.MainActivity;
@@ -69,6 +72,10 @@ public class SettingsView extends RelativeLayout {
         }
         if(! sharedPrefsHelper.doesExist(SharedPrefsHelper.PRIKAZ_BROJA)){
             sharedPrefsHelper.putBoolean(SharedPrefsHelper.PRIKAZ_BROJA, true);
+        }
+        if(! sharedPrefsHelper.doesExist(SharedPrefsHelper.FAVS_LISTA)){
+            Set<String> favsLista = new HashSet<String>();                  // Za pocetak prazna jer nema jos nis u favsima
+            sharedPrefsHelper.putStringSet(SharedPrefsHelper.FAVS_LISTA, favsLista);
         }
 
         zakljucajFavse = sharedPrefsHelper.getBoolean(SharedPrefsHelper.ZAKLJUCAJ, false);

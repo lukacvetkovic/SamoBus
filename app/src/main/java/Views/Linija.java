@@ -11,7 +11,9 @@ import android.widget.TextView;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
+import Helpers.SharedPrefsHelper;
 import cvim.hr.samobus.R;
 
 /**
@@ -25,6 +27,8 @@ public class Linija extends RelativeLayout {
     private boolean suZakljucaniFavsi = false;
 
     private String vozniRedFile;
+
+    private SharedPrefsHelper sharedPrefsHelper;
 
     public ImageButton backGroundButton;
     public ImageButton favsButton;
@@ -71,6 +75,12 @@ public class Linija extends RelativeLayout {
                     linesLayout.addView(this, getInsertionIndex(this, linesLayout));
                     refreshImage();
                 }
+                Set<String> set = sharedPrefsHelper.getStringSet(SharedPrefsHelper.FAVS_LISTA, null);
+                set.remove(String.valueOf(this.broj));
+                sharedPrefsHelper.putStringSet(SharedPrefsHelper.FAVS_LISTA, set);
+
+                Log.i("FAVS", set.toString());
+
             } else {
                 isFavs = true;
                 if (linesLayout != null && favsLayout != null) {
@@ -78,6 +88,11 @@ public class Linija extends RelativeLayout {
                     favsLayout.addView(this, getInsertionIndex(this, favsLayout));
                     refreshImage();
                 }
+                Set<String> set = sharedPrefsHelper.getStringSet(SharedPrefsHelper.FAVS_LISTA, null);
+                set.add(String.valueOf(this.broj));
+                sharedPrefsHelper.putStringSet(SharedPrefsHelper.FAVS_LISTA, set);
+
+                Log.i("FAVS", set.toString());
             }
         }
     }
@@ -112,7 +127,7 @@ public class Linija extends RelativeLayout {
         this.favsButton = (ImageButton) findViewById(R.id.imgBtnFavs);
         this.timesListButton = (ImageButton) findViewById(R.id.imgBtnAllTimes);
         this.lineText = (TextView) findViewById(R.id.txtLinija);
-                                                                        // TODO init dal su u favs ili ne
+        this.sharedPrefsHelper = new SharedPrefsHelper(getContext());
         refreshImage();
     }
 
@@ -148,5 +163,8 @@ public class Linija extends RelativeLayout {
 
     public void setBroj(int broj) {
         this.broj = broj;
+        if(sharedPrefsHelper.getStringSet(SharedPrefsHelper.FAVS_LISTA, null).contains(String.valueOf(this.broj))){
+            this.isFavs = true;
+        }
     }
 }

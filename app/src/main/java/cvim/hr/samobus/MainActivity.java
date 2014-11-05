@@ -104,8 +104,6 @@ public class MainActivity extends Activity implements SettingsListener{
 
         setValeuesToLinije();
 
-        //settingsHelper.showSettings(relativeLayout);
-
 
     }
 
@@ -137,6 +135,11 @@ public class MainActivity extends Activity implements SettingsListener{
                 linija.setLineText(n.toString() + " - " + props.getProperty(n.toString()));
             } else {
                 linija.setLineText(props.getProperty(n.toString()));
+            }
+
+            linija.setFavs(false, suZakljucaniFavsi);
+            if(sharedPrefsHelper.getStringSet(SharedPrefsHelper.FAVS_LISTA, null).contains(String.valueOf(linija.getBroj()))){
+                linija.switchFavsState((LinearLayout) findViewById(R.id.favsLinearLayout), (LinearLayout) findViewById(R.id.LinijeLinearLayout));
             }
 
             n += 1;
