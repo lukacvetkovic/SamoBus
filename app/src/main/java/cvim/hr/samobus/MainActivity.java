@@ -139,7 +139,7 @@ public class MainActivity extends Activity implements SettingsListener{
 
             linija.setFavs(false, suZakljucaniFavsi);
             if(sharedPrefsHelper.getStringSet(SharedPrefsHelper.FAVS_LISTA, null).contains(String.valueOf(linija.getBroj()))){
-                linija.switchFavsState((LinearLayout) findViewById(R.id.favsLinearLayout), (LinearLayout) findViewById(R.id.LinijeLinearLayout));
+                linija.switchInitialFavsState((LinearLayout) findViewById(R.id.favsLinearLayout), (LinearLayout) findViewById(R.id.LinijeLinearLayout));
             }
 
             n += 1;

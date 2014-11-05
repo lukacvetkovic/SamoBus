@@ -78,9 +78,6 @@ public class Linija extends RelativeLayout {
                 Set<String> set = sharedPrefsHelper.getStringSet(SharedPrefsHelper.FAVS_LISTA, null);
                 set.remove(String.valueOf(this.broj));
                 sharedPrefsHelper.putStringSet(SharedPrefsHelper.FAVS_LISTA, set);
-
-                Log.i("FAVS", set.toString());
-
             } else {
                 isFavs = true;
                 if (linesLayout != null && favsLayout != null) {
@@ -91,9 +88,34 @@ public class Linija extends RelativeLayout {
                 Set<String> set = sharedPrefsHelper.getStringSet(SharedPrefsHelper.FAVS_LISTA, null);
                 set.add(String.valueOf(this.broj));
                 sharedPrefsHelper.putStringSet(SharedPrefsHelper.FAVS_LISTA, set);
-
-                Log.i("FAVS", set.toString());
             }
+        }
+    }
+
+    public void switchInitialFavsState(LinearLayout favsLayout, LinearLayout linesLayout){
+        if (isFavs) {
+            isFavs = false;
+            if (linesLayout != null && favsLayout != null) {
+                favsLayout.removeView(this);
+                linesLayout.addView(this, getInsertionIndex(this, linesLayout));
+                refreshImage();
+            }
+            Set<String> set = sharedPrefsHelper.getStringSet(SharedPrefsHelper.FAVS_LISTA, null);
+            set.remove(String.valueOf(this.broj));
+            sharedPrefsHelper.putStringSet(SharedPrefsHelper.FAVS_LISTA, set);
+        } else {
+            isFavs = true;
+            if (linesLayout != null && favsLayout != null) {
+                linesLayout.removeView(this);
+                favsLayout.addView(this, getInsertionIndex(this, favsLayout));
+                refreshImage();
+            }
+            Set<String> set = sharedPrefsHelper.getStringSet(SharedPrefsHelper.FAVS_LISTA, null);
+            set.add(String.valueOf(this.broj));
+            sharedPrefsHelper.putStringSet(SharedPrefsHelper.FAVS_LISTA, set);
+        }
+        if(suZakljucaniFavsi){
+            lockFavs();
         }
     }
 
