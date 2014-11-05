@@ -310,7 +310,7 @@ public class NewDepartureHelper {
                 }
                 firstDepartureTimeIndex++;
                 if(firstDepartureTimes.length > firstDepartureTimeIndex){
-                    message = message + "\t\t Polazi u " + firstDepartureTimes[firstDepartureTimeIndex] + "," +
+                    message = message + "\n\t\t Polazi u " + firstDepartureTimes[firstDepartureTimeIndex] + "," +
                             " za " + (parseTimeToMinutes(firstDepartureTimes[firstDepartureTimeIndex]) - now) + " minuta.";
                     if (firstSporaLinijaList.size() != 0) {
                         message = message + "\n\t\t " + getBrzaIliSpora(firstDepartureTimes[firstDepartureTimeIndex], 1);
@@ -321,7 +321,7 @@ public class NewDepartureHelper {
                 }
             } else {
                 message = message + "\t\t Nema slijedeceg busa do sutra :(";        // nema sljedeceg pa ispise prvog sutra -> opasno ako ej s petka->subotu->nedelju
-                message = message + "\n\t\t Polazi u " + firstDepartureTimes[0] + "," +
+                message = message + "\n\t\t Sutra polazi u " + firstDepartureTimes[0] + "," +
                         " za " + (parseTimeToMinutes(firstDepartureTimes[0]) - now) + " minuta.";
             }
         }
@@ -347,7 +347,7 @@ public class NewDepartureHelper {
                 }
                 secondDepartureTimeIndex++;
                 if(secondDepartureTimes.length > secondDepartureTimeIndex){
-                    message = message + "\t\t Polazi u " + secondDepartureTimes[secondDepartureTimeIndex] + "," +
+                    message = message + "\n\t\t Polazi u " + secondDepartureTimes[secondDepartureTimeIndex] + "," +
                             " za " + (parseTimeToMinutes(secondDepartureTimes[secondDepartureTimeIndex]) - now) + " minuta.";
                     if (firstSporaLinijaList.size() != 0) {
                         message = message + "\n\t\t " + getBrzaIliSpora(secondDepartureTimes[secondDepartureTimeIndex], 1);
@@ -358,7 +358,7 @@ public class NewDepartureHelper {
                 }
             } else {
                 message = message + "\n\t\t Nema slijedeceg busa do sutra :(";        // nema sljedeceg pa ispise prvog sutra -> opasno ako ej s petka->subotu->nedelju
-                message = message + "\t\t Polazi u " + secondDepartureTimes[0] + "," +
+                message = message + "\n\t\t Sutra polazi u " + secondDepartureTimes[0] + "," +
                         " za " + (parseTimeToMinutes(secondDepartureTimes[0]) - now) + " minuta.";
             }
         }
