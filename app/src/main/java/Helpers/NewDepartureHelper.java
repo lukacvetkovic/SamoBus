@@ -422,6 +422,8 @@ public class NewDepartureHelper {
             printNapomena = (printNapomena || sBcontainer.hasNapomena);
         }
 
+        // !!!! UNTESTED !!!!
+
         if (printNapomena && napomeneList.size() != 0) {       // ima napomena
             message = message + "\n Napomene:";
 
