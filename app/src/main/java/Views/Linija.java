@@ -164,10 +164,12 @@ public class Linija extends RelativeLayout {
     }
 
     private void lockFavs(){
-        this.favsButton.setImageResource(R.drawable.lock_icon_s);
+        this.favsButton.setVisibility(GONE);
+        //this.favsButton.setImageResource(R.drawable.lock_icon_s);
     }
 
     private void unlockFavs(){
+        this.favsButton.setVisibility(VISIBLE);
         refreshImage();
     }
 
