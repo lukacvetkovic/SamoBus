@@ -361,7 +361,7 @@ public class NewDepartureHelper {
                 message = message + "\t\t Polazi u " + secondDepartureTimes[secondDepartureTimeIndex] + "," +
                         " za " + (parseTimeToMinutes(secondDepartureTimes[secondDepartureTimeIndex]) - now) + " minuta.";
                 if (firstSporaLinijaList.size() != 0) {
-                    message = message + "\n\t\t -" + getBrzaIliSpora(secondDepartureTimes[firstDepartureTimeIndex], 1);
+                    message = message + "\n\t\t -" + getBrzaIliSpora(secondDepartureTimes[secondDepartureTimeIndex], 1);
                 }
                 if(secondDepartureTimes[secondDepartureTimeIndex].contains("*")){
                     ispisiNapomene = true;
@@ -421,8 +421,6 @@ public class NewDepartureHelper {
             message = message + " \n" + sBcontainer.message;
             printNapomena = (printNapomena || sBcontainer.hasNapomena);
         }
-
-        // !!!! UNTESTED !!!!
 
         if (printNapomena && napomeneList.size() != 0) {       // ima napomena
             message = message + "\n Napomene:";
