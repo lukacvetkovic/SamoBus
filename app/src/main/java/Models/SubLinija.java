@@ -1,5 +1,7 @@
 package Models;
 
+import Containers.SBcontainer;
+
 /**
  * Model za fucked up linije -> linije koje u sebi sadrze vise pod linija -> SubLinije
  *
@@ -28,15 +30,15 @@ public class SubLinija {
      * Formats and returns string output for this subLinija
      *
      * @param now - int value of time
-     * @param n - number of next departures to return
      * @return
      */
-    public String getNextDepartures(int now, int n){
+    public SBcontainer getNextDepartures(int now, boolean printDvijeLinije){
         String message = "";
         int firstDepartureTimeIndex = -1;
         int secondDepartureTimeIndex = -1;
         String[] firstDepartureTimes = firstVremena.split("\\s+");
         String[] secondDepartureTimes = secondVremena.split("\\s+");
+        boolean hasNapmena = false;
 
 
         int i = 0;                                               // Koristim i tak da provjerim poslje dal ima bus ili ne if(first.. == -1)->nema busa
@@ -66,24 +68,88 @@ public class SubLinija {
 
         message = message + "\tPolazak iz " + firstPolazak + "\n";
 
-        if (firstDepartureTimeIndex != -1) {
-            message = message + "\t\t Polazi u " + firstDepartureTimes[firstDepartureTimeIndex] + "," +
-                    " za " + (parseTimeToMinutes(firstDepartureTimes[firstDepartureTimeIndex]) - now) + " minuta.\n";
-        } else {
-            message = message + "\t\t Nema slijedeceg busa do sutra :(\n";
+        if(! printDvijeLinije) {
+            if (firstDepartureTimeIndex != -1) {
+                message = message + "\t\t Polazi u " + firstDepartureTimes[firstDepartureTimeIndex] + "," +
+                        " za " + (parseTimeToMinutes(firstDepartureTimes[firstDepartureTimeIndex]) - now) + " minuta.\n";
+                if(firstDepartureTimes[firstDepartureTimeIndex].contains("*")){
+                    hasNapmena = true;
+                }
+            } else {
+                message = message + "\t\t Nema slijedeceg busa do sutra :(\n";
+            }
+        }
+        else{
+            if (firstDepartureTimeIndex != -1) {
+                message = message + "\t\t Polazi u " + firstDepartureTimes[firstDepartureTimeIndex] + "," +
+                        " za " + (parseTimeToMinutes(firstDepartureTimes[firstDepartureTimeIndex]) - now) + " minuta.\n";
+                if(firstDepartureTimes[firstDepartureTimeIndex].contains("*")){
+                    hasNapmena = true;
+                }
+                firstDepartureTimeIndex++;
+                if(firstDepartureTimes.length > firstDepartureTimeIndex){
+                    message = message + "\t\t Polazi u " + firstDepartureTimes[firstDepartureTimeIndex] + "," +
+                            " za " + (parseTimeToMinutes(firstDepartureTimes[firstDepartureTimeIndex]) - now) + " minuta.\n";
+                    if(firstDepartureTimes[firstDepartureTimeIndex].contains("*")){
+                        hasNapmena = true;
+                    }
+                }
+                else{
+                    message = message + "\t\t Nema slijedeceg busa do sutra :(\n";
+                }
+            } else {
+                message = message + "\t\t Nema slijedeceg busa do sutra :(\n";
+                message = message + "\t\t Polazi u "  + firstDepartureTimes[0] + "," +
+                        " za " + (parseTimeToMinutes(firstDepartureTimes[0]) - now) + " minuta.\n";     // TODO ovde je bug mozda kod oduzimanja al preumoran sam da ga skuzim xD
+                if(firstDepartureTimes[0].contains("*")){
+                    hasNapmena = true;
+                }
+            }
         }
 
         message = message + "\tPolazak iz " + secondPolazak + "\n";
 
-        if (secondDepartureTimeIndex != -1) {
-            message = message + "\t\t Polazi u " + secondDepartureTimes[secondDepartureTimeIndex] + "," +
-                    " za " + (parseTimeToMinutes(secondDepartureTimes[secondDepartureTimeIndex]) - now) + " minuta.\n";
-        } else {
-            message = message + "\t\t Nema slijedeceg busa do sutra :(\n";
+        if(! printDvijeLinije) {
+            if (secondDepartureTimeIndex != -1) {
+                message = message + "\t\t Polazi u " + secondDepartureTimes[secondDepartureTimeIndex] + "," +
+                        " za " + (parseTimeToMinutes(secondDepartureTimes[secondDepartureTimeIndex]) - now) + " minuta.\n";
+                if(secondDepartureTimes[secondDepartureTimeIndex].contains("*")){
+                    hasNapmena = true;
+                }
+            } else {
+                message = message + "\t\t Nema slijedeceg busa do sutra :(\n";
+            }
+        }
+        else{
+            if (secondDepartureTimeIndex != -1) {
+                message = message + "\t\t Polazi u " + secondDepartureTimes[secondDepartureTimeIndex] + "," +
+                        " za " + (parseTimeToMinutes(secondDepartureTimes[secondDepartureTimeIndex]) - now) + " minuta.\n";
+                if(secondDepartureTimes[secondDepartureTimeIndex].contains("*")){
+                    hasNapmena = true;
+                }
+                secondDepartureTimeIndex++;
+                if(secondDepartureTimes.length > secondDepartureTimeIndex){
+                    message = message + "\t\t Polazi u " + secondDepartureTimes[secondDepartureTimeIndex] + "," +
+                            " za " + (parseTimeToMinutes(secondDepartureTimes[secondDepartureTimeIndex]) - now) + " minuta.\n";
+                    if(secondDepartureTimes[secondDepartureTimeIndex].contains("*")){
+                        hasNapmena = true;
+                    }
+                }
+                else{
+                    message = message + "\t\t Nema slijedeceg busa do sutra :(\n";
+                }
+            } else {
+                message = message + "\t\t Nema slijedeceg busa do sutra :(\n";
+                message = message + "\t\t Polazi u " + secondDepartureTimes[0] + "," +
+                        " za " + (parseTimeToMinutes(secondDepartureTimes[0]) - now) + " minuta.\n";
+                if(secondDepartureTimes[0].contains("*")){
+                    hasNapmena = true;
+                }
+            }
         }
 
-
-        return message;
+        SBcontainer sBcontainer = new SBcontainer(message, hasNapmena);
+        return sBcontainer;
     }
 
     private int parseTimeToMinutes(String time) {

@@ -15,6 +15,7 @@ import java.util.Calendar;
 import java.util.LinkedList;
 import java.util.List;
 
+import Containers.SBcontainer;
 import Enums.DayType;
 import Models.SporaLinija;
 import Models.SubLinija;
@@ -62,7 +63,7 @@ public class NewDepartureHelper {
 
     public void getNextDepartures(int linijaNumber, Boolean printDvijeLinije) throws IOException {
         if(brojeviFuckedUpLinija.contains(linijaNumber)){
-            obradiLinijeSViseSubLinija(linijaNumber);
+            obradiLinijeSViseSubLinija(linijaNumber, printDvijeLinije);
         }
         else{
             this.calendar = Calendar.getInstance();
@@ -172,7 +173,7 @@ public class NewDepartureHelper {
 
     }
 
-    public void obradiLinijeSViseSubLinija(int linijaNumber) throws IOException {
+    public void obradiLinijeSViseSubLinija(int linijaNumber, boolean printDvijeLinije) throws IOException {
         List<SubLinija> subLinijaList = new LinkedList<SubLinija>();
 
         this.calendar = Calendar.getInstance();
@@ -217,7 +218,7 @@ public class NewDepartureHelper {
 
         now = calendar.getTime().getHours() * 60 + calendar.getTime().getMinutes();
 
-        buildFuckedUpDialog(subLinijaList);
+        buildFuckedUpDialog(subLinijaList, printDvijeLinije);
 
     }
 
@@ -360,7 +361,7 @@ public class NewDepartureHelper {
                 message = message + "\t\t Polazi u " + secondDepartureTimes[secondDepartureTimeIndex] + "," +
                         " za " + (parseTimeToMinutes(secondDepartureTimes[secondDepartureTimeIndex]) - now) + " minuta.";
                 if (firstSporaLinijaList.size() != 0) {
-                    message = message + "\n\t\t -" + getBrzaIliSpora(secondDepartureTimes[firstDepartureTimeIndex], 1);
+                    message = message + "\n\t\t -" + getBrzaIliSpora(secondDepartureTimes[secondDepartureTimeIndex], 1);
                 }
                 if(secondDepartureTimes[secondDepartureTimeIndex].contains("*")){
                     ispisiNapomene = true;
@@ -409,15 +410,19 @@ public class NewDepartureHelper {
         alertDialog.show();
     }
 
-    private void buildFuckedUpDialog(List<SubLinija> subLinijaList){
+    private void buildFuckedUpDialog(List<SubLinija> subLinijaList, boolean printDvijeLinije){
         alertDialogBuilder.setTitle("Slijedeci busevi");
         String message = "";
+        boolean printNapomena = false;
 
+        SBcontainer sBcontainer;
         for(SubLinija subLinija : subLinijaList){
-            message = message + " \n" + subLinija.getNextDepartures(now, 1);
+            sBcontainer = subLinija.getNextDepartures(now, printDvijeLinije);           // TODO treba shandlat NullPointerException za svaki slucaj
+            message = message + " \n" + sBcontainer.message;
+            printNapomena = (printNapomena || sBcontainer.hasNapomena);
         }
 
-        if (napomeneList.size() != 0) {       // ima napomena
+        if (printNapomena && napomeneList.size() != 0) {       // ima napomena
             message = message + "\n Napomene:";
 
             for (String hint : napomeneList) {

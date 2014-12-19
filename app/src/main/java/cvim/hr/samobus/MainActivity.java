@@ -6,9 +6,13 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v4.view.GestureDetectorCompat;
 import android.util.Log;
+import android.view.DragEvent;
+import android.view.GestureDetector;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 
 import android.view.ViewConfiguration;
@@ -64,6 +68,8 @@ public class MainActivity extends Activity implements SettingsListener{
 
     private boolean init = true;
 
+    private GestureDetectorCompat gestureDetector;
+
     private SharedPrefsHelper sharedPrefsHelper;
 
     @Override
@@ -97,6 +103,8 @@ public class MainActivity extends Activity implements SettingsListener{
         settingsView = new SettingsView(this);
 
         allTimesLayout = new AllTimesLayout(this);
+
+        gestureDetector = new GestureDetectorCompat(MainActivity.this, new GestureListener());
 
         getPrefs();
 
@@ -158,6 +166,28 @@ public class MainActivity extends Activity implements SettingsListener{
                     }
                 }
             });
+            /*linija.backGroundButton.setOnTouchListener(new View.OnTouchListener() {
+                public void onTap(){
+                    try {
+                        //DepartureHelper.getNextDepartures(linija.getBroj(), MainActivity.this);       // Stari departure helper
+                        departureHelper.getNextDepartures(linija.getBroj(), printDvijeLinije);
+                        //linija.switchFavsState((LinearLayout) findViewById(R.id.favsLinearLayout), (LinearLayout) findViewById(R.id.LinijeLinearLayout));
+                    } catch (Exception e) {
+                        Log.e("MAIN", "Error reading file from assets");
+                        Toast toast = Toast.makeText(MainActivity.this, "There is not txt file for " + linija.getBroj() + " line, yet ;)", Toast.LENGTH_LONG);
+                        toast.show();
+                        e.printStackTrace();
+                    }
+                }
+
+                public void onFlingLeft(){
+                    allTimesLayout.showAllDepartureTimes(relativeLayout, linija.getBroj());
+                }
+
+                public boolean onTouch(View view, MotionEvent motionEvent) {
+                    return gestureDetector.onTouchEvent(motionEvent);
+                }
+            });*/
             linija.favsButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -172,7 +202,9 @@ public class MainActivity extends Activity implements SettingsListener{
             linija.timesListButton.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    allTimesLayout.showAllDepartureTimes(relativeLayout, linija.getBroj());
+                    //allTimesLayout.showAllDepartureTimes(relativeLayout, linija.getBroj());
+                    Toast toast = Toast.makeText(MainActivity.this, "Under construction ;D", Toast.LENGTH_SHORT);
+                    toast.show();
                 }
             });
         }
@@ -359,6 +391,43 @@ public class MainActivity extends Activity implements SettingsListener{
         if(whichSettings == SettingsListener.N_LINIJA_ZA_PRIKAZ){
             Log.i("PREFS", "Update Broj linija za prikaz");
             updatePrikazNLinija();
+        }
+    }
+
+    private class GestureListener extends GestureDetector.SimpleOnGestureListener {
+
+        private static final int SWIPE_MIN_DISTANCE = 120;
+        private static final int SWIPE_THRESHOLD_VELOCITY = 200;
+
+        @Override
+        public boolean onSingleTapUp(MotionEvent e) {
+            Log.i("Gesture", "Tap");
+            onTap();
+            return super.onSingleTapUp(e);
+        }
+
+        @Override
+        public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+            Log.i("Gesture", "Fling");
+            if(e1.getX() - e2.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
+                onFlingLeft();
+                return false; // Right to left
+            }  else if (e2.getX() - e1.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
+                return false; // Left to right
+            }
+
+            /*if(e1.getY() - e2.getY() > SWIPE_MIN_DISTANCE && Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY) {
+                return false; // Bottom to top
+            }  else if (e2.getY() - e1.getY() > SWIPE_MIN_DISTANCE && Math.abs(velocityY) > SWIPE_THRESHOLD_VELOCITY) {
+                return false; // Top to bottom
+            }*/
+            return false;
+        }
+
+        public void onTap(){
+        }
+
+        public void onFlingLeft(){
         }
     }
 }

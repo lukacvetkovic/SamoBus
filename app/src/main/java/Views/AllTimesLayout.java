@@ -160,6 +160,10 @@ public class AllTimesLayout extends RelativeLayout {
 
                 for(TimeContainer leftTimeContainer : leftTimeContainers){
                     leftLineatLayout.addView(leftTimeContainer, leftLineatLayout.getChildCount());
+                    int brojDjece = leftLineatLayout.getChildCount();
+                    for(int i=0; i< brojDjece; i++){
+                        TimeContainer timeContainer1 = (TimeContainer) leftLineatLayout.getChildAt(i);
+                    }
                 }
                 for(TimeContainer rigtTimeContainer : rightTimeContainers){
                     rightLinearLayout.addView(rigtTimeContainer, rightLinearLayout.getChildCount());
